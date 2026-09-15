@@ -1,0 +1,1519 @@
+[
+  {
+    "slug": "mas-DevTalles",
+    "url": "https://cursos.devtalles.com/courses/mas-DevTalles",
+    "nombre": "+ DevTalles con Fernando Herrera",
+    "descripcion": "Este curso es exclusivo para sesiones en vídeo con Fernando Herrera. Durante las mismas podrás realizar preguntas relacionadas al contenido de sus cursos. Todas las sesiones quedarán grabadas. Esperamos tu participación.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/FJftjLsKQLaPN7U8QKpq__devtalles.jpg",
+    "duracion": "40.5 horas, 45 lecciones",
+    "horas": "40.5 horas",
+    "lecciones": "45 lecciones",
+    "instructor": "DevTalles / Fernando Herrera"
+  },
+  {
+    "slug": "NET-Backend",
+    "url": "https://cursos.devtalles.com/courses/NET-Backend",
+    "nombre": ".NET Backend: .NET Core, SQL Server y seguridad JWT",
+    "descripcion": "Construye desde cero una API RESTful profesional en .NET para un e-commerce real. Aprende sobre JWT, Entity Framework, control de acceso, subida de imágenes, cache, versionado y despliegue en la nube.",
+    "requisitos": [
+      "Tener conocimientos básicos de programación (estructuras de control, variables, métodos, clases).",
+      "Haber trabajado previamente con C# o completado un curso introductorio.",
+      "Conocimientos básicos sobre HTTP y JSON.",
+      "Visual Studio Code instalado y configurado con .NET 8.",
+      "Acceso a internet para instalar paquetes NuGet y realizar pruebas con herramientas externas como Postman."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/7c18RVDvTFezQ4VL9JeM_NET-DEVTALLES.jpg",
+    "duracion": "11 horas, 159 lecciones",
+    "horas": "11 horas",
+    "lecciones": "159 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "netfullstack",
+    "url": "https://cursos.devtalles.com/courses/netfullstack",
+    "nombre": ".NET Fullstack: Arquitectura limpia al frontend y Blazor",
+    "descripcion": "Aprende desarrollo web Fullstack con C# y .NET Core. Domina Clean Architecture, Blazor Server y WebAssembly, CQRS con MediatR, EF Core, ASP.NET Core Identity, autenticación, autorización por roles, SQL Server, Tailwind CSS y QuickGrid en un proyecto.",
+    "requisitos": [
+      "Necesitas dominio de los fundamentos de C#",
+      "Haber completado nuestros cursos introductorios de  C#  y  .NET Backend  te dará la base ideal para avanzar de forma más cómoda y aprovechar al máximo este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/LcwHwtf1Q0WlRGiv9VY3_COVER-DEVTALLES%20(1).jpg",
+    "duracion": "14 horas, 183 lecciones",
+    "horas": "14 horas",
+    "lecciones": "183 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "net-pruebascompletas",
+    "url": "https://cursos.devtalles.com/courses/net-pruebascompletas",
+    "nombre": ".NET: Pruebas completas para minimal API",
+    "descripcion": "Este curso te enseña a crear pruebas automatizadas para Minimal APIs en .NET de forma práctica y directa. Aprenderás a validar comportamientos, estructurar servicios y asegurar la calidad de tus aplicaciones desde el inicio.",
+    "requisitos": [
+      "Conocimientos básicos de C# y .NET, no es necesario ser experto.",
+      "Nociones básicas de programación, como variables, condicionales y bucles.",
+      "Tener instalado Visual Studio Code y .NET 8, el curso guía paso a paso todo el proceso de configuración.",
+      "Interés en aprender pruebas automatizadas y buenas prácticas, con disposición para practicar y aplicar los conceptos en ejemplos reales."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/h80J6Pb5SHeRvZM6pdz5_NET-PRUEBAS-MINIMAL-API.jpg",
+    "duracion": "6 horas, 98 lecciones",
+    "horas": "6 horas",
+    "lecciones": "98 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "Angular_socket_bun",
+    "url": "https://cursos.devtalles.com/courses/Angular_socket_bun",
+    "nombre": "Angular + Sockets: Aplicaciones en tiempo real con Bun",
+    "descripcion": "Aprende a crear y configurar aplicaciones en tiempo real usando la implementación nativa de websockets junto a un backend en Bun.",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+      "Conocimientos básicos de Angular.",
+      "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+      "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+      "No necesitas experiencia previa con WebSockets ni con Bun."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/abdhTcCTQCmySk3eb8Ma_ANGULAR_WEBSOCKET_BUN_DEVTALLES.png",
+    "duracion": "14.5 horas, 148 lecciones",
+    "horas": "14.5 horas",
+    "lecciones": "148 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "angular-avanzado",
+    "url": "https://cursos.devtalles.com/courses/angular-avanzado",
+    "nombre": "Angular Avanzado: bases a siguiente nivel - Fernando Herrera",
+    "descripcion": "Este curso es totalmente práctico, aprenderemos haciendo una aplicación completa desde cero, que va desde el Front-End hasta el Backend, trabajando con MongoDB, JWT y Google SignIn.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/lWDfXjbwSyaUZOw4z657_COVER-DEVTALLES.jpg",
+    "duracion": "32 horas, 346 lecciones",
+    "horas": "32 horas",
+    "lecciones": "346 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "angular-pro",
+    "url": "https://cursos.devtalles.com/courses/angular-pro",
+    "nombre": "Angular Pro: Lleva tus bases al siguiente nivel",
+    "descripcion": "Angular PRO, es un curso que llevará tu conocimiento de Angular al siguiente nivel con SSR, SSG, Testing, Zoneless, TanStack, optimizaciones y mucho más.",
+    "requisitos": [
+      "Conocimiento básico de Angular es necesario",
+      "Poder realizar instalaciones como administrador",
+      "Poder subir repositorios a GitHub"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/EWRrDzSVRybXmB6yJMHU_Angular%20pro%20COVER-DEVTALLES-ANGULAR-PRO.jpg",
+    "duracion": "21.5 horas, 220 lecciones",
+    "horas": "21.5 horas",
+    "lecciones": "220 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "angular",
+    "url": "https://cursos.devtalles.com/courses/angular",
+    "nombre": "Angular: De cero a experto - Fernando Herrera",
+    "descripcion": "Este curso te ayudará a aprender Angular v2023 a profundidad mediante ejercicios y tareas que tú mismo harás. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.",
+    "requisitos": [
+      "Conocimientos básicos de programación en JavaScript o TypeScript:",
+      "No necesitas ser experto, pero debes entender funciones, objetos y estructuras básicas.",
+      "Conocimientos iniciales de HTML y CSS:",
+      "Saber estructurar páginas web y aplicar estilos básicos.",
+      "Entorno de desarrollo listo (Node.js, Angular CLI, VSCode):",
+      "Debes poder ejecutar proyectos localmente y manejar la terminal.",
+      "El curso es extenso, por lo que es ideal para personas comprometidas con su aprendizaje."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/a51yLvxNTUiTs5FbiBsx_COVER-DEVTALLES2.jpeg",
+    "duracion": "45.5 horas, 454 lecciones",
+    "horas": "45.5 horas",
+    "lecciones": "454 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "angular-cero-experto",
+    "url": "https://cursos.devtalles.com/courses/angular-cero-experto",
+    "nombre": "Angular: De cero a experto - Fernando Herrera",
+    "descripcion": "Este curso te ayudará a aprender Angular (la última versión) a profundidad mediante ejercicios y tareas que tú mismo harás. Partiendo de cero conocimiento de TypeScript hasta crear un sistema robusto de autenticación, uso de mapas, consumo de servicios y mucho más.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/j8MRHwUSQOKuXsN3wjg0_LEGACY-ANGULAR.jpg",
+    "duracion": "44 horas, 441 lecciones",
+    "horas": "44 horas",
+    "lecciones": "441 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "angular-moderno",
+    "url": "https://cursos.devtalles.com/courses/angular-moderno",
+    "nombre": "Angular: De cero a experto edición 2025",
+    "descripcion": "Aprende Angular en profundidad con el nuevo paradigma Zoneless basado en señales. Comienza desde cero y realiza ejercicios prácticos para dominar lo necesario y crear aplicaciones con este framework.",
+    "requisitos": [
+      "Saber JavaScript básico",
+      "Conocimiento básico de programación",
+      "No es necesario saber TypeScript pero ayudaría",
+      "No es necesario conocimiento alguno de Angular u otras versiones"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/LeaTjvBRI6cldshD59jw_angular-de-cero.jpg",
+    "duracion": "33.5 horas, 347 lecciones",
+    "horas": "33.5 horas",
+    "lecciones": "347 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "Astro",
+    "url": "https://cursos.devtalles.com/courses/Astro",
+    "nombre": "Astro: El framework para sitios web orientados al contenido",
+    "descripcion": "Framework de desarrollo web diseñado para construir sitios web rápidos y eficientes con las tecnologías que ya conoces.",
+    "requisitos": [
+      "Conocimiento básico de JavaScript es necesario",
+      "Conocimiento básico de maquetación HTML y CSS (recomendado)",
+      "Saber TypeScript no es necesario (pero es de utilidad)"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/8b0gaETkTXeL6iB3f1Pn_ASTRO.jpg",
+    "duracion": "25.5 horas, 263 lecciones",
+    "horas": "25.5 horas",
+    "lecciones": "263 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "csharp",
+    "url": "https://cursos.devtalles.com/courses/csharp",
+    "nombre": "C#: Empieza tu camino en el lenguaje",
+    "descripcion": "Aprende C# desde cero, domina desde la sintaxis básica, estructuras de control y POO, manejo de excepciones, LINQ y manejo de archivos JSON, arquitectura MVC e introducción a desarrollo api web con ASP.NET Core.",
+    "requisitos": [
+      "No se necesita experiencia previa en C#",
+      "Se recomienda una noción básica de programación (variables, condicionales, bucles)",
+      "Tener instalado Visual Studio Code y .NET 8 (el curso guía este proceso)",
+      "Ganas de aprender con ejercicios prácticos y construir proyectos reales"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ZQiNIKAJR4upzwEpMIVt_C-SHARP-COVER%20(1).jpg",
+    "duracion": "11.5 horas, 120 lecciones",
+    "horas": "11.5 horas",
+    "lecciones": "120 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "claude-code-guia-completa",
+    "url": "https://cursos.devtalles.com/courses/claude-code-guia-completa",
+    "nombre": "Claude Code: Guía completa para desarrolladores de software",
+    "descripcion": "Aprende a usar Claude Code sin importar si ya lo has usado antes. Desde la instalación y flujos de trabajo diarios, hasta personalización con CLAUDE.md, conexión a servicios externos vía MCP, automatización con hooks y mucho más.",
+    "requisitos": [
+      "Experiencia básica de programación (no hace falta ser experto).",
+      "Una suscripción a Claude Code para seguir las prácticas paso a paso. (Se enseña Ollama para seguir el curso gratis en su mayoría)",
+      "Conocimientos básicos de Git y línea de comandos son recomendables pero no obligatorios."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/hWQRull4RXmytJSqs3e4_COVER-DEVTALLES-CLAUDE-CODE.jpg",
+    "duracion": "17.5 horas, 187 lecciones",
+    "horas": "17.5 horas",
+    "lecciones": "187 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "codex",
+    "url": "https://cursos.devtalles.com/courses/codex",
+    "nombre": "Codex: agentes, skills, MCP y Spec-Driven Development",
+    "descripcion": "Aprende a desarrollar con Codex CLI construyendo door-list, una aplicación de eventos con check-in por QR. Dominarás agentes, skills, MCP, sandbox y aprobaciones, y la re-construirás con Spec-Driven Development y Spec Kit.",
+    "requisitos": [
+      "Disponible al finalizar la construcción de este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/8LTIQYbaRdCgulN394T7_COVER-DEVTALLES-CODEX.jpg",
+    "duracion": "3.5 horas, 41 lecciones",
+    "horas": "3.5 horas",
+    "lecciones": "41 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "dart-cero-hasta-detalles",
+    "url": "https://cursos.devtalles.com/courses/dart-cero-hasta-detalles",
+    "nombre": "Dart: De cero hasta los detalles - Fernando Herrera",
+    "descripcion": "Aquí aprenderás desde lo más básico de Dart hasta temas más complejos y necesarios para trabajar con frameworks. Aquí adentro tendrás tareas, ejercicios, exámenes, explicaciones y herramientas indispensables que te ayudarán a ser un eficiente desarrollador utilizando Dart.",
+    "requisitos": [
+      "Conocimiento de programación estructurada es recomendable",
+      "El curso se puede seguir en Windows, Mac OSX o Linux",
+      "Este curso es para aprender Dart, no es para aprender programación."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/zCw5CYnStGlg2IlblHjd_DART-NEW.jpg",
+    "duracion": "10 horas, 128 lecciones",
+    "horas": "10 horas",
+    "lecciones": "128 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "django",
+    "url": "https://cursos.devtalles.com/courses/django",
+    "nombre": "Django: Crea aplicaciones web robustas con Python",
+    "descripcion": "Aprende Django desde cero con este curso práctico. Crea sitios web, conecta bases de datos, desarrolla APIs REST y publica tu proyecto. Ideal para convertirte en desarrollador web backend con Django.",
+    "requisitos": [
+      "Conocimientos básicos de Python",
+      "Conocimientos básicos de HTML, CSS y JS",
+      "Conocimientos básicos de SQL (No obligatorio pero deseable)",
+      "Poder realizar instalaciones en el equipo como administrador",
+      "Usar sistema operativo Mac (OSx), Windows o Linux",
+      "Ganas de aprender una tecnología desde cero",
+      "Compromiso para mejorar carrera profesional y hacer los ejercicios, proyectos realizados en el curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/aA89gxXgTQGtRR7YojXB_DJANGO1.jpg",
+    "duracion": "44 horas, 418 lecciones",
+    "horas": "44 horas",
+    "lecciones": "418 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "docker-guia-practica",
+    "url": "https://cursos.devtalles.com/courses/docker-guia-practica",
+    "nombre": "Docker - Guía práctica de uso para desarrolladores",
+    "descripcion": "En este curso aprenderás qué es Docker, porqué es tan popular y para qué te puede servir. Realizaremos ejercicios prácticos que te ayudarán a conocer las características que Docker ofrece y te permitirá agregar esta nueva herramienta a tu repertorio de software para convertirte en un mejor desarrollador.",
+    "requisitos": [
+      "Poder realizar instalaciones como administrador",
+      "Una computadora PC, Mac o Linux con los requisitos mínimos para correr Docker (revisar sitio web para confirmar)",
+      "Saber comandos básicos de consola o terminal es recomendado (no obligatorio)"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/MtehrUISVW8hP7CfCWV1_DOCKER.jpg",
+    "duracion": "14 horas, 134 lecciones",
+    "horas": "14 horas",
+    "lecciones": "134 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "expo-gemini",
+    "url": "https://cursos.devtalles.com/courses/expo-gemini",
+    "nombre": "Expo + Gemini: Aplicaciones con inteligencia artificial",
+    "descripcion": "En este curso aprenderás a integrar la inteligencia artificial de Gemini usando la librería oficial y conectándola, a través de un backend personalizado, con nuestra aplicación de Expo.",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript o TypeScript.",
+      "Experiencia previa con React Native o React.",
+      "Tener los simuladores un un dispositivo físico para probar la aplicación."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/hVinmMVNQq6v8R7Was0K_COVER-DEVTALLES2.jpg",
+    "duracion": "7 horas, 95 lecciones",
+    "horas": "7 horas",
+    "lecciones": "95 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "fastapi",
+    "url": "https://cursos.devtalles.com/courses/fastapi",
+    "nombre": "FastAPI: Crea APIs eficientes con Python",
+    "descripcion": "Aprende a crear APIss modernas, seguras y rápidas con Python, Pydantic, JWT, WebSockets, Webhooks Bases de datos, subida de archivos, tests, despliegue, tareas asíncronas, seguridad, proyectos reales y mucho más.",
+    "requisitos": [
+      "Python básico",
+      "SQL Básico",
+      "Control de versiones con Git"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/7yccvWpWRC669uDvMnqd_FASTAPICOVER-DEVTALLES.jpg",
+    "duracion": "36 horas, 336 lecciones",
+    "horas": "36 horas",
+    "lecciones": "336 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "Flutter-Gemini",
+    "url": "https://cursos.devtalles.com/courses/Flutter-Gemini",
+    "nombre": "Flutter + Gemini: Aplicaciones con inteligencia artificial",
+    "descripcion": "Aprende a trabajar con la inteligencia artificial de Google Gemini y su SDK nativo, siguiendo buenas prácticas y recomendaciones de la documentación oficial.",
+    "requisitos": [
+      "Conocimientos básicos de Flutter (widgets, navegación, estado).",
+      "Conocimientos básicos de node o APIs es recomendado.",
+      "Tener Flutter instalado y un entorno de desarrollo como VS Code.",
+      "Conocimientos básicos de HTTP y consumo de APIs REST.",
+      "Se recomienda, pero no es obligatorio, experiencia previa trabajando con algún gestor de estado de Flutter."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/dMU9FLDmQETZktVFX7gX_COVER-DEVTALLES3.jpg",
+    "duracion": "8.5 horas, 105 lecciones",
+    "horas": "8.5 horas",
+    "lecciones": "105 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-movil-cero-a-experto",
+    "url": "https://cursos.devtalles.com/courses/flutter-movil-cero-a-experto",
+    "nombre": "Flutter - Móvil: De cero a experto - Fernando Herrera",
+    "descripcion": "El curso cubre todo lo necesario de Flutter para crear aplicaciones móviles para iOS y Android hasta su despliegue en las tiendas. Cuando termines el curso, habrás creado diferentes aplicaciones móviles y comprender el proceso de publicación de las mismas.",
+    "requisitos": [
+      "Es necesario tener conceptos de programación estructurada y orientada a objetos",
+      "Si no tienes conocimiento en el requisito anterior, es recomendado mi curso de  programación para principiantes",
+      "Puedes seguir el curso en Windows, Mac o Linux (Instalaciones y configuraciones en Mac y Windows incluídas)",
+      "Revisar los requisitos mínimos de Flutter dependiendo de tu sistema operativo en Flutter-dev"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/61TYzXMSTaKdnKUemoIn_FLUTTER-MOVIL-DE-CERO-A-EXPERTO.jpg",
+    "duracion": "50 horas, 463 lecciones",
+    "horas": "50 horas",
+    "lecciones": "463 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-avanzado",
+    "url": "https://cursos.devtalles.com/courses/flutter-avanzado",
+    "nombre": "Flutter Avanzado: Lleva tu conocimiento al siguiente nivel",
+    "descripcion": "Este es un curso cargado de información importante que nos ayudará a crear mejores aplicaciones con este increíble SDK de Google",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/txry7kQ0TCViYkwWhMCH_LEGACY-FLUTTER-AVANZADO.jpg",
+    "duracion": "34.5 horas, 347 lecciones",
+    "horas": "34.5 horas",
+    "lecciones": "347 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-Intermedio",
+    "url": "https://cursos.devtalles.com/courses/flutter-Intermedio",
+    "nombre": "Flutter Intermedio: Diseños profesionales y animaciones",
+    "descripcion": "Este curso tiene por objetivo enseñarte a crear animaciones personalizadas y diseños atractivos para tus aplicaciones móviles y aplicaciones para tabletas.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/WFox0um0SWqPahhHvvsg_LEGACY-FLUTTER-INTERMEDIO.jpg",
+    "duracion": "15 horas, 188 lecciones",
+    "horas": "15 horas",
+    "lecciones": "188 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-movil-intermedio",
+    "url": "https://cursos.devtalles.com/courses/flutter-movil-intermedio",
+    "nombre": "Flutter Móvil: Recursos Nativos - Nivel Intermedio",
+    "descripcion": "Este curso se enfoca en la utilización de recursos nativos del dispositivo móvil, que van desde el giroscopio, cámara, sensores, contactos, conexión a internet, etc. Pero también emplearemos ese conocimiento para poder crear aplicación que van más allá de peticiones HTTP y mostrar información.",
+    "requisitos": [
+      "Conocimiento previo de Flutter es necesario",
+      "Conocimiento previo de Dart es requerido",
+      "Este curso no es ideal para aprender Flutter"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/1KaCF2nnTI2eoV6HYpum_FLUTTER-MOVIL-RECURSOS-NATIVOS.jpg",
+    "duracion": "16 horas, 180 lecciones",
+    "horas": "16 horas",
+    "lecciones": "180 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "riverpod-con-anotaciones",
+    "url": "https://cursos.devtalles.com/courses/riverpod-con-anotaciones",
+    "nombre": "Flutter Riverpod con generación de código y anotaciones",
+    "descripcion": "Curso de Flutter Riverpod para aprender este gestor de estado con anotaciones y generación de código automático.",
+    "requisitos": [
+      "Conocimientos básicos de Flutter y Dart:",
+      "Saber construir interfaces, usar widgets y manejar el estado con setState.",
+      "Experiencia inicial con el concepto de providers o manejo de estado:",
+      "Haber trabajado con Provider, Bloc, o alguna solución similar.",
+      "Entorno de desarrollo Flutter funcional:",
+      "Poder correr proyectos localmente y tener acceso a simuladores o dispositivos.",
+      "Conocimientos básicos de programación asíncrona en Dart:",
+      "Uso de Future, async/await, y Stream."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/e2j5kc42TaKb8O9QQDSm_RIVERPOD.jpg",
+    "duracion": "2 horas, 22 lecciones",
+    "horas": "2 horas",
+    "lecciones": "22 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-web",
+    "url": "https://cursos.devtalles.com/courses/flutter-web",
+    "nombre": "Flutter Web: Aplicaciones y páginas web - Fernando Herrera",
+    "descripcion": "En este curso nos enfocamos en expandir tu conocimiento existente sobre Flutter para crear aplicaciones nativas para IOS, Android y ahora también Web y Desktop. El curso esta construido totalmente con Null-Safety el cual es un estándar hoy en día para crear aplicaciones modernas con Flutter.",
+    "requisitos": [
+      "Conocimiento de Flutter / Dart básico es necesario",
+      "Conocimiento de programación",
+      "Haber usado algún gestor de estados (opcional, pero recomendado)",
+      "Tener privilegios de administrador para realizar instalaciones"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/0rSjGVxiQca8Tezfu4tG_COVER-DEVTALLES-web-legacy.jpg",
+    "duracion": "20.5 horas, 203 lecciones",
+    "horas": "20.5 horas",
+    "lecciones": "203 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "git-github-control-versiones-desde-cero",
+    "url": "https://cursos.devtalles.com/courses/git-github-control-versiones-desde-cero",
+    "nombre": "GIT+GitHub: Control de versiones desde Cero",
+    "descripcion": "Domina GIT y GitHub para gestionar y colaborar en proyectos de forma eficiente. Aprende desde lo básico hasta flujos de trabajo avanzados.",
+    "requisitos": [
+      "No es necesario conocimiento alguno de Git",
+      "No es necesario conocimiento sobre GitHub",
+      "Navegación básica en el powershell o terminal es recomendada pero no necesaria",
+      "Se puede seguir el curso en Windows, OSX o Linux sin problemas"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/vyhm8XioTSeV0KPWLzrI_COVER-DEVTALLES-github2026.jpg",
+    "duracion": "11.5 horas, 132 lecciones",
+    "horas": "11.5 horas",
+    "lecciones": "132 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "git-github-control-versiones",
+    "url": "https://cursos.devtalles.com/courses/git-github-control-versiones",
+    "nombre": "GIT+GitHub: De cero - Fernando Herrera",
+    "descripcion": "Este curso te ayudará a no volver a perder un trabajo por culpa de fallas técnicas o bien por un descuido. Al finalizar el curso, sabrás Git, GitHub, Markdown, uso de repositorios, Wikis, Issues, milestones, proyectos, trabajo en equipo y mucho más.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/cO9RGLb7QXysw8c0hpJ8_devtalles-legacy-github.jpg",
+    "duracion": "11.5 horas, 119 lecciones",
+    "horas": "11.5 horas",
+    "lecciones": "119 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "go-microservicios",
+    "url": "https://cursos.devtalles.com/courses/go-microservicios",
+    "nombre": "Go: aplicado a microservicios",
+    "descripcion": "Aprende a transformar un proyecto monolítico en uno de microservicios a partir de un proyecto existente. Aprenderás a como funciona un sistema distribuido, gRPC, API Gateway, Service Recovery, Arquitectura Event Driven, resiliencia, seguridad y más.",
+    "requisitos": [
+      "Disponible al finalizar la construcción de este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/s2qOoLdwTUe3klo21bGY_COVER-DEVTALLES-GOLANG-MICROSERVICIOS.jpg",
+    "duracion": "2.5 horas, 30 lecciones",
+    "horas": "2.5 horas",
+    "lecciones": "30 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "golang-backend-profesional",
+    "url": "https://cursos.devtalles.com/courses/golang-backend-profesional",
+    "nombre": "Golang: Backend Profesional",
+    "descripcion": "Construye APIs REST profesionales en Go desde cero con un proyecto real desplegado en producción con criterio profesional.",
+    "requisitos": [
+      "Fundamentos de Golang, si aun no tienes esta base, te invitamos a que tomes el curso   Golang: fundamentos del leguaje",
+      "Bases de datos estructuradas",
+      "Conocimiento en SQL",
+      "Git y Github",
+      "PostgreSQL (deseable)"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ChXFDCgeRKjOyfa2ppDQ_COVER-DEVTALLES-GO-BACKEND.jpg",
+    "duracion": "25.5 horas, 256 lecciones",
+    "horas": "25.5 horas",
+    "lecciones": "256 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "golang-fundamentos-lenguaje",
+    "url": "https://cursos.devtalles.com/courses/golang-fundamentos-lenguaje",
+    "nombre": "GoLang: Fundamentos del lenguaje",
+    "descripcion": "Aprende Golang desde cero, profesional y con buenas prácticas. Tipado estático, paquetes, funciones, structs, interfaces, errores y concurrencia. Ejemplos reales para código limpio y listo para desplegar, ideal si vienes de JS/Python/PHP y más.",
+    "requisitos": [
+      "Tener conocimientos de programación básica",
+      "Conocer al menos un lenguaje de programación aunque no se domine el lenguaje (opcional pero útil)",
+      "Git y GitHub"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/Jp4CugOyRxOPbI0IERhE_COVER_DEVTALLES_GO.png",
+    "duracion": "23 horas, 221 lecciones",
+    "horas": "23 horas",
+    "lecciones": "221 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "ia-para-developers",
+    "url": "https://cursos.devtalles.com/courses/ia-para-developers",
+    "nombre": "IA para Developers: Claude API, RAG y Agentes con Node",
+    "descripcion": "Construye un agente de IA desde cero con Claude API, RAG y function calling en Node.js. Sin frameworks, sin magia: solo Anthropic SDK, OpenAI para embedding y SQLite. Pasa de tu primera llamada a la API a un asistente desplegable en producción.",
+    "requisitos": [
+      "Programación para principiantes - Primeros pasos.",
+      "TypeScript: Tu completa guía y manual de mano.",
+      "Ingeniería de prompts: Para la vida real (Opcional)."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/GqifE6ONSsOHYhVpNPRS_COVER-DEVTALLES.jpg",
+    "duracion": "8 horas, 114 lecciones",
+    "horas": "8 horas",
+    "lecciones": "114 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "Ingenier%C3%ADa-de-prompts",
+    "url": "https://cursos.devtalles.com/courses/Ingenier%C3%ADa-de-prompts",
+    "nombre": "Ingeniería de prompts: Para la vida real",
+    "descripcion": "Este es un curso donde aprenderás Prompt Engineering de forma simple, práctica y sin tecnicismos, para que puedas escribir mejores prompts y obtener excelentes resultados con herramientas de inteligencia artificial como ChatGPT, Claude, Gemini y más.",
+    "requisitos": [
+      "No se necesita experiencia previa. Solo necesitas curiosidad y ganas de aprender a trabajar mejor con la IA.",
+      "No se requiere experiencia en programación ni conocimientos técnicos.",
+      "Este curso fue diseñado desde cero para que cualquier persona."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/p5tNOanKQAeu2lWSccuA_COVER-DEVTALLES.jpg",
+    "duracion": "2.5 horas, 42 lecciones",
+    "horas": "2.5 horas",
+    "lecciones": "42 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "java-avanzado",
+    "url": "https://cursos.devtalles.com/courses/java-avanzado",
+    "nombre": "Java avanzado: reactividad, concurrencia y patrones",
+    "descripcion": "Lleva tu conocimiento de Java al siguiente nivel: código limpio, funcional y concurrente. Streams, RxJava, bases de datos, patrones, excepciones y más. Incluye proyectos prácticos y bonus de Spring MVC. Ideal para desarrolladores exigentes.",
+    "requisitos": [
+      "Haber completado un curso inicial de Java o dominar sus fundamentos (POO, colecciones, excepciones)",
+      "Conocimientos básicos de desarrollo con IntelliJ IDEA.",
+      "Diseñado para quienes desean explorar nuevas formas de programar y estructurar sus proyectos",
+      "Acceso a internet para descargar recursos y librerías externas."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/rJCXtKQUQSmgJSQbArul_java-avanzado-devtalles.jpg",
+    "duracion": "25 horas, 209 lecciones",
+    "horas": "25 horas",
+    "lecciones": "209 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "Java",
+    "url": "https://cursos.devtalles.com/courses/Java",
+    "nombre": "Java: Explora el lenguaje desde cero",
+    "descripcion": "Aprende Java desde cero, dominando la sintaxis, POO, estructuras de datos y manejo de excepciones. Explora la jerarquía de clases, colecciones, archivos y el uso de patrones como MVC.",
+    "requisitos": [
+      "Solo necesitas una computadora con Windows, macOS o Linux",
+      "Ganas de aprender y de practicar con ejemplos reales",
+      "Acceso a internet para descargar IntelliJ IDEA y el JDK de Java",
+      "Nociones básicas de programación estructurada"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/eGxuDHajSO2qp1HxEbvL_JAVA-COVER3.jpg",
+    "duracion": "15 horas, 145 lecciones",
+    "horas": "15 horas",
+    "lecciones": "145 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "spring-boot",
+    "url": "https://cursos.devtalles.com/courses/spring-boot",
+    "nombre": "Java: Spring Boot - Guía definitiva",
+    "descripcion": "Aprende Spring Boot desde cero: inicia con Spring MVC y Thymeleaf creando un sitio web dinámico con JdbcTemplate y controladores básicos. Luego desarrolla un API REST con seguridad, JPA, relaciones en BD y buenas prácticas MVC.",
+    "requisitos": [
+      "Idealmente:  conocimientos en Java (nivel inicial y avanzado).",
+      "Mínimo indispensable:  Java inicial y fundamentos de programación funcional.",
+      "De lo contrario, el curso podría resultar muy desafiante.",
+      "¿Aún no dominas Java?",
+      "Te recomendamos seguir nuestra  Ruta de Aprendizaje de Java  antes de avanzar a este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ueDsP3FS6aHlcy3KlSLL_SPRING5.jpg",
+    "duracion": "35.5 horas, 314 lecciones",
+    "horas": "35.5 horas",
+    "lecciones": "314 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "javascript-moderno",
+    "url": "https://cursos.devtalles.com/courses/javascript-moderno",
+    "nombre": "JavaScript Moderno - Fernando Herrera",
+    "descripcion": "Al completar el curso, tendrás la base sólida de JavaScript que necesitas y su comprensión total, mediante ejercicios prácticos y explicaciones que pondrán aprueba incluso a las personas que conocen bien el lenguaje.",
+    "requisitos": [
+      "Pueden seguir el curso en Windows, OSX, Linux",
+      "Tener derechos de administrador para instalaciones",
+      "Saber sobre programación básica ayudará mucho"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+    "duracion": "28.5 horas, 229 lecciones",
+    "horas": "28.5 horas",
+    "lecciones": "229 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "kafka-springboot-event-driven",
+    "url": "https://cursos.devtalles.com/courses/kafka-springboot-event-driven",
+    "nombre": "Kafka y SpringBoot: Arquitectura Event-Driven",
+    "descripcion": "Aprende Apache Kafka con Spring Boot 4 y Java 21 construyendo un backend real que evoluciona de monolito modular a microservicios, con criterio de arquitectura y Spec-Driven Development. Un proyecto que crece y se resuelve clase a clase.",
+    "requisitos": [
+      "Disponible al finalizar la construcción de este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/xyGHvSJ3Q4aHtENeJk7H_COVER-DEVTALLES-KAFKA.jpg",
+    "duracion": "8 horas, 65 lecciones",
+    "horas": "8 horas",
+    "lecciones": "65 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "laravel-ai",
+    "url": "https://cursos.devtalles.com/courses/laravel-ai",
+    "nombre": "Laravel 13: AI, REST, JWT, Repository Pattern",
+    "descripcion": "Aprende a construir una API REST profesional con Laravel desarrollando una Movie API completa desde cero. Dominarás CRUD, JWT, el Repository Pattern, la caché, el versionado y mucho más, aplicando las buenas prácticas utilizadas en proyectos reales.",
+    "requisitos": [
+      "Conocimientos básicos de programación o lógica de programación serán útiles.",
+      "Experiencia previa en PHP; aprenderás el uso de Laravel no acerca del lenguaje PHP.",
+      "Tener instalado un editor de código, preferiblemente Visual Studio Code.",
+      "Ganas de aprender y practicar escribiendo código durante el curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/A9hqhmn1Qm6aYwAJAoL9_COVER-DEVTALLES%20LARAVEL.jpg",
+    "duracion": "13.5 horas, 160 lecciones",
+    "horas": "13.5 horas",
+    "lecciones": "160 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "legacy-react-cero-a-experto",
+    "url": "https://cursos.devtalles.com/courses/legacy-react-cero-a-experto",
+    "nombre": "Legacy - React: De cero a experto - Fernando Herrera",
+    "descripcion": "Este curso tiene por objetivo llevarte de cero conocimiento de React hasta un nivel competitivo en el ambiente laboral de hoy en día. Este curso está construido 100% en Hooks y functional components.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/XBa7pWMT41InOa9UaB0Q_LEGACY-REACT.jpg",
+    "duracion": "48.5 horas, 452 lecciones",
+    "horas": "48.5 horas",
+    "lecciones": "452 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "flutter-bloc",
+    "url": "https://cursos.devtalles.com/courses/flutter-bloc",
+    "nombre": "Mini-Curso: Flutter BLoC",
+    "descripcion": "Este mini-curso sobre Flutter Bloc te enseñará a utilizar este gestor de estado de una forma organizada, pasando desde cubits, blocs simples y compuestos, pero también aprenderás a como comunicarlos entre sí.",
+    "requisitos": [
+      "Conocimientos básicos de Flutter y Dart:",
+      "Saber crear widgets, usar estados, y manejar estructuras comunes.",
+      "Familiaridad con el concepto de manejo de estado:",
+      "Haber usado alguna solución como Provider, Riverpod, o setState de los stateful widgets.",
+      "Instalación funcional de Flutter en tu entorno local:",
+      "Tener acceso al emulador o dispositivo físico para pruebas.",
+      "Conocimientos básicos de programación orientada a objetos:",
+      "Entender clases, constructores y métodos en Dart."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/If0EvY5HQpiOEvnnISAN_FLUTTER-BLOC.jpg",
+    "duracion": "3.5 horas, 34 lecciones",
+    "horas": "3.5 horas",
+    "lecciones": "34 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "n8n-mcp",
+    "url": "https://cursos.devtalles.com/courses/n8n-mcp",
+    "nombre": "n8n + MCP: Automatización y agentes de IA inteligentes",
+    "descripcion": "Aprende a crear automatizaciones poderosas con n8n: desde flujos simples con Google Sheets y correos, hasta proyectos avanzados con lógica, manejo de errores y agentes de IA usando MCPs, tanto localmente como en la nube.",
+    "requisitos": [
+      "No se necesita experiencia previa en automatización o IA, el curso comienza desde lo básico y avanza paso a paso.",
+      "Conocimientos básicos de informática y manejo de aplicaciones en la web son recomendables, pero no obligatorios.",
+      "Contar con un ordenador e internet estable para instalar n8n localmente o trabajar en su versión web."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/V4CDk5iUSKCh2Xw4MfX2_COVER-DEVTALLES-n8n-2.jpg",
+    "duracion": "17.5 horas, 230 lecciones",
+    "horas": "17.5 horas",
+    "lecciones": "230 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nest-graphql",
+    "url": "https://cursos.devtalles.com/courses/nest-graphql",
+    "nombre": "Nest + GraphQL: Evoluciona tus APIs - Fernando Herrera",
+    "descripcion": "Nest + GraphQL: Aprende a integrar ambas tecnologías para lograr crear endpoints que le permitan auto servir la información exacta que necesita el FrontEnd.",
+    "requisitos": [
+      "Estar familiarizado con Nest (decoradores, clases, módulos)",
+      "No es necesario saber nada sobre GraphQL (esto es cubierto en el curso)",
+      "Conocimiento de JavaScript y TypeScript es recomendado",
+      "Este NO es un curso para aprender Nest puro, es para aprender Nest con GraphQL"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/DYTo4ghhS2c799ZISyNu_NEST-GRAPHQL-NEW.jpg",
+    "duracion": "18 horas, 164 lecciones",
+    "horas": "18 horas",
+    "lecciones": "164 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nest",
+    "url": "https://cursos.devtalles.com/courses/nest",
+    "nombre": "Nest: Desarrollo backend escalable Node - Fernando Herrera",
+    "descripcion": "El curso está pensado para ayudarlos a empezar en Nest como para mejorar sus habilidades en este framework tan poderoso, adicionalmente cuenta con un cheat-sheet personalizado por mi para ayudarlos en el aprendizaje que pueden imprimir y compartir.",
+    "requisitos": [
+      "Conocimiento de JavaScript es necesario",
+      "Bases de TypeScript son recomendadas",
+      "Tener una idea general de Node es recomendado",
+      "Tener una idea de programación orientada a objetos es recomendada pero no necesaria"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/T6It7zuNQPWizrBJvbaX_NEST-NEW.jpg",
+    "duracion": "24.5 horas, 228 lecciones",
+    "horas": "24.5 horas",
+    "lecciones": "228 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nestjs-microservicios",
+    "url": "https://cursos.devtalles.com/courses/nestjs-microservicios",
+    "nombre": "NestJS + Microservicios: Aplicaciones escalables y modulares",
+    "descripcion": "Es momento de crear un sistema distribuido utilizando múltiples bases de datos, transportadores y técnicas para escalar de forma independiente cada microservicio.",
+    "requisitos": [
+      "Conocimiento de TypeScript es necesario",
+      "Conocimiento básico de NestJS es requerido",
+      "Es un curso para personas que han creado API Rest anteriormente"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/vOOZ5j1Qta2gvaiOlMqE_MICROSERVICIOS.jpg",
+    "duracion": "21 horas, 199 lecciones",
+    "horas": "21 horas",
+    "lecciones": "199 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nestjs-reportes",
+    "url": "https://cursos.devtalles.com/courses/nestjs-reportes",
+    "nombre": "NestJs + Reportes: Genera PDFs desde Node",
+    "descripcion": "Crea reportes en PDF utilizando NestJS. Aprenderás a integrar y utilizar Pdfmake y ChartJS para generar reportes profesionales y personalizados.",
+    "requisitos": [
+      "Conocimiento básico de Nest es necesario",
+      "Conocimiento básico de JavaScript y TypeScript es recomendado"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/wceGycQdRnSJGdIFdaO3_NEST-JS-REPORTES.jpg",
+    "duracion": "6.5 horas, 83 lecciones",
+    "horas": "6.5 horas",
+    "lecciones": "83 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "NestJS-Testing",
+    "url": "https://cursos.devtalles.com/courses/NestJS-Testing",
+    "nombre": "NestJS + Testing: Pruebas unitarias y end to end (e2e)",
+    "descripcion": "Aquí aprenderán a realizar pruebas unitarias, integración y de extremo a extremo (E2E) de sus aplicaciones hechas en NestJS utilizando Jest, siguiendo estándares recomendados.",
+    "requisitos": [
+      "Conocimiento de NestJS previo es necesario",
+      "No es un curso para aprender NestJS",
+      "Conocer qué es un Restful API sería útil",
+      "No es necesario saber sobre pruebas automáticas o Jest",
+      "Conocimiento de TypeScript sería ideal"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ay0QQ3qaTkiHRwytCLnt_COVER-DEVTALLES-TESTING.jpg",
+    "duracion": "12.5 horas, 123 lecciones",
+    "horas": "12.5 horas",
+    "lecciones": "123 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nextjs",
+    "url": "https://cursos.devtalles.com/courses/nextjs",
+    "nombre": "Next.js: El framework de React - Fernando Herrera",
+    "descripcion": "Este curso tiene por objetivo enseñarte Next.js de forma completa con muchas tareas y ejercicios. Al final del curso no solo aprenderás Next.js, también habrás desarrollado una tienda electrónica con cobros, mantenimientos, carga, optimizaciones para SEO, desplegarla y tenerla en tu portafolio de proyectos.",
+    "requisitos": [
+      "Conocimiento básico de React con Hooks es necesario",
+      "NO es necesario saber TypeScript (pero será útil)",
+      "NO es necesario saber Node (pero será útil)",
+      "NO es necesario saber Next para empezar este curso"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/j1fWunR0QJa9diyy2e1t_NEXT-APP-ROUTER2.jpg",
+    "duracion": "39 horas, 423 lecciones",
+    "horas": "39 horas",
+    "lecciones": "423 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nextpagesrouter",
+    "url": "https://cursos.devtalles.com/courses/nextpagesrouter",
+    "nombre": "Next.js: El framework de React - Fernando Herrera",
+    "descripcion": "Este curso tiene por objetivo enseñarte Next.js de forma completa con muchas tareas y ejercicios. Al final del curso no solo aprenderás Next.js, si no que también habrás desarrollado una tienda electrónica con cobros, mantenimientos, carga, optimizaciones para SEO, desplegarla y tenerla en tu portafolio de proyectos.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/1dZj9X1AQU2Ezz1yZF25_COVER-DEVTALLES.jpg",
+    "duracion": "46 horas, 401 lecciones",
+    "horas": "46 horas",
+    "lecciones": "401 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "node-clean-architecture",
+    "url": "https://cursos.devtalles.com/courses/node-clean-architecture",
+    "nombre": "Node - Autenticación Rest con Clean Architecture",
+    "descripcion": "El objetivo del curso es crear una autenticación y registro de usuarios mediante un Restful API utilizando Clean Architecture y diferentes patrones de desarrollo. Pasando por la configuración de Node con TypeScript hasta la verificación de nuestro Json Web Token.",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript o TypeScript:",
+      "Entender funciones, clases, módulos y tipado básico.",
+      "Familiaridad con Node.js y Express:",
+      "Haber creado rutas y manejado peticiones HTTP.",
+      "Experiencia básica con bases de datos:",
+      "Conocer conceptos de modelos, esquemas y consultas simples."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/QbFhQhHcRBCapBIpm9nf_NODE-AUTENTICATION-REST.jpg",
+    "duracion": "4 horas, 44 lecciones",
+    "horas": "4 horas",
+    "lecciones": "44 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nodejs-de-cero-a-experto",
+    "url": "https://cursos.devtalles.com/courses/nodejs-de-cero-a-experto",
+    "nombre": "Node.Js: De cero a experto",
+    "descripcion": "Aprende Node.js desde los fundamentos, usos comunes y no tan comunes, despliegues, construcción de imágenes, testing y muchas más habilidades que son necesarias hoy en día con este runtime-environment de JavaScript.",
+    "requisitos": [
+      "Conocimiento de JavaScript es altamente recomendado",
+      "No es necesario saber TypeScript pero es útil",
+      "Poder realizar instalaciones en tu equipo",
+      "Es necesario tener bases de programación estructurada"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/w47TVfD0T6OFrOPDxYlQ_NODE%20JS%20DE%20CERO%20A%20EXPERTO.jpg",
+    "duracion": "37.5 horas, 390 lecciones",
+    "horas": "37.5 horas",
+    "lecciones": "390 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "node-cero-experto",
+    "url": "https://cursos.devtalles.com/courses/node-cero-experto",
+    "nombre": "Node: De cero a experto - Fernando Herrera",
+    "descripcion": "Este curso te enseñará Node de manera práctica, aprendiendo mediante ejercicios y tareas, aplicaciones reales y diferentes formas de programar en Node. Al terminarlo, podrás agregarlo con seguridad a tu currículo y desenvolverte con confianza en Node.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/Yq9AJoWsRBaj5mUMRJtJ_LEGACY-NODE.jpg",
+    "duracion": "29 horas, 287 lecciones",
+    "horas": "29 horas",
+    "lecciones": "287 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "nuxt",
+    "url": "https://cursos.devtalles.com/courses/nuxt",
+    "nombre": "Nuxt: El marco de trabajo web progresivo (Nuxt 4+)",
+    "descripcion": "Aprende Nuxt.js, el framework basado en Vue.js para crear aplicaciones web rápidas, modernas y optimizadas para SEO, desde los fundamentos hasta el despliegue con SSR, SSG y API Routes.",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript y/o TypeScript.",
+      "Idealmente haber usado alguna vez Vue.js, aunque el curso incluye un reforzamiento completo.",
+      "Tener instalado Node.js y un editor de código como VSCode.",
+      "No se necesita experiencia previa con Nuxt; el curso cubre conceptos desde cero y avanza hasta nivel profesional."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/0QSiNkebRGFH4hPY25zf_NUXT-COVER-DEVTALLES.jpg",
+    "duracion": "13.5 horas, 151 lecciones",
+    "horas": "13.5 horas",
+    "lecciones": "151 lecciones",
+    "instructor": "Fernado Herrera"
+  },
+  {
+    "slug": "openai",
+    "url": "https://cursos.devtalles.com/courses/openai",
+    "nombre": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+    "descripcion": "En este curso práctico de OpenAI, aprenderás la librería de OpenAI en Node, para consumir desde un frontend en React, y así consultar información, generar imágenes, editar, generar audio basado en texto, texto a audio, configurar tu asistente y más.",
+    "requisitos": [
+      "Conocimiento de JavaScript",
+      "Saber TypeScript es opcional, pero recomendado",
+      "Conocimiento básico de Node",
+      "Conocimiento de Nest es recomendado pero no obligatorio",
+      "Haber trabajado con React con Hooks",
+      "Nota de actualización - 12 de agosto de 2025:",
+      "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+      "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+      "Alternativas disponibles:",
+      "Gemini flash:  es gratis y fácil de configurar.",
+      "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+      "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+      "Atentamente,",
+      "El equipo de DevTalles"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/fc1kmF7dS2SQojvt7q02_OPENAI-REACT.jpg",
+    "duracion": "10 horas, 148 lecciones",
+    "horas": "10 horas",
+    "lecciones": "148 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "openai-angular-nestjs",
+    "url": "https://cursos.devtalles.com/courses/openai-angular-nestjs",
+    "nombre": "OpenAI: Ejercicios y asistentes con Angular + NestJS",
+    "descripcion": "En este curso práctico de OpenAI, aprenderás la librería de OpenAI en Node, para consumir desde un frontend en Angular, y así consultar información, generar imágenes, editar, generar audio basado en texto, texto a audio, configurar tu asistente y más.",
+    "requisitos": [
+      "Conocimiento de JavaScript",
+      "Saber TypeScript es opcional, pero recomendado",
+      "Conocimiento básico de Node",
+      "Conocimiento de Nest es recomendado pero no obligatorio",
+      "Conocer sobre la sintaxis de Angular",
+      "Nota de actualización - 12 de agosto de 2025:",
+      "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+      "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+      "Alternativas disponibles:",
+      "Gemini flash:  es gratis y fácil de configurar.",
+      "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+      "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+      "Atentamente,",
+      "El equipo de DevTalles"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/XUcRyW81RJS3xgf1CRNf_OPENAI-ANGULAR.jpg",
+    "duracion": "11 horas, 154 lecciones",
+    "horas": "11 horas",
+    "lecciones": "154 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "open-code-guia-completa",
+    "url": "https://cursos.devtalles.com/courses/open-code-guia-completa",
+    "nombre": "OpenCode: Guía completa para desarrolladores de software",
+    "descripcion": "OpenCode, el agente de IA open source para programar desde la terminal: instalación, CLI, configuración, agentes personalizados, MCP y flujos de trabajo. Un curso práctico y orientado a proyectos reales.",
+    "requisitos": [
+      "Poder realizar instalaciones en el equipo (Node, Bun, entre otras por ejemplo)",
+      "Cuenta gratuita en GitHub para seguir los ejercicios prácticos con repositorios reales.",
+      "Opcional  - Conocimientos básicos de JavaScript/TypeScript y desarrollo web (no se requiere experiencia previa con IA).",
+      "Opcional  - Manejo básico de la terminal y comandos de Git."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/5VQqSJ32SE6MgrM6fHPv_COVER-DEVTALLES-OPENCODE.jpg",
+    "duracion": "14 horas, 153 lecciones",
+    "horas": "14 horas",
+    "lecciones": "153 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "patrones-diseno-agentico",
+    "url": "https://cursos.devtalles.com/courses/patrones-diseno-agentico",
+    "nombre": "Patrones de diseño agéntico: Respuestas efectivas a desafíos",
+    "descripcion": "Aprende a construir agentes de IA en TypeScript aplicando los patrones que usa la industria —ReAct, Planning, Reflection, multi-agente, guardrails — construyéndolos a mano y midiendo en cada paso su coste real en tokens, latencia y dólares.",
+    "requisitos": [
+      "Disponible al finalizar la construcción de este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/mDz0zDr2Q6k0W6NNK5qY_COVER-DEVTALLES-PATRONES-AGENTICOS.jpg",
+    "duracion": "7 horas, 86 lecciones",
+    "horas": "7 horas",
+    "lecciones": "86 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "patrones-diseno",
+    "url": "https://cursos.devtalles.com/courses/patrones-diseno",
+    "nombre": "Patrones de Diseño: Soluciones prácticas y eficientes",
+    "descripcion": "Aprende 24 patrones de diseño clave para resolver problemas comunes y escribir código más limpio y escalable.",
+    "requisitos": [
+      "Conocimiento básico de TypeScript es recomendado",
+      "Conocimiento de Programación orientada a objetos es recomendado",
+      "Poder realizar instalaciones en el equipo es necesario"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/GAaAh0OtQAmUmEOc5qiS_COVER-PATRONES-DE-DISE%C3%91O-DEVTALLES.jpg",
+    "duracion": "10 horas, 116 lecciones",
+    "horas": "10 horas",
+    "lecciones": "116 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "PHP-moderno",
+    "url": "https://cursos.devtalles.com/courses/PHP-moderno",
+    "nombre": "PHP moderno: Empieza tu camino en el lenguaje",
+    "descripcion": "Aprende PHP moderno desde cero y con buenas prácticas. Domina fundamentos, control de flujo, funciones, POO, Composer, APIs y base de datos, hasta desplegar tu primer backend real y listo para producción. Ideal para iniciar tu camino profesional.",
+    "requisitos": [
+      "Programación para principiantes primeros pasos (opcional)",
+      "No se requiere experiencia previa en PHP; aprenderás el lenguaje paso a paso desde los fundamentos.",
+      "Conocimientos básicos de programación o lógica de programación serán útiles, pero no obligatorios.",
+      "Tener instalado un editor de código, preferiblemente  Visual Studio Code.",
+      "Ganas de aprender y practicar escribiendo código durante el curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/eQFwBD7MQhivG5bVLTx1_php.png",
+    "duracion": "10 horas, 131 lecciones",
+    "horas": "10 horas",
+    "lecciones": "131 lecciones",
+    "instructor": "Teddy Paz"
+  },
+  {
+    "slug": "solid-clean-code",
+    "url": "https://cursos.devtalles.com/courses/solid-clean-code",
+    "nombre": "Principios SOLID y Clean Code - Fernando Herrera",
+    "descripcion": "Si hablamos de diseño y desarrollo de aplicaciones, los principios S.O.L.I.D. son palabras que debes conocer. Este curso te brindará los conocimientos para lograr mejorar y escribir un código limpio, fácil de leer, expandir y mantener a futuro.",
+    "requisitos": [
+      "Tener conocimiento básico de programación",
+      "Conocimiento básico de JavaScript y TypeScript",
+      "Tener conceptos de programación orientada a objetos",
+      "Poder realizar instalaciones y descomprimir archivos"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/eOnxKwRKRZ2vCYGEk8Lg_SOLID.jpg",
+    "duracion": "6.5 horas, 70 lecciones",
+    "horas": "6.5 horas",
+    "lecciones": "70 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "programacion-para-principiantes",
+    "url": "https://cursos.devtalles.com/courses/programacion-para-principiantes",
+    "nombre": "Programación para principiantes - Fernando Herrera",
+    "descripcion": "Este curso de programación para principiantes, tiene por objetivo brindarte una base para comenzar tu camino en el desarrollo de aplicaciones de cualquier tipo.",
+    "requisitos": [
+      "Debes poder realizar instalaciones en el equipo",
+      "Para seguir el curso, pueden hacerlo en Windows, OSX o Linux",
+      "Ganas de aprender a programar"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/slRm7OvQRZySnHeaaw0w_PROGRAMACION%20PARA%20PRINCIPIANTES.jpg",
+    "duracion": "8 horas, 99 lecciones",
+    "horas": "8 horas",
+    "lecciones": "99 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "PWA",
+    "url": "https://cursos.devtalles.com/courses/PWA",
+    "nombre": "PWA - Aplicaciones Web Progresivas - Fernando Herrera",
+    "descripcion": "Las PWAs son el siguiente paso en las aplicaciones web tradicionales, nos permiten poder utilizar nuestra aplicación web inclusive si no tenemos conexión con el servidor e inclusive nos permite recibir notificaciones push.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/tgqmXHGnQDOQaAzbiWQe_LEGACY-PWA.jpg",
+    "duracion": "14.5 horas, 160 lecciones",
+    "horas": "14.5 horas",
+    "lecciones": "160 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "python-n8n-automatiza-rutinas",
+    "url": "https://cursos.devtalles.com/courses/python-n8n-automatiza-rutinas",
+    "nombre": "Python + n8n: Automatiza rutinas cotidianas",
+    "descripcion": "Aprende a utilizar Python para tus proyectos de automatización cotidiana o para tus proyectos personales. Aprende conceptos n8n, crea scripts de automatización, servicios simples con FastAPI, manipulación de datos, Scraping y mucho más.",
+    "requisitos": [
+      "Conocimientos de Python a nivel básico o intermedio (requerido)",
+      "Fundamentos de n8n (deseable)",
+      "Conocimientos básicos de FastAPI (opcional)"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ZEyBqiQ2S8KjhgvA87t2_PYTHON-N8N.jpg",
+    "duracion": "9 horas, 90 lecciones",
+    "horas": "9 horas",
+    "lecciones": "90 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "python",
+    "url": "https://cursos.devtalles.com/courses/python",
+    "nombre": "Python: Fundamentos hasta los detalles",
+    "descripcion": "Aprende las bases de Python: variables, estructuras de control, ciclos, funciones, POO, errores, módulos y entornos virtuales. Ideal para principiantes o quienes desean reforzar conceptos con ejemplos prácticos y aplicar Python en distintas áreas.",
+    "requisitos": [
+      "No se necesita experiencia previa en programación.",
+      "Tener una computadora con Windows, macOS o Linux.",
+      "Acceso a internet para instalar Python y un editor de código como VSCode.",
+      "Curiosidad y disposición para resolver problemas prácticos con código."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/gG1fvaYXRNmKMJTaMHYP_PYTHON-COVER%20(1).jpg",
+    "duracion": "15.5 horas, 184 lecciones",
+    "horas": "15.5 horas",
+    "lecciones": "184 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "python-ia-aplicada",
+    "url": "https://cursos.devtalles.com/courses/python-ia-aplicada",
+    "nombre": "Python: Inteligencia artificial aplicada",
+    "descripcion": "Curso práctico de Python aplicado a IA: crea agentes, domina prompts, usa OpenAI, implementa RAG, orquesta con LangChain y despliega con FastAPI. Aprende a llevar IA real a producción con proyectos útiles.",
+    "requisitos": [
+      "Python Fundamentos (Básico-Intermedio o intermedio)",
+      "Fundamentos de bases de datos.",
+      "Ingeniería de prompts (Deseable, no obligatorio)"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/S221KTnsQESSijuA5CPO_COVER-DEVTALLES-python-ia.jpg",
+    "duracion": "18.5 horas, 172 lecciones",
+    "horas": "18.5 horas",
+    "lecciones": "172 lecciones",
+    "instructor": "Ricardo Cuéllar"
+  },
+  {
+    "slug": "qwik-introduccion",
+    "url": "https://cursos.devtalles.com/courses/qwik-introduccion",
+    "nombre": "qwik - Introducción al Framework",
+    "descripcion": "El objetivo del curso es brindar una entrada robusta al nuevo framework qwik, que es muy interesante y completo; cubre muchos aspectos desde creación hasta despliegue, rutas, estados, peticiones http, SSR, reanudabilidad, integraciones ChatGPT y más",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript y TypeScript:",
+      "Saber trabajar con funciones, objetos, arreglos y tipos básicos.",
+      "Experiencia previa con React, Vue o algún framework web:",
+      "Entender conceptos como componentes, props y manejo de estado.",
+      "Conocimientos básicos de HTML y CSS:",
+      "Saber estructurar páginas y aplicar estilos con Tailwind (opcional).",
+      "Entorno de desarrollo configurado (Node.js + npm):",
+      "Poder instalar dependencias, ejecutar scripts y trabajar en local."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/rK74DwtRSZabgmUHhIdK_QWIK.jpg",
+    "duracion": "8 horas, 96 lecciones",
+    "horas": "8 horas",
+    "lecciones": "96 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-native-expo",
+    "url": "https://cursos.devtalles.com/courses/react-native-expo",
+    "nombre": "React Native Expo: Aplicaciones nativas para IOS y Android",
+    "descripcion": "Curso completo de React Native con Expo que te dará las bases sólidas sobre este framework, con más de 42 horas de contenido en video y despliegues en la Google PlayStore y Apple AppStore incluído en el curso.",
+    "requisitos": [
+      "Conocimiento básico de React es necesario",
+      "No es necesario saber TypeScript (pero es recomendado)",
+      "No necesitas saber nada de React Native o React Native CLI",
+      "Es necesario poder realizar instalaciones como administrador",
+      "No es necesario Mac o un equipo especial"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/1NsQU7EaRiG7xLnvaHvc_COVER-DEVTALLES.jpg",
+    "duracion": "42 horas, 271 lecciones",
+    "horas": "42 horas",
+    "lecciones": "271 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "legacy-react-native",
+    "url": "https://cursos.devtalles.com/courses/legacy-react-native",
+    "nombre": "React Native: Aplicaciones IOS y Android - Fernando Herrera",
+    "descripcion": "Curso completo de React Native que te dará las bases sólidas sobre este framework, con más de 42 horas de contenido en video y despliegues en la Google PlayStore y Apple AppStore incluído en el curso.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/85PloWQXC6mLTygWEoLg_LEGACY-NATIVE.jpg",
+    "duracion": "42 horas, 385 lecciones",
+    "horas": "42 horas",
+    "lecciones": "385 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-native",
+    "url": "https://cursos.devtalles.com/courses/react-native",
+    "nombre": "React Native: Apps para iOS y Android - Nueva edición",
+    "descripcion": "Curso completo de React Native CLI que te dará las bases sólidas sobre este framework, con más de 42 horas de contenido en video y despliegues en la Google PlayStore y Apple AppStore incluído en el curso.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/wDbe4t7NS5ajImOOreHx_COVER-DEVTALLES-cli-legacy.jpg",
+    "duracion": "42 horas, 356 lecciones",
+    "horas": "42 horas",
+    "lecciones": "356 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-pro",
+    "url": "https://cursos.devtalles.com/courses/react-pro",
+    "nombre": "React PRO: lleva bases al siguiente nivel - Fernando Herrera",
+    "descripcion": "El curso tiene por objetivo pulir tus habilidades existentes de React con Hooks y llevarlas a un nivel superior para que tus aplicaciones de React sean aún mejores.",
+    "requisitos": [
+      "Tener las bases de React con Hooks",
+      "Saber TypeScript es útil pero no indispensable (introducción incluida)",
+      "Poder realizar instalaciones en el equipo como administrador"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/sHm63uuSkiPxQqbElhTQ_REACT-PRO-NEW.jpg",
+    "duracion": "24.5 horas, 226 lecciones",
+    "horas": "24.5 horas",
+    "lecciones": "226 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-router",
+    "url": "https://cursos.devtalles.com/courses/react-router",
+    "nombre": "React Router: Navegación declarativa y framework",
+    "descripcion": "Aprende a trabajar con React Router tanto como librería para proyectos tipo SPA o trabajarlo cómo Framework y obtener el máximo provecho de server actions, route modules, pre-rendering y mucho más!",
+    "requisitos": [
+      "Conocimientos básicos de React:",
+      "Saber usar useState, useEffect, props y componentes funcionales.",
+      "Experiencia previa con JavaScript (al menos las bases):",
+      "Entender conceptos como funciones flecha, async/await y módulos ES6.",
+      "Familiaridad con HTML, CSS y herramientas como Vite o npm:",
+      "Poder iniciar proyectos, instalar paquetes y aplicar estilos básicos"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/0gGwQplTkS4tKB7oNc5K_COVER-DEVTALLES-REACT_ROUTER.jpg",
+    "duracion": "7.5 horas, 87 lecciones",
+    "horas": "7.5 horas",
+    "lecciones": "87 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-sockets",
+    "url": "https://cursos.devtalles.com/courses/react-sockets",
+    "nombre": "React+Sockets: Aplicaciones en tiempo real con Bun",
+    "descripcion": "Aprende a crear y configurar aplicaciones en tiempo real usando la implementación nativa de websockets junto a un backend en Bun.",
+    "requisitos": [
+      "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+      "Conocimientos básicos de React (componentes, props, estado y hooks).",
+      "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+      "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+      "No necesitas experiencia previa con WebSockets ni con Bun."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ajXXN4TCTwuZ6uhDapF1_image.png",
+    "duracion": "15 horas, 153 lecciones",
+    "horas": "15 horas",
+    "lecciones": "153 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "React-con-Socket-io",
+    "url": "https://cursos.devtalles.com/courses/React-con-Socket-io",
+    "nombre": "React: Aplicaciones en tiempo real con Socket-io",
+    "descripcion": "React: Aplicaciones en tiempo real con Socket-io, es un curso enfocado en el manejo de ambas tecnologías para crear aplicaciones que interactúen entre si de manera simultánea e instantánea.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/dVBO1HUrTzKEzo3Om03j_LEGACY-REACT-CON-SOCKET-IO.jpg",
+    "duracion": "16 horas, 172 lecciones",
+    "horas": "16 horas",
+    "lecciones": "172 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-de-cero",
+    "url": "https://cursos.devtalles.com/courses/react-de-cero",
+    "nombre": "React: de cero a experto - Edición 2025",
+    "descripcion": "En este curso de React aprenderás desde los fundamentos de la librería hasta aspectos técnicos avanzados y despliegues, incorporando librerías adicionales ampliamente utilizadas en la industria. Todo el contenido está basado en TypeScript.",
+    "requisitos": [
+      "Conocimiento básico de JavaScript es necesario",
+      "Conocimiento básico de programación es necesario",
+      "Poder realizar instalaciones en el equipo como administrador",
+      "Pueden seguir el curso en OSX (Mac), Windows o Linux",
+      "Estar dispuesto a realizar las tareas y ejercicios adicionales"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/TTTUJiUVTvGC5cy5Z3UW_COVER-DEVTALLES-REACT.jpg",
+    "duracion": "46 horas, 452 lecciones",
+    "horas": "46 horas",
+    "lecciones": "452 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "react-cero-experto",
+    "url": "https://cursos.devtalles.com/courses/react-cero-experto",
+    "nombre": "React: De cero a experto - Fernando Herrera",
+    "descripcion": "Este curso tiene por objetivo llevarte de cero conocimiento de React hasta un nivel competitivo en el ambiente laboral de hoy en día. Este curso está construido 100% en Hooks y functional components.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/yXgRDd8CRcyhf8cZdGP2_LEGACY-REACT-HOOKS-Y-MERN.jpg",
+    "duracion": "55 horas, 520 lecciones",
+    "horas": "55 horas",
+    "lecciones": "520 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "reactivex-rxjs",
+    "url": "https://cursos.devtalles.com/courses/reactivex-rxjs",
+    "nombre": "ReactiveX-RxJs: De cero - Fernando Herrera",
+    "descripcion": "Este curso de ReactiveX está orientado a enseñarte desde los fundamentos e interioridades de las extensiones reactivas hasta los detalles de la mayoría de los operadores y funciones que trabajan con observables.",
+    "requisitos": [
+      "No requiere conocimientos previos específicos o no especificado en el portal."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/n80W0M1gSpizBJEEgGff_LEGACY-REACTIVE.jpg",
+    "duracion": "9.5 horas, 107 lecciones",
+    "horas": "9.5 horas",
+    "lecciones": "107 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "shadcn-ui",
+    "url": "https://cursos.devtalles.com/courses/shadcn-ui",
+    "nombre": "Shadcn/ui: Componentes accesibles y personalizables",
+    "descripcion": "Una librería de componentes diferente, que te da control absoluto sobre cada pieza que importes en tu proyecto, aprende a usarla y configurarla en este curso.",
+    "requisitos": [
+      "Conocimientos básicos de React y TypeScript:",
+      "Saber crear componentes, usar props y hooks como useState.",
+      "Familiaridad con Tailwind CSS:",
+      "Haber trabajado con clases utilitarias para estilos.",
+      "Entorno de desarrollo configurado (Node.js + npm/yarn):",
+      "Poder instalar paquetes y ejecutar proyectos locales.",
+      "Experiencia básica con formularios y tablas en React:",
+      "Saber manejar inputs, validaciones o manipular listas de datos."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/UnSGHDPtQKKGytbP0iBP_SHADCN.jpg",
+    "duracion": "6 horas, 74 lecciones",
+    "horas": "6 horas",
+    "lecciones": "74 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "spring-AI",
+    "url": "https://cursos.devtalles.com/courses/spring-AI",
+    "nombre": "Spring AI: LLMs, Tools, RAG, Agentes y Deploy en AWS",
+    "descripcion": "Integra inteligencia artificial en Java con Spring AI 2.x. Construye un asistente médico educativo completo: Tool Calling, RAG, memoria persistente y agentes inteligentes. Del chatbot básico al deploy en AWS. Stack: Java 21, Spring Boot 4, Gemini.",
+    "requisitos": [
+      "Haber completado un curso de Java y Java Avanzado o dominar la programación funcional en Java.",
+      "Tener conocimientos previos de Spring Boot."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/is89v3RgS22dqMndJMVZ_COVER-DEVTALLES-SPRING-IA.jpg",
+    "duracion": "18.5 horas, 156 lecciones",
+    "horas": "18.5 horas",
+    "lecciones": "156 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "spring-boot-microservicios",
+    "url": "https://cursos.devtalles.com/courses/spring-boot-microservicios",
+    "nombre": "Spring Boot 4: Arquitectura de Microservicios",
+    "descripcion": "Domina microservicios con Spring Boot 4: arquitectura de capas, MongoDB, Docker, Kubernetes, comunicación entre servicios, resiliencia, seguridad OAuth2, observabilidad y patrones enterprise. Proyecto e-commerce con buenas prácticas de producción.",
+    "requisitos": [
+      "Conocimientos sólidos de Java y POO:  manejo fluido de clases, interfaces, herencia y excepciones.",
+      "Experiencia previa con Spring Boot:  familiaridad con controladores REST, JPA, validaciones y conceptos básicos de Spring Security.",
+      "Docker (no excluyente):  comprensión general de qué es un contenedor, cómo ejecutar una imagen y cómo interpretar un archivo docker-compose.yml.",
+      "SQL y bases de datos relacionales:  conocimiento de tablas, relaciones y consultas básicas."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/eajq3CPwT1ovajpqVu2O_image.png",
+    "duracion": "21 horas, 185 lecciones",
+    "horas": "21 horas",
+    "lecciones": "185 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "spring-boot-patrones-arquitectura",
+    "url": "https://cursos.devtalles.com/courses/spring-boot-patrones-arquitectura",
+    "nombre": "Spring Boot 4: Patrones de arquitectura",
+    "descripcion": "Lleva tu nivel de Spring Boot de CRUD a arquitectura profesional. Construye Atlas-Bank: un proyecto que aplica SOLID, patrones GoF, DDD, arquitectura hexagonal, Keycloak, ArchUnit y AI como cliente. Clases cortas y con código real.",
+    "requisitos": [
+      "Conocimiento en Java y Spring Boot"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/50BIjVSQ6m0KbI6hAzlA_COVER-DEVTALLES2.jpg",
+    "duracion": "20.5 horas, 180 lecciones",
+    "horas": "20.5 horas",
+    "lecciones": "180 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "springboot-mvc-hexagonal",
+    "url": "https://cursos.devtalles.com/courses/springboot-mvc-hexagonal",
+    "nombre": "Spring Boot: De MVC a Hexagonal",
+    "descripcion": "Programa intensivo de Diseño de Software con Spring Boot. Aprenderás a crear apps modulares y resilientes con Arquitectura Hexagonal. Usaremos una migración de JPA a MongoDB para mostrar el acoplamiento y aplicar Inversión de Dependencias.",
+    "requisitos": [
+      "Este no es un curso introductorio a Java ni a Spring Boot. Está pensado para desarrolladores que ya cuentan con experiencia previa en desarrollo backend y desean profundizar en arquitectura de software y diseño de proyectos.",
+      "Para aprovechar el curso, es importante que tengas:",
+      "Conocimientos básicos de Java",
+      "Bases sólidas de Programación Orientada a Objetos",
+      "Uso básico de programación funcional (lambdas, streams, Optional)",
+      "Experiencia previa construyendo APIs REST",
+      "Familiaridad con controladores, servicios, DTOs y persistencia",
+      "No es obligatorio que sea con Spring Boot; puede ser con Node.js, NestJS u otro framework backend",
+      "Conocimientos generales de bases de datos",
+      "No es necesario ser experto, pero sí entender qué significa persistir información",
+      "¿Aún no dominas Java?",
+      "Te recomendamos seguir nuestra  Ruta de Aprendizaje de Java  antes de avanzar a este curso."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/onRaVfSdR56WUL2jXpQz_COVER-DEVTALLES-MINI-CURSO-SPRING-BOOT.jpg",
+    "duracion": "8.5 horas, 75 lecciones",
+    "horas": "8.5 horas",
+    "lecciones": "75 lecciones",
+    "instructor": "Gabriel Chaldú"
+  },
+  {
+    "slug": "sql-con-postgres",
+    "url": "https://cursos.devtalles.com/courses/sql-con-postgres",
+    "nombre": "SQL de cero: Tu guía práctica con PostgreSQL",
+    "descripcion": "El objetivo es aprender sobre bases de datos relacionales partiendo desde cero, pasando por queries, triggers, procedimientos almacenados hasta optimizaciones.",
+    "requisitos": [
+      "Tener conocimiento de programación estructurada será útil en la parte de PL/pgSQL.",
+      "Conocimiento de Docker será útil, pero no es necesario.",
+      "Poder realizar instalaciones en el equipo es necesario."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/k6V4tlGTXmUQS8CGxGID_SQL.jpg",
+    "duracion": "16 horas, 184 lecciones",
+    "horas": "16 horas",
+    "lecciones": "184 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "tailwindcss-para-desarrolladores",
+    "url": "https://cursos.devtalles.com/courses/tailwindcss-para-desarrolladores",
+    "nombre": "TailwindCSS: Para desarrolladores de software",
+    "descripcion": "Aprende a usar Tailwind CSS orientado a desarrolladores, para crear diseños responsivos y modernos, evitando usar JavaScript para esto.",
+    "requisitos": [
+      "Conocimiento básico sobre CSS, si se conoce sobre MediaQueries mucho mejor."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/8w7MKPqvQtaLpLNVTgq6_TAILWIND1.jpg",
+    "duracion": "4 horas, 51 lecciones",
+    "horas": "4 horas",
+    "lecciones": "51 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "tanstack-query",
+    "url": "https://cursos.devtalles.com/courses/tanstack-query",
+    "nombre": "TanStack Query  - Fernando Herrera",
+    "descripcion": "TanStack Query es una librería indispensable para mejorar la experiencia de usuario en nuestras aplicaciones de React. Este curso te enseñará a utilizarlo y sacarle provecho a muchas de sus funcionalidades principales.",
+    "requisitos": [
+      "Conocimientos básicos de React y TypeScript"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/flpkTdo2TwGhr9wfvr33_COVER.jpg",
+    "duracion": "6 horas, 83 lecciones",
+    "horas": "6 horas",
+    "lecciones": "83 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "typescript-guia-completa",
+    "url": "https://cursos.devtalles.com/courses/typescript-guia-completa",
+    "nombre": "TypeScript: Guía Completa - Fernando Herrera",
+    "descripcion": "Este curso es ideal para cualquier persona que desee entrar a trabajar con TypeScript sin importar si es Angular, React, Vue, React Native, NativeScript, Nestjs, ionic, Node o cualquier framework o librería que use TypeScript.",
+    "requisitos": [
+      "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+      "Conocimiento básico de programación estructurada es recomendado",
+      "Ganas de aprender un nuevo lenguaje basado en tipos",
+      "Posibilidad de instalar programas como administrador en su equipo"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+    "duracion": "8.5 horas, 115 lecciones",
+    "horas": "8.5 horas",
+    "lecciones": "115 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "vibe-coding",
+    "url": "https://cursos.devtalles.com/courses/vibe-coding",
+    "nombre": "Vibe Coding: De forma responsable",
+    "descripcion": "Crearás aplicaciones reales usando IA como desarrollador, pero con criterio profesional. Aprenderás autenticación, carga de archivos, integración con Supabase y buenas prácticas y seguridad para llevar tus proyectos a producción con confianza.",
+    "requisitos": [
+      "Opcional - Tener conocimientos básicos de programación y comprensión general de cómo funciona una aplicación web.",
+      "Poder realizar instalaciones en el equipo"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/QerNZaF2SpWnZLFLnxvR_VIBE%20CODING%20COVER%20DEVTALLES.png",
+    "duracion": "4.5 horas, 63 lecciones",
+    "horas": "4.5 horas",
+    "lecciones": "63 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "visual-studio-code",
+    "url": "https://cursos.devtalles.com/courses/visual-studio-code",
+    "nombre": "Visual Studio Code:Velocidad en codificar - Fernando Herrera",
+    "descripcion": "Este curso se enfoca en 2 áreas principales: Aumentar tu velocidad de desarrollo y conocer más sobre VSCode.",
+    "requisitos": [
+      "Conocimiento básico de VSCode es recomendado pero no obligatorio"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/ozPWxfNjQBKugksdaogB_VSCODE.jpg",
+    "duracion": "2 horas, 51 lecciones",
+    "horas": "2 horas",
+    "lecciones": "51 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "Vue-intermedio",
+    "url": "https://cursos.devtalles.com/courses/Vue-intermedio",
+    "nombre": "Vue.js - Intermedio: Lleva tus bases al siguiente nivel",
+    "descripcion": "Lleva tus bases de Vue.js al siguiente nivel siguiendo recomendaciones actuales recomendadas por el equipo de Vue.js. Aquí aprenderás a trabajar con TypeScript, Pinia, TanStack Query, Script Setup y el composition API.",
+    "requisitos": [
+      "Conocimiento básico de Vue es recomendado (options api o composition api)",
+      "Conocimiento básico de TypeScript es recomendado"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/Mecj0WPdQyOMPKxtYqG1_vue_ts2.jpg",
+    "duracion": "13.5 horas, 141 lecciones",
+    "horas": "13.5 horas",
+    "lecciones": "141 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "vue-cero-a-experto",
+    "url": "https://cursos.devtalles.com/courses/vue-cero-a-experto",
+    "nombre": "Vue.js: De cero a experto - edición 2024",
+    "descripcion": "Nueva entrega renovada del curso que se enfoca plenamente en el Composition Api, TypeScript y Vitest para crear aplicaciones modernas.",
+    "requisitos": [
+      "Conocimiento de programación básica",
+      "Conocimiento de JavaScript básico",
+      "Poder realizar instalaciones en el equipo",
+      "El curso se puede seguir en Window, Linux o Mac OSx",
+      "Conocimiento de TypeScript es opcional pero recomendado"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/fGtdD0wpSv2VEXdrM6vn_VUE-COMPOSITION-API.jpg",
+    "duracion": "37.5 horas, 340 lecciones",
+    "horas": "37.5 horas",
+    "lecciones": "340 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "vue-js",
+    "url": "https://cursos.devtalles.com/courses/vue-js",
+    "nombre": "Vue.js: De cero a experto - Fernando Herrera",
+    "descripcion": "Curso completo sobre Vue.js que parte de cero conocimiento sobre este framework hasta llevarte a un nivel profesional competitivo.",
+    "requisitos": [
+      "Conocimientos básicos de HTML, CSS y JavaScript:",
+      "Ideal para quienes ya han trabajado con la web, aunque sea a nivel básico.",
+      "Muchas ganas de aprender Vue.js de manera estructurada:",
+      "El curso empieza desde cero, pero avanza a un nivel profesional.",
+      "Tener Node.js y un editor de código (como VSCode) instalado:",
+      "Necesario para trabajar con Vue CLI y herramientas modernas de desarrollo.",
+      "Conexión a internet para descargar dependencias y probar APIs externas:",
+      "Parte del contenido depende de peticiones HTTP, Firebase, y servicios como Mapbox."
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/7Xfyuy5mSxKwKBzXHYEr_COVER-DEVTALLES-legacy-vue-option-api.jpg",
+    "duracion": "43 horas, 360 lecciones",
+    "horas": "43 horas",
+    "lecciones": "360 lecciones",
+    "instructor": "Fernando Herrera"
+  },
+  {
+    "slug": "zustand-gestor-de-estado-para-react",
+    "url": "https://cursos.devtalles.com/courses/zustand-gestor-de-estado-para-react",
+    "nombre": "Zustand: Gestor de estado para React",
+    "descripcion": "Este gestor de estado a punta a ser un reemplazo directo a Redux, Redux Toolkit y el mismo Context API de React, ofreciendo funcionalidades similares a Redux sin tener que construir tanto código base para hacerlo funcionar.",
+    "requisitos": [
+      "Conocimiento de React con Hooks es necesario",
+      "Saber realizar peticiones HTTP con Fetch API o Axios",
+      "Saber TypeScript es opcional pero recomendado",
+      "No es necesario saber Tailwind, React Router, Dom o Docker"
+    ],
+    "caratula": "https://import.cdn.thinkific.com/643563/OqBxBndxTD6gtxlKMoWV_ZUSTAND.jpg",
+    "duracion": "6 horas, 78 lecciones",
+    "horas": "6 horas",
+    "lecciones": "78 lecciones",
+    "instructor": "Fernando Herrera"
+  }
+]
