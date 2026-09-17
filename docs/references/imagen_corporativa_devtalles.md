@@ -198,7 +198,7 @@ Los botones de DevTalles tienen forma de **píldora redondeada completa (`border
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #171027; /* Texto oscuro para máximo contraste */
+  color: #0F172A; /* Texto oscuro para máximo contraste WCAG AAA */
   background: #c8dd09;
   padding: 13px 28px;
   border-radius: 50px;
@@ -212,6 +212,12 @@ Los botones de DevTalles tienen forma de **píldora redondeada completa (`border
   transform: translateY(-2px);
   box-shadow: 0 0 30px rgba(200, 221, 9, 0.60);
 }
+
+/* Regla Semántica de Jerarquía de Botones (ui-ux-pro-max):
+   1. .btn-vivid (Cyber Lime #c8dd09): Exclusivo para la Acción Clave #1 por viewport (ej. 'Continuar Lección ▶', 'Generar Mi Ruta ⚡').
+   2. .btn-primary (Gradiente Eléctrico): Acciones de submit o del sistema ('Iniciar Sesión', 'Crear Cuenta', 'Guardar').
+   3. .btn-secondary (Outline Glass): Acciones de exploración o secundarias ('Explorar 13 Rutas', 'Marcar Completada', 'Volver').
+*/
 ```
 
 #### Botón Discord OAuth (Obligatorio en CodeQuest)
@@ -240,7 +246,54 @@ Los botones de DevTalles tienen forma de **píldora redondeada completa (`border
 
 ---
 
-### 4.3 Visualizador de Rutas de Aprendizaje (`RutaWrapper`)
+### 4.3 Simbología Universal de Rutas (WCAG 2.2 & Daltonismo)
+
+Para garantizar accesibilidad universal y evitar depender exclusivamente del color para comunicar prioridad, los 3 niveles de la ruta usan **símbolos geométricos únicos**:
+
+| Nivel | Símbolo | Color Base | Background / Borde | Significado Pedagógico |
+|---|---|---|---|---|
+| **Nivel 1: Requerido** | **`⬢` (Diamante)** | `#ef4444` (Carmesí) | `rgba(239, 68, 68, 0.15)` / `border-rose-500/40` | Fundamentos críticos y prerrequisitos obligatorios. |
+| **Nivel 2: Recomendado**| **`★` (Estrella)** | `#c8dd09` (Cyber Lime)| `rgba(200, 221, 9, 0.15)` / `border-lime-400/40` | Especialización, frameworks y demanda laboral. |
+| **Nivel 3: Opcional** | **`●` (Círculo)** | `#c0b9fc` (Lavanda) | `rgba(192, 185, 252, 0.15)` / `border-lavender/30` | Herramientas complementarias y superpoderes electivos. |
+
+---
+
+### 4.4 Estandarización de Bordes y Superficies Glassmorphism
+
+```css
+:root {
+  /* Escala Uniforme de Border Radius */
+  --radius-card: 16px;       /* Tarjetas de cursos, formularios, modales (rounded-2xl) */
+  --radius-inner: 10px;      /* Inputs, badges, botones secundarios (rounded-xl) */
+  --radius-pill: 9999px;     /* Chips, quick prompts, botones primarios (rounded-full) */
+
+  /* Glassmorphism Balanceado para Alto Rendimiento (60 FPS) */
+  --glass-surface: rgba(26, 17, 46, 0.75);
+  --glass-border: rgba(192, 185, 252, 0.15);
+  --glass-blur: 16px;
+}
+
+/* Regla de Rendimiento Mobile:
+   El backdrop-filter blur se aplica ÚNICAMENTE en la Top App Bar y la Bottom Navigation Bar fijas.
+   Las tarjetas y burbujas internas usan fondo opaco estilizado (background: #1c1533) sin blur anidado.
+*/
+```
+
+---
+
+### 4.5 Arquitectura de Navegación Unificada (Web & Mobile)
+
+Para eliminar incongruencias de taxonomía, la aplicación se estructura en 4 vistas centrales:
+
+1. **Dashboard** (`/home`): Centro de mando del estudiante, racha, ruta activa y métricas.
+2. **Rutas** (`/rutas`): Catálogo interactivo de 13 rutas oficiales con filtros por stack.
+3. **Copiloto IA** (`/copilot`): Cuestionario adaptativo y diálogo en tiempo real con DevBot.
+4. **Mi Ruta** (`/mi-ruta`): Tablero en 3 niveles (`⬢`, `★`, `●`) con panel lateral *sticky* de detalles.
+* **Ajustes & Discord:** Menú desplegable accesible desde el Avatar del usuario en el extremo derecho.
+
+---
+
+### 4.6 Visualizador de Rutas de Aprendizaje (`RutaWrapper`)
 El diseño del árbol o ruta de aprendizaje oficial de DevTalles estructura el progreso en tres carriles o columnas:
 
 * **Distribución:** Grid de 3 columnas (`grid-template-columns: 1fr 1fr 1fr; gap: 20px;`)
@@ -254,7 +307,7 @@ El diseño del árbol o ruta de aprendizaje oficial de DevTalles estructura el p
   * Ancho fijo o máx: `300px`.
   * `background: rgba(28, 24, 41, 0.85);`
   * `border: 1px solid rgba(192, 185, 252, 0.12);`
-  * `border-radius: 18px;`
+  * `border-radius: var(--radius-card);`
   * En la parte inferior (`.bottom-box`), incluye el chip de categoría (`bases-box`, `frontend-box`, `backend-box`) y el logo SVG de la tecnología (`42px x 42px`).
 
 ---
