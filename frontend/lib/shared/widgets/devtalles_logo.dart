@@ -9,7 +9,7 @@ class DevTallesLogo extends StatelessWidget {
     super.key,
     this.fontSize = 20.0,
     this.prefix = 'tech',
-    this.suffix = 'prime',
+    this.suffix = 'brain',
   });
 
   final double fontSize;
