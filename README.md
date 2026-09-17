@@ -25,6 +25,15 @@ techBrain/
 ├── README.md                                  # Información general del proyecto
 ├── LICENSE                                    # Licencia MIT oficial
 ├── .gitignore                                 # Exclusiones de Git
+├── vercel.json · vercel-build.sh              # Compilación y despliegue de la web en Vercel
+├── scripts/deploy-demo.sh                     # Despliegue manual del demo
+├── docker-compose.yml · env/                  # Entorno de desarrollo del backend
+├── backend/                                   # API NestJS con Prisma y autenticación con Discord
+├── frontend/                                  # Aplicación Flutter (paquete `techbrain`)
+│   ├── lib/                                   # config/ (router y tema) · features/ · shared/
+│   ├── test/                                  # Pruebas de widgets, modelos y navegación
+│   ├── web/                                   # index.html, manifest y vercel.json de la SPA
+│   └── specs/                                 # Especificación de cada etapa del desarrollo
 └── docs/
     ├── Presentacion_Diseno_CodeQuest2026_TechBrain.pdf # Presentación visual del diseño (PDF)
     ├── ideas/                                 # Prototipos y pantallas móviles en Stitch
@@ -36,14 +45,15 @@ techBrain/
     │   │   ├── 4_cuestionario.png             # Cuestionario de evaluación tradicional
     │   │   └── 5_cuestionario_ia.png          # Cuestionario conversacional con IA
     │   └── stitch_edit_screen_2.json          # Registro de iteración de diseño
+    ├── requerimiento_general_frontend.md      # Requerimiento del frontend: alcance, etapas y arquitectura
     ├── references/                            # Dataset de cursos e identidad de marca
     │   ├── cursos_devtalles.json              # Dataset JSON de 91 cursos de DevTalles
     │   ├── cursos_devtalles.md                # Catálogo en Markdown con prerrequisitos y duración
+    │   ├── rutas_aprendizaje_devtalles.json   # 13 rutas de aprendizaje oficiales
+    │   ├── rutas_aprendizaje_devtalles.md     # Detalle de cada ruta y sus cursos asociados
     │   └── imagen_corporativa_devtalles.md    # Tokens de diseño, colores y tipografía
-    └── rules/                                 # Bases del concurso y rutas oficiales
-        ├── CODE QUEST 2026 BRIEF-INFORMATIVO V3.pdf # Brief oficial del CodeQuest 2026
-        ├── rutas_aprendizaje_devtalles.json   # 13 rutas de aprendizaje oficiales
-        └── rutas_aprendizaje_devtalles.md     # Detalle de cada ruta y sus cursos asociados
+    └── rules/                                 # Bases del concurso
+        └── CODE QUEST 2026 BRIEF-INFORMATIVO V3.pdf # Brief oficial del CodeQuest 2026
 ```
 
 ---
@@ -77,8 +87,18 @@ Para ejecutar el frontend en tu entorno local:
 ```bash
 cd frontend
 flutter pub get
-flutter run -d chrome
+flutter run -d chrome --web-port 8080
 ```
+
+Comprobaciones de calidad, desde `frontend/`:
+
+```bash
+flutter analyze
+flutter test
+flutter test test/shared/widgets_test.dart   # Un solo archivo de pruebas
+```
+
+> Lo desplegado hoy es un **demo visual** con datos de ejemplo. Las funcionalidades del concurso se incorporan por etapas, siguiendo `docs/requerimiento_general_frontend.md` y las specs de `frontend/specs/`.
 
 ---
 
