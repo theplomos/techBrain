@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:frontend/config/theme/app_theme.dart';
-import 'package:frontend/features/roadmap/presentation/roadmap_detail_view.dart';
-import 'package:frontend/shared/data/mock_data.dart';
+import 'package:techbrain/config/theme/app_theme.dart';
+import 'package:techbrain/features/roadmap/presentation/roadmap_detail_view.dart';
+import 'package:techbrain/shared/data/mock_data.dart';
 
 Widget _wrapView(Widget child, [Size size = const Size(1200, 800)]) {
   return MaterialApp(

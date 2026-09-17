@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:frontend/shared/data/mock_data.dart';
-import 'package:frontend/shared/models/course.dart';
+import 'package:techbrain/shared/data/mock_data.dart';
+import 'package:techbrain/shared/models/course.dart';
 
 void main() {
   group('Domain Models & Data Tests', () {

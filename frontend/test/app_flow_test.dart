@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:frontend/main.dart';
+import 'package:techbrain/main.dart';
 
 void main() {
   testWidgets('TechBrainApp boots up and navigates across tabs', (tester) async {
