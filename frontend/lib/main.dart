@@ -1,16 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'config/router/app_router.dart';
+import 'config/theme/app_theme.dart';
 
 void main() {
-  runApp(const MainApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const ProviderScope(child: TechBrainApp()));
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+/// Punto de entrada del aplicativo TechBrain (Web, iOS, Android).
+/// Single Responsibility: Inicializar la aplicación con tema y enrutamiento global.
+class TechBrainApp extends StatelessWidget {
+  const TechBrainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return MaterialApp.router(
+      title: 'TechBrain • DevTalles',
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.darkTheme,
+      routerConfig: AppRouter.router,
     );
   }
 }
