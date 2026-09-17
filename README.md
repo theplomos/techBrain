@@ -68,6 +68,46 @@ El proyecto interactivo se encuentra modelado en **Google Stitch** con soporte d
 
 ---
 
+---
+
+## 🛠️ Ejecución Local
+
+Para ejecutar el frontend en tu entorno local:
+
+```bash
+cd frontend
+flutter pub get
+flutter run -d chrome
+```
+
+---
+
+## 🌐 Despliegue en Vercel (Demo)
+
+El proyecto está 100% configurado para desplegarse en Vercel mediante tres métodos:
+
+### Método 1: Despliegue Rápido con CLI (Recomendado para demos inmediatas)
+Ejecuta el script automatizado desde la raíz del repositorio:
+```bash
+./scripts/deploy-demo.sh
+```
+O manualmente:
+```bash
+cd frontend && flutter build web --release
+cd build/web && npx vercel --prod
+```
+
+### Método 2: Despliegue continuo desde GitHub (Automático)
+El repositorio incluye el workflow de GitHub Actions en `.github/workflows/deploy-vercel.yml`. Cada `push` a la rama `main` compilará la versión web y la publicará automáticamente en Vercel (requiere configurar los secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID` y `VERCEL_PROJECT_ID`).
+
+### Método 3: Compilación directa en Vercel (Vercel Build)
+Al importar el repositorio en el panel de Vercel, el archivo `vercel.json` invoca automáticamente `vercel-build.sh`, el cual descarga el SDK de Flutter en el contenedor y compila los archivos estáticos en `frontend/build/web`.
+
+> **Nota:** El archivo `vercel.json` incluye las reglas de reescritura (*rewrites*) necesarias para que el enrutamiento con `go_router` (`/home`, `/explore`, `/quiz`, `/settings`) no arroje error 404 al recargar el navegador.
+
+---
+
 ## 👥 Equipo TechBrain (#13)
 
 - Desarrollado con dedicación para el reto **DevTalles CodeQuest 2026**.
+
