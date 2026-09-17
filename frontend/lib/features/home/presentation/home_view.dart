@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import '../../../config/theme/app_colors.dart';
 import '../../../config/theme/app_typography.dart';
 import '../../../shared/data/mock_data.dart';
@@ -161,17 +162,11 @@ class HomeView extends StatelessWidget {
           ),
           const SizedBox(height: 20.0),
           AppPillButton(
-            label: 'Continuar Lección ▶',
+            label: 'Ver y Continuar Ruta ▶',
             variant: AppPillButtonVariant.vivid,
             isFullWidth: true,
             onPressed: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text(
-                    'Continuando lección: React Router Data Loading',
-                  ),
-                ),
-              );
+              context.push('/roadmap-detail', extra: roadmap);
             },
           ),
         ],
@@ -227,9 +222,7 @@ class HomeView extends StatelessWidget {
         return AppGlassCard(
           padding: const EdgeInsets.all(16.0),
           onTap: () {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text('Seleccionada ruta: ${r.title}')),
-            );
+            context.push('/roadmap-detail', extra: r);
           },
           child: Row(
             children: <Widget>[

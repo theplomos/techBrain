@@ -216,4 +216,97 @@ abstract final class MockData {
       courses: <Course>[],
     ),
   ];
+
+  /// Ruta personalizada de prueba generada dinámicamente con los 3 niveles de prioridad.
+  static const Roadmap generatedDemoRoadmap = Roadmap(
+    id: 'roadmap-custom-ai-generated',
+    title: 'Ruta Personalizada: Fullstack React & Agentes IA',
+    description:
+        'Ruta sintetizada a partir de tu diagnóstico de habilidades. Domina el desarrollo frontend moderno, la integración de modelos LLM con MCP y arquitecturas escalables.',
+    category: CourseCategory.ai,
+    progressPercentage: 0.18,
+    totalCourses: 6,
+    completedCourses: 1,
+    estimatedWeeks: 12,
+    isActive: false,
+    courses: <Course>[
+      // Nivel 1: Requerido (Fundamentos críticos)
+      Course(
+        slug: 'dart-cero-hasta-detalles',
+        name: 'Dart: De cero hasta los detalles',
+        description:
+            'Bases de programación sólida, tipado estricto, POO y asincronía con Streams y Futures.',
+        hours: 15.0,
+        lessons: 110,
+        instructor: 'Fernando Herrera',
+        category: CourseCategory.bases,
+        level: CourseLevel.required,
+        isCompleted: true,
+      ),
+      Course(
+        slug: 'react-de-cero-a-experto',
+        name: 'React: De cero a experto (Hooks y MERN)',
+        description:
+            'Fundamentos de React, Hooks, Context API, Redux Toolkit y despliegue con Vite.',
+        hours: 40.5,
+        lessons: 320,
+        instructor: 'Fernando Herrera',
+        category: CourseCategory.frontend,
+        level: CourseLevel.required,
+        isCompleted: false,
+      ),
+
+      // Nivel 2: Recomendado (Especialización y demanda laboral)
+      Course(
+        slug: 'tanstack-query',
+        name: 'TanStack Query: Manejo de estado asíncrono',
+        description:
+            'Caché en segundo plano, mutaciones, reintentos automáticos y sincronización.',
+        hours: 12.0,
+        lessons: 95,
+        instructor: 'Fernando Herrera',
+        category: CourseCategory.frontend,
+        level: CourseLevel.recommended,
+        isCompleted: false,
+      ),
+      Course(
+        slug: 'ia-agentes-mcp',
+        name: 'Agentes de IA y Model Context Protocol (MCP)',
+        description:
+            'Orquestación de agentes con Claude, Gemini, n8n y herramientas externas vía MCP.',
+        hours: 18.0,
+        lessons: 130,
+        instructor: 'DevTalles Team',
+        category: CourseCategory.ai,
+        level: CourseLevel.recommended,
+        isCompleted: false,
+      ),
+      Course(
+        slug: 'nextjs',
+        name: 'Next.js: El framework de React para producción',
+        description:
+            'Server Components, Server Actions, App Router y optimización para la web.',
+        hours: 32.0,
+        lessons: 240,
+        instructor: 'Fernando Herrera',
+        category: CourseCategory.frontend,
+        level: CourseLevel.recommended,
+        isCompleted: false,
+      ),
+
+      // Nivel 3: Opcional (Herramientas complementarias)
+      Course(
+        slug: 'go-microservicios',
+        name: 'Go (Golang): Microservicios y sistemas distribuidos',
+        description:
+            'Alta concurrencia con Goroutines, Canales, gRPC y arquitectura de microservicios.',
+        hours: 25.0,
+        lessons: 180,
+        instructor: 'DevTalles Team',
+        category: CourseCategory.backend,
+        level: CourseLevel.optional,
+        isCompleted: false,
+      ),
+    ],
+  );
 }

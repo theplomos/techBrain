@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import '../../../config/theme/app_colors.dart';
 import '../../../config/theme/app_typography.dart';
+import '../../../shared/data/mock_data.dart';
 import '../../../shared/widgets/app_glass_card.dart';
 import '../../../shared/widgets/app_pill_button.dart';
 import '../../../shared/widgets/progress_bar_widget.dart';
@@ -255,7 +257,7 @@ class _QuizViewState extends State<QuizView> {
           ),
           actions: <Widget>[
             AppPillButton(
-              label: 'Ver Mi Ruta',
+              label: 'Ver Mi Ruta ⚡',
               variant: AppPillButtonVariant.vivid,
               onPressed: () {
                 Navigator.of(context).pop();
@@ -263,6 +265,10 @@ class _QuizViewState extends State<QuizView> {
                   _currentQuestionIndex = 0;
                   _selectedAnswers.clear();
                 });
+                context.push(
+                  '/roadmap-detail',
+                  extra: MockData.generatedDemoRoadmap,
+                );
               },
             ),
           ],

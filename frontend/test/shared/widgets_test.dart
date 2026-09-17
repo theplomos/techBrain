@@ -21,7 +21,10 @@ void main() {
   group('Reusable Atomic Widgets Tests (SRP)', () {
     testWidgets('DevTallesLogo renders brand name and braces', (tester) async {
       await tester.pumpWidget(_wrapWidget(const DevTallesLogo()));
-      expect(find.byType(RichText), findsOneWidget);
+      final richTextFinder = find.byType(RichText);
+      expect(richTextFinder, findsOneWidget);
+      final richText = tester.widget<RichText>(richTextFinder);
+      expect(richText.text.toPlainText(), equals('{tech/prime}'));
     });
 
     testWidgets('CategoryBadge renders appropriate label', (tester) async {
