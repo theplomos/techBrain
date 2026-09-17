@@ -1,9 +1,9 @@
 name: Deploy TechBrain to Vercel
 
+# Se lanza a mano hasta que existan los secrets VERCEL_TOKEN, VERCEL_ORG_ID
+# y VERCEL_PROJECT_ID. Sin ellos el job falla, y mientras tanto el
+# despliegue se hace con scripts/deploy-demo.sh.
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
