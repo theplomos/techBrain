@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="TechBrain API — rutas de aprendizaje personalizadas" />
+  <title>TechBrain API</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237c3aed'/%3E%3Cpath d='M16 7a6 6 0 0 0-2 11.7V21a2 2 0 0 0 4 0v-2.3A6 6 0 0 0 16 7Z' fill='white'/%3E%3C/svg%3E" />
+  <style>
+    :root {
+      --bg: #07070d;
+      --panel: #0e0e18;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #eceef7;
+      --muted: #9aa0b5;
+      --accent: #7c5cf0;
+      --accent-2: #38bdf8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    .bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(60rem 40rem at 15% -10%, rgba(124, 92, 240, 0.28), transparent 60%),
+        radial-gradient(50rem 35rem at 90% 110%, rgba(56, 189, 248, 0.18), transparent 60%),
+        radial-gradient(40rem 30rem at 80% 0%, rgba(217, 70, 239, 0.12), transparent 60%);
+      animation: drift 18s ease-in-out infinite alternate;
+    }
+    .bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(70rem 45rem at 50% 30%, black, transparent 75%);
+    }
+    @keyframes drift {
+      from { transform: scale(1) translate(0, 0); }
+      to { transform: scale(1.12) translate(-2%, 2%); }
+    }
+    .wrap {
+      position: relative;
+      z-index: 1;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      gap: 2.25rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .badge i {
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: #34d399;
+      box-shadow: 0 0 0.6rem #34d399;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 7vw, 4.6rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+    h1 .grad {
+      background: linear-gradient(120deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .sub {
+      max-width: 34rem;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.4vw, 1.2rem);
+      line-height: 1.6;
+    }
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.9rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.85rem 1.6rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn.primary {
+      color: white;
+      background: linear-gradient(120deg, var(--accent), #6366f1);
+      box-shadow: 0 0.6rem 2rem rgba(124, 92, 240, 0.35);
+    }
+    .btn.primary:hover { box-shadow: 0 0.8rem 2.6rem rgba(124, 92, 240, 0.5); }
+    .btn.ghost {
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .btn.ghost:hover { background: rgba(255, 255, 255, 0.07); }
+    .endpoints {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+      max-width: 42rem;
+    }
+    .ep {
+      font-family: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+      padding: 0.45rem 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 0.6rem;
+      background: var(--panel);
+    }
+    .ep b { color: var(--accent-2); font-weight: 600; margin-right: 0.4rem; }
+    footer {
+      position: relative;
+      z-index: 1;
+      padding: 1rem 1.5rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+    @media (prefers-reduced-motion: reduce) {
+      .bg { animation: none; }
+      .btn:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <span class="badge"><i></i>TechBrain · API v0.1.0</span>
+
+    <h1>Rutas de <span class="grad">aprendizaje</span> personalizadas</h1>
+    <p class="sub">
+      API pública de TechBrain: genera trayectos de estudio a medida, segura
+      con JWT, PostgreSQL y documentada con OpenAPI.
+    </p>
+
+    <div class="cta">
+      <a class="btn primary" href="/api/docs" target="_blank" rel="noopener">Abrir documentación · Swagger</a>
+      <a class="btn ghost" href="/api/health/ready" target="_blank" rel="noopener">Ver estado</a>
+    </div>
+
+    <div class="endpoints">
+      <span class="ep"><b>POST</b>/api/auth/register</span>
+      <span class="ep"><b>POST</b>/api/auth/login</span>
+      <span class="ep"><b>POST</b>/api/auth/refresh</span>
+      <span class="ep"><b>GET</b>/api/users/me</span>
+      <span class="ep"><b>GET</b>/api/health</span>
+    </div>
+  </div>
+
+  <footer>
+    <a href="/api/docs">Swagger</a> · <a href="/api/health/ready">Health</a> ·
+    NestJS · Prisma · PostgreSQL · Docker
+  </footer>
+</body>
+</html>

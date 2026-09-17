@@ -13,6 +13,7 @@
 .env.local
 .env.*.local
 *.env
+env/*.env
 !*.env.example
 # El backend versiona su env de desarrollo a propósito
 !env/dev.env
@@ -34,6 +35,7 @@ AGENTS.md
 node_modules/
 dist/
 build/
+*.tsbuildinfo
 .next/
 .turbo/
 .dart_tool/
@@ -43,3 +45,6 @@ build/
 scratch/
 tmp/
 temp/
+
+# Local PostgreSQL data
+postgres/

@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  user
+  admin
+}
+
+model User {
+  id           String           @id @default(uuid()) @db.Uuid
+  email        String           @unique(map: "UQ_users_email") @db.VarChar(254)
+  fullName     String           @map("full_name") @db.VarChar(150)
+  passwordHash String?          @map("password_hash") @db.VarChar(100)
+  discordId    String?          @unique(map: "UQ_users_discord_id") @map("discord_id") @db.VarChar(32)
+  avatarUrl    String?          @map("avatar_url")
+  isActive     Boolean          @default(true) @map("is_active")
+  roles        Role[]           @default([user])
+  lastLoginAt  DateTime?        @map("last_login_at") @db.Timestamptz
+  createdAt    DateTime         @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime         @updatedAt @map("updated_at") @db.Timestamptz
+  sessions     RefreshSession[]
+  oauthCodes   OAuthCode[]
+
+  @@map("users")
+}
+
+model RefreshSession {
+  id        String    @id @default(uuid()) @db.Uuid
+  tokenHash String    @unique(map: "UQ_refresh_sessions_token_hash") @map("token_hash") @db.VarChar(64)
+  expiresAt DateTime  @map("expires_at") @db.Timestamptz
+  revokedAt DateTime? @map("revoked_at") @db.Timestamptz
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  userId    String    @map("user_id") @db.Uuid
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId], map: "IDX_refresh_sessions_user_id")
+  @@map("refresh_sessions")
+}
+
+model OAuthCode {
+  id        String    @id @default(uuid()) @db.Uuid
+  codeHash  String    @unique(map: "UQ_oauth_codes_code_hash") @map("code_hash") @db.VarChar(64)
+  expiresAt DateTime  @map("expires_at") @db.Timestamptz
+  usedAt    DateTime? @map("used_at") @db.Timestamptz
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  userId    String    @map("user_id") @db.Uuid
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("oauth_codes")
+}
