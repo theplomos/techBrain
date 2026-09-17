@@ -1,0 +1,9 @@
+# spec workflow configuration
+#
+# AutoCreateBranch — controls whether /spec-impl creates the git branch automatically.
+#   true  (default) → /spec-impl creates and switches to spec-NN-slug without asking
+#   false           → /spec-impl asks for [y/N] confirmation before creating the branch
+#
+# TechBrain usa false: RNF-10 y el jurado exigen ramas feature/*, así que la rama
+# (p. ej. feature/project-setup) se crea a mano y se rechaza la que propone /spec-impl.
+AutoCreateBranch: false

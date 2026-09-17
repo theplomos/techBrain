@@ -1,0 +1,35 @@
+{
+    "name": "TechBrain",
+    "short_name": "TechBrain",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#171027",
+    "theme_color": "#171027",
+    "description": "Rutas de aprendizaje personalizadas con los cursos de DevTalles.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
