@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:frontend/config/theme/app_theme.dart';
-import 'package:frontend/shared/models/course.dart';
-import 'package:frontend/shared/widgets/app_glass_card.dart';
-import 'package:frontend/shared/widgets/app_pill_button.dart';
-import 'package:frontend/shared/widgets/category_badge.dart';
-import 'package:frontend/shared/widgets/devtalles_logo.dart';
-import 'package:frontend/shared/widgets/level_badge.dart';
-import 'package:frontend/shared/widgets/metric_card.dart';
-import 'package:frontend/shared/widgets/progress_bar_widget.dart';
+import 'package:techbrain/config/theme/app_theme.dart';
+import 'package:techbrain/shared/models/course.dart';
+import 'package:techbrain/shared/widgets/app_glass_card.dart';
+import 'package:techbrain/shared/widgets/app_pill_button.dart';
+import 'package:techbrain/shared/widgets/category_badge.dart';
+import 'package:techbrain/shared/widgets/devtalles_logo.dart';
+import 'package:techbrain/shared/widgets/level_badge.dart';
+import 'package:techbrain/shared/widgets/metric_card.dart';
+import 'package:techbrain/shared/widgets/progress_bar_widget.dart';
 
 Widget _wrapWidget(Widget child) {
   return MaterialApp(
@@ -24,7 +24,7 @@ void main() {
       final richTextFinder = find.byType(RichText);
       expect(richTextFinder, findsOneWidget);
       final richText = tester.widget<RichText>(richTextFinder);
-      expect(richText.text.toPlainText(), equals('{tech/prime}'));
+      expect(richText.text.toPlainText(), equals('{tech/brain}'));
     });
 
     testWidgets('CategoryBadge renders appropriate label', (tester) async {
