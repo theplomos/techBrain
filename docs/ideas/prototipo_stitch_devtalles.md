@@ -123,7 +123,90 @@ graph TD
 
 ---
 
-## 3. Brainstorming de Integración de IA para el CodeQuest
+## 3. Pantallas Web de Escritorio (Desktop Web) Generadas en Stitch
+
+Todas las pantallas de escritorio comparten un **Top Navigation Bar unificado** (`{dev/talles}` TechBrain) con efecto glassmorphism, enlaces a las vistas principales (*Inicio*, *Rutas de Aprendizaje*, *Cómo Funciona (IA)*, *Mi Hoja de Ruta*, *Iniciar Sesión / Avatar*) y el sistema de diseño Dark Cosmic (`#171027`, `#3a14c4`, `#c0b9fc`, `#c8dd09`).
+
+```mermaid
+graph TD
+    Nav[Top Navigation Bar Unificada] --> W1[1. Home Web Desktop]
+    Nav --> W2[2. Iniciar Sesión / Login Web]
+    Nav --> W3[3. Rutas de Aprendizaje - Look Moderno & Jugado]
+    Nav --> W4[4. Cómo Funcionamos - DevBot Asistente Virtual]
+    Nav --> W5[5. Mi Hoja de Ruta & Panel de Detalles]
+```
+
+---
+
+### 💻 Pantalla Web 1: Home Principal (`TechBrain Home`)
+* **ID de Pantalla en Stitch:** `a09247e93028402db72d8829ad96beb5`
+* **Título:** `TechBrain Home - DevTalles CodeQuest 2026`
+* **Dimensiones:** `2560 x 6264 px (Desktop)`
+* **Componentes Clave:**
+  1. **Top Navbar:** Logotipo `{dev/talles}` con resplandor púrpura, enlaces de navegación con acento *Cyber Lime* (`#c8dd09`) en *Inicio*, botón outline *Iniciar Sesión* y botón con gradiente *Comenzar Gratis*.
+  2. **Hero Section:** Gran titular en `Space Grotesk`, badge neón `🚀 DevTalles CodeQuest 2026`, botón CTA en Cyber Lime (*Generar Mi Ruta con DevBot IA ⚡*) y mockup flotante del asistente con afinidad 98%.
+  3. **Métricas de Impacto:** 4 tarjetas (91+ Cursos Oficiales, 13 Rutas Especializadas, 100% Personalizado con IA, +50K Comunidad Discord).
+  4. **Rutas Destacadas:** Grid de 3 tarjetas (*Frontend React*, *Backend NestJS & Go*, *Agentes IA & MCP*).
+  5. **Pipeline Pedagógico en 3 Pasos:** Diagnóstico Inteligente, Clasificación Pedagógica y Seguimiento en Tiempo Real.
+  6. **Footer Cósmico Completo:** Enlaces y licencia MIT.
+
+---
+
+### 💻 Pantalla Web 2: Autenticación (`Login Web`)
+* **ID de Pantalla en Stitch:** `8b8b269858284d4fb8375905f2d03f61`
+* **Título:** `TechBrain Login - DevTalles CodeQuest 2026`
+* **Dimensiones:** `2560 x 2048 px (Desktop)`
+* **Componentes Clave:**
+  1. **Split Layout (2 Columnas):**
+     - *Columna Izquierda:* Misión CQ03, bienvenida al tripulante tech, tarjeta de estado de DevBot v2.4 y verificación con el Servidor de Discord de DevTalles (`1130900724499365958`).
+     - *Columna Derecha:* Tarjeta glassmorphism con **botón prioritario mandatorio de Iniciar sesión con Discord** (`#5865F2`), divisor *"o continúa con correo"*, campos con icono y toggle de visibilidad, checkbox *"Recordar sesión"* y botón con gradiente violeta.
+  2. **Navbar y Footer:** Completamente alineados con la navegación global.
+
+---
+
+### 💻 Pantalla Web 3: Rutas de Aprendizaje Oficiales (`Look Moderno & Jugado`)
+* **ID de Pantalla en Stitch:** `d73e58f333bd4710a770f1b783e0f610`
+* **Título:** `TechBrain Rutas - DevTalles CodeQuest 2026`
+* **Dimensiones:** `2560 x 6422 px (Desktop)`
+* **Componentes Clave:**
+  1. **Look Cyber-Tech Vanguardista:** Bento grid con bordes neón, resplandores cósmicos e interactividad visual de alto impacto.
+  2. **Header Estelar & Filtros:** Barra de búsqueda `⌘K` holográfica y filtros por píldoras (*Todas [13]*, *Frontend & Web*, *Backend & Cloud*, *Mobile*, *Agentes IA & MCP*, *DevOps*).
+  3. **Tarjetas de Rutas Oficiales:**
+     - *Ruta Frontend React 19 & Next.js:* Formato ancho, 18 cursos, 95h, timeline de 5 fases pedagógicas.
+     - *Ruta Inteligencia Artificial & Agentes Autónomos:* Borde Cyber Lime glow, MCP Protocol, Spring AI, n8n y RAG.
+     - *Rutas Backend Go/NestJS, Flutter Multiplataforma, Cloud Native y Fullstack TS.*
+  4. **Banner Híbrido IA:** Invitación a crear rutas combinadas a medida con DevBot Copilot.
+
+---
+
+### 💻 Pantalla Web 4: Cómo Funcionamos / Asistente Virtual (`DevBot Copilot`)
+* **ID de Pantalla en Stitch:** `8a3bcac3421a4fec852dabfee3f64d1e`
+* **Título:** `TechBrain Cómo Funciona (IA) - DevTalles CodeQuest 2026`
+* **Dimensiones:** `2560 x 3644 px (Desktop)`
+* **Componentes Clave:**
+  1. **Split View Explicativo & Consola:**
+     - *Columna Izquierda:* El método pedagógico en 4 fases (Diagnóstico adaptativo, grafo de prerrequisitos de 91 cursos, clasificación en 3 niveles Requerido/Recomendado/Opcional, estimador de semanas de estudio y ficha técnica del motor de IA).
+     - *Columna Derecha (Simulador / Consola DevBot):* Consola espacial con chat interactivo en vivo, medidor de afinidad dinámica (85%), recomendación de cursos en vivo (*Go Microservicios 98% Match*, *n8n MCP 95% Match*), quick prompt chips e input multimodal con micrófono y botón de envío.
+  2. **CTA Principal:** Botón *\"Iniciar Mi Propia Evaluación con DevBot IA ➔\"*.
+
+---
+
+### 💻 Pantalla Web 5: Mi Hoja de Ruta & Detalles del Curso (`Roadmap Web`)
+* **ID de Pantalla en Stitch:** `2f7521c95f894272ae254080449f9e2a`
+* **Título:** `TechBrain Mi Hoja de Ruta - DevTalles CodeQuest 2026`
+* **Dimensiones:** `2560 x 4732 px (Desktop)`
+* **Componentes Clave:**
+  1. **Header de Dashboard:** Progreso general al 68% (12/18 cursos completados) con barra Cyber Lime, racha `🔥 5 Días`, métricas de horas y pestañas para cambiar entre múltiples rutas guardadas (*Fullstack React & MCP*, *Backend Go*, *Mobile Flutter*).
+  2. **Estructura en 3 Niveles Pedagógicos (Columna Principal):**
+     - *Requerido (Bases críticas):* Cursos completados con certificados y curso activo *React Router v7 y Autenticación* (65%).
+     - *Recomendado (Especialización):* Next.js 15, Docker y Model Context Protocol (MCP) Agentes IA.
+     - *Opcional (Complementos):* Tailwind CSS, Testing con Vitest/Playwright, Spring AI.
+  3. **Panel Flotante de Detalles del Curso (Sidebar 30%):**
+     - Justificación pedagógica de la IA, instructor Fernando Herrera, prerrequisitos validados, proyecto práctico del módulo y botón directo *\"Continuar Lección en DevTalles ▶\"*.
+
+---
+
+## 4. Brainstorming de Integración de IA para el CodeQuest
 
 Integrar un módulo de Inteligencia Artificial en el generador de rutas aporta un **valor agregado excepcional** que ataca directamente el criterio de **"Creatividad e Idea"** del jurado:
 
@@ -155,7 +238,7 @@ graph TD
 
 ---
 
-## 4. Archivos en la Carpeta `techBrain`
+## 5. Archivos en la Carpeta `techBrain`
 
 | Archivo | Tipo | Descripción |
 |---|---|---|

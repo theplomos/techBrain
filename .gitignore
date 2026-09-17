@@ -12,10 +12,24 @@
 .env
 .env.local
 .env.*.local
+*.env
 env/*.env
+!*.env.example
+# El backend versiona su env de desarrollo a propósito
 !env/dev.env
 *.pem
 *.key
+*.p12
+*.keystore
+*.jks
+*.mobileprovision
+.vercel
+
+# Instrucciones para agentes: son locales, no se versionan
+CLAUDE.md
+**/CLAUDE.md
+AGENTS.md
+.claude/
 
 # Dependencies and build outputs
 node_modules/
