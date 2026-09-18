@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import 'config/theme/app_theme.dart';
+import 'shared/widgets/cosmic_background.dart';
+
 /// Raíz de la aplicación.
 ///
 /// Vive fuera de `main.dart` para poder montarla en los tests de widget.
@@ -9,17 +12,20 @@ class TechBrainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'TechBrain',
       debugShowCheckedModeBanner: false,
-      locale: Locale('es'),
-      supportedLocales: <Locale>[Locale('es')],
-      localizationsDelegates: <LocalizationsDelegate<Object?>>[
+      theme: AppTheme.dark,
+      locale: const Locale('es'),
+      supportedLocales: const <Locale>[Locale('es')],
+      localizationsDelegates: const <LocalizationsDelegate<Object?>>[
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      home: Scaffold(
+      builder: (BuildContext context, Widget? child) =>
+          CosmicBackground(child: child ?? const SizedBox.shrink()),
+      home: const Scaffold(
         body: Center(child: Text('TechBrain')),
       ),
     );
