@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'config/router/app_router.dart';
 import 'config/theme/app_theme.dart';
 import 'shared/widgets/cosmic_background.dart';
 
 /// Raíz de la aplicación.
-///
-/// Vive fuera de `main.dart` para poder montarla en los tests de widget.
-class TechBrainApp extends StatelessWidget {
+class TechBrainApp extends ConsumerWidget {
   const TechBrainApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context, WidgetRef ref) {
+    return MaterialApp.router(
       title: 'TechBrain',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark,
@@ -23,11 +23,9 @@ class TechBrainApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
+      routerConfig: ref.watch(appRouterProvider),
       builder: (BuildContext context, Widget? child) =>
           CosmicBackground(child: child ?? const SizedBox.shrink()),
-      home: const Scaffold(
-        body: Center(child: Text('TechBrain')),
-      ),
     );
   }
 }
