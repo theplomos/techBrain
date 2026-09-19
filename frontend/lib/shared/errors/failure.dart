@@ -47,9 +47,7 @@ final class UnauthorizedFailure extends Failure {
 
 /// Recurso o ruta que no existe.
 final class NotFoundFailure extends Failure {
-  const NotFoundFailure({
-    super.message = 'No encontramos lo que buscas.',
-  });
+  const NotFoundFailure({super.message = 'No encontramos lo que buscas.'});
 }
 
 /// Error al leer un asset o los datos guardados en el dispositivo.

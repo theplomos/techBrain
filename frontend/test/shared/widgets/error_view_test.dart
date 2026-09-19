@@ -10,27 +10,22 @@ Widget _host(Widget child) => MaterialApp(
 
 void main() {
   testWidgets('muestra el mensaje de la Failure recibida', (tester) async {
-    await tester.pumpWidget(
-      _host(const ErrorView(error: NotFoundFailure())),
-    );
+    await tester.pumpWidget(_host(const ErrorView(error: NotFoundFailure())));
 
     expect(find.text('No encontramos lo que buscas.'), findsOneWidget);
   });
 
-  testWidgets('ante un error que no es Failure muestra el mensaje genérico',
-      (tester) async {
-    await tester.pumpWidget(
-      _host(ErrorView(error: StateError('roto'))),
-    );
+  testWidgets('ante un error que no es Failure muestra el mensaje genérico', (
+    tester,
+  ) async {
+    await tester.pumpWidget(_host(ErrorView(error: StateError('roto'))));
 
     expect(find.text('Algo salió mal. Inténtalo de nuevo.'), findsOneWidget);
     expect(find.textContaining('roto'), findsNothing);
   });
 
   testWidgets('sin onRetry no muestra botón', (tester) async {
-    await tester.pumpWidget(
-      _host(const ErrorView(error: NetworkFailure())),
-    );
+    await tester.pumpWidget(_host(const ErrorView(error: NetworkFailure())));
 
     expect(find.byType(PillButton), findsNothing);
   });
@@ -50,11 +45,13 @@ void main() {
 
   testWidgets('respeta el retryLabel recibido', (tester) async {
     await tester.pumpWidget(
-      _host(ErrorView(
-        error: const NotFoundFailure(),
-        onRetry: () {},
-        retryLabel: 'Ir a Home',
-      )),
+      _host(
+        ErrorView(
+          error: const NotFoundFailure(),
+          onRetry: () {},
+          retryLabel: 'Ir a Home',
+        ),
+      ),
     );
 
     expect(find.text('IR A HOME'), findsOneWidget);

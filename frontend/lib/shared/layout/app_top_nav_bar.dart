@@ -27,8 +27,9 @@ class AppTopNavBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     final double screenWidth = MediaQuery.sizeOf(context).width;
-    final double horizontalPadding =
-        screenWidth >= Breakpoints.maxContentWidth ? 32.0 : 16.0;
+    final double horizontalPadding = screenWidth >= Breakpoints.maxContentWidth
+        ? 32.0
+        : 16.0;
 
     return GlassContainer(
       blur: true,
@@ -68,7 +69,9 @@ class _TopNavItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color foreground = selected ? AppColors.textMain : AppColors.textMuted;
+    final Color foreground = selected
+        ? AppColors.textMain
+        : AppColors.textMuted;
 
     return Semantics(
       button: true,
@@ -88,8 +91,10 @@ class _TopNavItem extends StatelessWidget {
               ),
             ),
             child: ConstrainedBox(
-              constraints:
-                  const BoxConstraints(minHeight: 44.0, minWidth: 44.0),
+              constraints: const BoxConstraints(
+                minHeight: 44.0,
+                minWidth: 44.0,
+              ),
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12.0),
                 child: Row(

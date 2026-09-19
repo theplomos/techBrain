@@ -55,9 +55,11 @@ abstract final class AppTextStyles {
 /// color: `display*`, `headline*` y `title*` en Space Grotesk; `body*` y
 /// `label*` en DM Sans.
 TextTheme buildAppTextTheme() {
-  final TextTheme base = Typography.material2021(
-    platform: TargetPlatform.android,
-  ).white.apply(bodyColor: AppColors.textMain, displayColor: AppColors.textMain);
+  final TextTheme base =
+      Typography.material2021(platform: TargetPlatform.android).white.apply(
+        bodyColor: AppColors.textMain,
+        displayColor: AppColors.textMain,
+      );
 
   TextStyle heading(TextStyle? style, FontWeight weight) =>
       style!.copyWith(fontFamily: AppFonts.heading, fontWeight: weight);

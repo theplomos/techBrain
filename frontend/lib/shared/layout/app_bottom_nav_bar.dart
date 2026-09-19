@@ -65,7 +65,9 @@ class _BottomNavItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color foreground = selected ? AppColors.textMain : AppColors.textMuted;
+    final Color foreground = selected
+        ? AppColors.textMain
+        : AppColors.textMuted;
 
     return Semantics(
       button: true,

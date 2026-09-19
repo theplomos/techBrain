@@ -33,10 +33,7 @@ void main() {
     final GoRouter router = await pumpRouter(tester, '/');
 
     expect(find.byType(HomeScreen), findsOneWidget);
-    expect(
-      router.routerDelegate.currentConfiguration.uri.path,
-      AppRoutes.home,
-    );
+    expect(router.routerDelegate.currentConfiguration.uri.path, AppRoutes.home);
   });
 
   testWidgets('cada path abre su pantalla', (tester) async {
@@ -51,8 +48,9 @@ void main() {
     }
   });
 
-  testWidgets('una ruta desconocida muestra ErrorView con el texto de 404',
-      (tester) async {
+  testWidgets('una ruta desconocida muestra ErrorView con el texto de 404', (
+    tester,
+  ) async {
     await pumpRouter(tester, '/no-existe');
 
     expect(find.byType(ErrorView), findsOneWidget);
@@ -69,12 +67,15 @@ void main() {
     expect(find.byType(HomeScreen), findsOneWidget);
   });
 
-  testWidgets('el provider mantiene la misma instancia de GoRouter',
-      (tester) async {
+  testWidgets('el provider mantiene la misma instancia de GoRouter', (
+    tester,
+  ) async {
     final container = ProviderContainer();
     addTearDown(container.dispose);
 
-    expect(container.read(appRouterProvider),
-        same(container.read(appRouterProvider)));
+    expect(
+      container.read(appRouterProvider),
+      same(container.read(appRouterProvider)),
+    );
   });
 }

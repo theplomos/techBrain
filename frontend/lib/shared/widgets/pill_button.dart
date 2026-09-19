@@ -76,12 +76,15 @@ class _PillButtonState extends State<PillButton> {
   }
 
   TextStyle get _textStyle => switch (widget.variant) {
-    PillButtonVariant.primary =>
-      AppTextStyles.button.copyWith(color: Colors.white),
-    PillButtonVariant.secondary =>
-      AppTextStyles.button.copyWith(color: AppColors.textMain),
-    PillButtonVariant.vivid =>
-      AppTextStyles.buttonVivid.copyWith(color: AppColors.textOnVivid),
+    PillButtonVariant.primary => AppTextStyles.button.copyWith(
+      color: Colors.white,
+    ),
+    PillButtonVariant.secondary => AppTextStyles.button.copyWith(
+      color: AppColors.textMain,
+    ),
+    PillButtonVariant.vivid => AppTextStyles.buttonVivid.copyWith(
+      color: AppColors.textOnVivid,
+    ),
   };
 
   @override
@@ -133,8 +136,10 @@ class _PillButtonState extends State<PillButton> {
       child: ExcludeSemantics(
         child: FocusableActionDetector(
           mouseCursor: SystemMouseCursors.click,
-          onShowHoverHighlight: (bool value) => setState(() => _hovered = value),
-          onShowFocusHighlight: (bool value) => setState(() => _focused = value),
+          onShowHoverHighlight: (bool value) =>
+              setState(() => _hovered = value),
+          onShowFocusHighlight: (bool value) =>
+              setState(() => _focused = value),
           actions: <Type, Action<Intent>>{
             ActivateIntent: CallbackAction<ActivateIntent>(
               onInvoke: (_) {

@@ -29,7 +29,10 @@ void main() {
     });
 
     test('FULLSTACK reutiliza los tokens que el sistema llama WEB', () {
-      expect(AppColors.catFullstackBg, const Color.fromRGBO(244, 174, 163, 0.25));
+      expect(
+        AppColors.catFullstackBg,
+        const Color.fromRGBO(244, 174, 163, 0.25),
+      );
       expect(AppColors.catFullstackBorder, const Color(0xFFF4AEA3));
     });
 
@@ -48,8 +51,10 @@ void main() {
     test('glowLg es más intenso que glowSm', () {
       expect(AppShadows.glowSm, hasLength(2));
       expect(AppShadows.glowLg, hasLength(2));
-      expect(AppShadows.glowLg.last.blurRadius,
-          greaterThan(AppShadows.glowSm.last.blurRadius));
+      expect(
+        AppShadows.glowLg.last.blurRadius,
+        greaterThan(AppShadows.glowSm.last.blurRadius),
+      );
     });
 
     test('la animación de hover dura 200 ms', () {

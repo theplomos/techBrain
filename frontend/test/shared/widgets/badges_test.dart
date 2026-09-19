@@ -12,15 +12,19 @@ Widget _host(Widget child) => MaterialApp(
 
 BoxDecoration _decorationOf(WidgetTester tester, Type widgetType) {
   final Container container = tester.widget<Container>(
-    find.descendant(of: find.byType(widgetType), matching: find.byType(Container)),
+    find.descendant(
+      of: find.byType(widgetType),
+      matching: find.byType(Container),
+    ),
   );
   return container.decoration! as BoxDecoration;
 }
 
 void main() {
   group('LevelBadge', () {
-    testWidgets('escribe la etiqueta de cada nivel en mayúsculas',
-        (tester) async {
+    testWidgets('escribe la etiqueta de cada nivel en mayúsculas', (
+      tester,
+    ) async {
       for (final (CourseLevel level, String text) in <(CourseLevel, String)>[
         (CourseLevel.required, 'REQUERIDO'),
         (CourseLevel.recommended, 'RECOMENDADO'),
@@ -32,7 +36,9 @@ void main() {
     });
 
     testWidgets('usa el icono de cada nivel', (tester) async {
-      await tester.pumpWidget(_host(const LevelBadge(level: CourseLevel.required)));
+      await tester.pumpWidget(
+        _host(const LevelBadge(level: CourseLevel.required)),
+      );
       expect(find.byIcon(Icons.hexagon), findsOneWidget);
 
       await tester.pumpWidget(
@@ -40,36 +46,49 @@ void main() {
       );
       expect(find.byIcon(Icons.star), findsOneWidget);
 
-      await tester.pumpWidget(_host(const LevelBadge(level: CourseLevel.optional)));
+      await tester.pumpWidget(
+        _host(const LevelBadge(level: CourseLevel.optional)),
+      );
       expect(find.byIcon(Icons.circle), findsOneWidget);
     });
 
     testWidgets('se anuncia como "Nivel: <etiqueta>"', (tester) async {
       final handle = tester.ensureSemantics();
-      await tester.pumpWidget(_host(const LevelBadge(level: CourseLevel.required)));
+      await tester.pumpWidget(
+        _host(const LevelBadge(level: CourseLevel.required)),
+      );
 
       expect(find.bySemanticsLabel('Nivel: Requerido'), findsOneWidget);
       handle.dispose();
     });
 
-    testWidgets('REQUERIDO usa los colores de su fila de la tabla de chips',
-        (tester) async {
-      await tester.pumpWidget(_host(const LevelBadge(level: CourseLevel.required)));
+    testWidgets('REQUERIDO usa los colores de su fila de la tabla de chips', (
+      tester,
+    ) async {
+      await tester.pumpWidget(
+        _host(const LevelBadge(level: CourseLevel.required)),
+      );
 
       final BoxDecoration decoration = _decorationOf(tester, LevelBadge);
       expect(decoration.color, AppColors.levelRequiredBg);
-      expect((decoration.border! as Border).top.color,
-          AppColors.levelRequiredBorder);
+      expect(
+        (decoration.border! as Border).top.color,
+        AppColors.levelRequiredBorder,
+      );
     });
   });
 
   group('CategoryBadge', () {
-    testWidgets('escribe el valor del dataset de las seis categorías',
-        (tester) async {
+    testWidgets('escribe el valor del dataset de las seis categorías', (
+      tester,
+    ) async {
       for (final CourseCategory category in CourseCategory.values) {
         await tester.pumpWidget(_host(CategoryBadge(category: category)));
-        expect(find.text(category.datasetValue), findsOneWidget,
-            reason: 'categoría $category');
+        expect(
+          find.text(category.datasetValue),
+          findsOneWidget,
+          reason: 'categoría $category',
+        );
       }
     });
 
@@ -83,8 +102,9 @@ void main() {
       handle.dispose();
     });
 
-    testWidgets('FULLSTACK usa los tokens que el sistema llama WEB',
-        (tester) async {
+    testWidgets('FULLSTACK usa los tokens que el sistema llama WEB', (
+      tester,
+    ) async {
       await tester.pumpWidget(
         _host(const CategoryBadge(category: CourseCategory.fullstack)),
       );

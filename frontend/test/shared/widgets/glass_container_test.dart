@@ -9,7 +9,9 @@ Widget _host(Widget child) => MaterialApp(
 
 void main() {
   testWidgets('sin blur no monta ningún BackdropFilter', (tester) async {
-    await tester.pumpWidget(_host(const GlassContainer(child: Text('contenido'))));
+    await tester.pumpWidget(
+      _host(const GlassContainer(child: Text('contenido'))),
+    );
 
     expect(find.byType(BackdropFilter), findsNothing);
     expect(find.text('contenido'), findsOneWidget);
@@ -64,7 +66,9 @@ void main() {
   });
 
   testWidgets('sin onTap no es enfocable', (tester) async {
-    await tester.pumpWidget(_host(const GlassContainer(child: Text('estático'))));
+    await tester.pumpWidget(
+      _host(const GlassContainer(child: Text('estático'))),
+    );
 
     expect(find.byType(FocusableActionDetector), findsNothing);
   });

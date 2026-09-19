@@ -29,7 +29,9 @@ void main() {
 
     expect(find.byType(LevelBadge), findsNWidgets(3));
     expect(
-        find.byType(CategoryBadge), findsNWidgets(CourseCategory.values.length));
+      find.byType(CategoryBadge),
+      findsNWidgets(CourseCategory.values.length),
+    );
   });
 
   testWidgets('anuncia que el muestrario es temporal', (tester) async {

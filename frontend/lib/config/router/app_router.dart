@@ -43,9 +43,8 @@ GoRouter appRouter(Ref ref) {
             routes: <RouteBase>[
               GoRoute(
                 path: AppRoutes.home,
-                pageBuilder: (BuildContext _, GoRouterState _) => const NoTransitionPage<void>(
-                  child: HomeScreen(),
-                ),
+                pageBuilder: (BuildContext _, GoRouterState _) =>
+                    const NoTransitionPage<void>(child: HomeScreen()),
               ),
             ],
           ),
@@ -53,9 +52,8 @@ GoRouter appRouter(Ref ref) {
             routes: <RouteBase>[
               GoRoute(
                 path: AppRoutes.explore,
-                pageBuilder: (BuildContext _, GoRouterState _) => const NoTransitionPage<void>(
-                  child: ExploreScreen(),
-                ),
+                pageBuilder: (BuildContext _, GoRouterState _) =>
+                    const NoTransitionPage<void>(child: ExploreScreen()),
               ),
             ],
           ),
@@ -63,9 +61,8 @@ GoRouter appRouter(Ref ref) {
             routes: <RouteBase>[
               GoRoute(
                 path: AppRoutes.quiz,
-                pageBuilder: (BuildContext _, GoRouterState _) => const NoTransitionPage<void>(
-                  child: QuizScreen(),
-                ),
+                pageBuilder: (BuildContext _, GoRouterState _) =>
+                    const NoTransitionPage<void>(child: QuizScreen()),
               ),
             ],
           ),
@@ -73,9 +70,8 @@ GoRouter appRouter(Ref ref) {
             routes: <RouteBase>[
               GoRoute(
                 path: AppRoutes.settings,
-                pageBuilder: (BuildContext _, GoRouterState _) => const NoTransitionPage<void>(
-                  child: SettingsScreen(),
-                ),
+                pageBuilder: (BuildContext _, GoRouterState _) =>
+                    const NoTransitionPage<void>(child: SettingsScreen()),
               ),
             ],
           ),

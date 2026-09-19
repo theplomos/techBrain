@@ -68,7 +68,9 @@ class _GlassContainerState extends State<GlassContainer> {
         color: widget.color,
         borderRadius: radius,
         border: Border.all(
-          color: _highlighted ? AppColors.cardBorderHover : AppColors.cardBorder,
+          color: _highlighted
+              ? AppColors.cardBorderHover
+              : AppColors.cardBorder,
         ),
         boxShadow: _highlighted ? AppShadows.glowLg : AppShadows.glowSm,
       ),

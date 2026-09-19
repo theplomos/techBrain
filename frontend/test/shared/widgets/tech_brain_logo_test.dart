@@ -24,8 +24,9 @@ void main() {
     expect(text.text.toPlainText(), '{tech/brain}');
   });
 
-  testWidgets('pinta las llaves en lavanda y la palabra en texto principal',
-      (tester) async {
+  testWidgets('pinta las llaves en lavanda y la palabra en texto principal', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       const MaterialApp(home: Scaffold(body: TechBrainLogo())),
     );

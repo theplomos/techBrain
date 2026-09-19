@@ -19,13 +19,23 @@ void main() {
         final File source = File('../docs/references/$name');
         final File copy = File('assets/data/$name');
 
-        expect(source.existsSync(), isTrue,
-            reason: 'Falta el original $name en docs/references/.');
-        expect(copy.existsSync(), isTrue,
-            reason: 'Falta la copia $name. Ejecuta tool/sync_datasets.sh.');
-        expect(copy.readAsBytesSync(), source.readAsBytesSync(),
-            reason: '$name cambió en docs/references/. '
-                'Ejecuta tool/sync_datasets.sh y commitea la copia.');
+        expect(
+          source.existsSync(),
+          isTrue,
+          reason: 'Falta el original $name en docs/references/.',
+        );
+        expect(
+          copy.existsSync(),
+          isTrue,
+          reason: 'Falta la copia $name. Ejecuta tool/sync_datasets.sh.',
+        );
+        expect(
+          copy.readAsBytesSync(),
+          source.readAsBytesSync(),
+          reason:
+              '$name cambió en docs/references/. '
+              'Ejecuta tool/sync_datasets.sh y commitea la copia.',
+        );
       }
     });
   });
@@ -52,8 +62,7 @@ void main() {
       expect(entries, 113);
     });
 
-    test('todos los nivel y categoria de las rutas se convierten sin error',
-        () async {
+    test('todos los nivel y categoria de las rutas se convierten sin error', () async {
       final String raw = await rootBundle.loadString(DatasetAssets.routes);
       final List<dynamic> routes = jsonDecode(raw) as List<dynamic>;
 

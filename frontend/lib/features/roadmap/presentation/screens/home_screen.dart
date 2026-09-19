@@ -23,10 +23,7 @@ class HomeScreen extends StatelessWidget {
         const SizedBox(height: 32.0),
         const _ShowcaseHeader(),
         const SizedBox(height: 16.0),
-        const _ShowcaseSection(
-          title: 'Botones',
-          child: _ButtonShowcase(),
-        ),
+        const _ShowcaseSection(title: 'Botones', child: _ButtonShowcase()),
         const SizedBox(height: 16.0),
         _ShowcaseSection(
           title: 'Niveles',

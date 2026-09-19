@@ -34,7 +34,9 @@ void main() {
   testWidgets('oculta el banner de depuración', (tester) async {
     await pumpApp(tester);
 
-    final MaterialApp app = tester.widget<MaterialApp>(find.byType(MaterialApp));
+    final MaterialApp app = tester.widget<MaterialApp>(
+      find.byType(MaterialApp),
+    );
     expect(app.debugShowCheckedModeBanner, isFalse);
   });
 }

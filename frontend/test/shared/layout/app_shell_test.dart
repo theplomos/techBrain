@@ -71,8 +71,9 @@ void main() {
     expect(find.byType(HomeScreen), findsNothing);
   });
 
-  testWidgets('cada pestaña cumple el área táctil de 44 x 44 px',
-      (tester) async {
+  testWidgets('cada pestaña cumple el área táctil de 44 x 44 px', (
+    tester,
+  ) async {
     await pumpAppAt(tester, const Size(390, 844));
 
     for (final String label in <String>[
@@ -82,13 +83,15 @@ void main() {
       'Configuración',
     ]) {
       final Size size = tester.getSize(
-        find.ancestor(
-          of: find.descendant(
-            of: find.byType(AppBottomNavBar),
-            matching: find.text(label),
-          ),
-          matching: find.byType(ConstrainedBox),
-        ).first,
+        find
+            .ancestor(
+              of: find.descendant(
+                of: find.byType(AppBottomNavBar),
+                matching: find.text(label),
+              ),
+              matching: find.byType(ConstrainedBox),
+            )
+            .first,
       );
       expect(size.height, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
       expect(size.width, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
@@ -123,8 +126,9 @@ void main() {
     expect(find.byType(AppBottomNavBar), findsNothing);
   });
 
-  testWidgets('en escritorio el contenido no pasa del ancho máximo',
-      (tester) async {
+  testWidgets('en escritorio el contenido no pasa del ancho máximo', (
+    tester,
+  ) async {
     await pumpAppAt(tester, const Size(1600, 900));
 
     final Size size = tester.getSize(find.byType(HomeScreen));
@@ -141,45 +145,60 @@ void main() {
   });
 
   testWidgets(
-      'cada pestaña de la barra superior cumple el área táctil de 44 x 44 px',
-      (tester) async {
-    await pumpAppAt(tester, const Size(1280, 800));
+    'cada pestaña de la barra superior cumple el área táctil de 44 x 44 px',
+    (tester) async {
+      await pumpAppAt(tester, const Size(1280, 800));
 
-    for (final String label in <String>[
-      'Home',
-      'Explorar',
-      'Cuestionarios',
-      'Configuración',
-    ]) {
-      final Size size = tester.getSize(
-        find.ancestor(
-          of: find.descendant(
-            of: find.byType(AppTopNavBar),
-            matching: find.text(label),
-          ),
-          matching: find.byType(ConstrainedBox),
-        ).first,
+      for (final String label in <String>[
+        'Home',
+        'Explorar',
+        'Cuestionarios',
+        'Configuración',
+      ]) {
+        final Size size = tester.getSize(
+          find
+              .ancestor(
+                of: find.descendant(
+                  of: find.byType(AppTopNavBar),
+                  matching: find.text(label),
+                ),
+                matching: find.byType(ConstrainedBox),
+              )
+              .first,
+        );
+        expect(
+          size.height,
+          greaterThanOrEqualTo(44.0),
+          reason: 'pestaña $label',
+        );
+        expect(
+          size.width,
+          greaterThanOrEqualTo(44.0),
+          reason: 'pestaña $label',
+        );
+      }
+    },
+  );
+
+  testWidgets(
+    'la pestaña activa en la barra superior tiene indicador de acento',
+    (tester) async {
+      await pumpAppAt(tester, const Size(1280, 800));
+
+      final DecoratedBox decoratedBox = tester.widget<DecoratedBox>(
+        find
+            .ancestor(
+              of: find.descendant(
+                of: find.byType(AppTopNavBar),
+                matching: find.text('Home'),
+              ),
+              matching: find.byType(DecoratedBox),
+            )
+            .first,
       );
-      expect(size.height, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
-      expect(size.width, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
-    }
-  });
-
-  testWidgets('la pestaña activa en la barra superior tiene indicador de acento',
-      (tester) async {
-    await pumpAppAt(tester, const Size(1280, 800));
-
-    final DecoratedBox decoratedBox = tester.widget<DecoratedBox>(
-      find.ancestor(
-        of: find.descendant(
-          of: find.byType(AppTopNavBar),
-          matching: find.text('Home'),
-        ),
-        matching: find.byType(DecoratedBox),
-      ).first,
-    );
-    final BoxDecoration decoration = decoratedBox.decoration as BoxDecoration;
-    expect(decoration.border?.bottom.color, AppColors.accentVivid);
-    expect(decoration.border?.bottom.width, 2.0);
-  });
+      final BoxDecoration decoration = decoratedBox.decoration as BoxDecoration;
+      expect(decoration.border?.bottom.color, AppColors.accentVivid);
+      expect(decoration.border?.bottom.width, 2.0);
+    },
+  );
 }
