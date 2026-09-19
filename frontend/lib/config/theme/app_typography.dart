@@ -1,123 +1,87 @@
 import 'package:flutter/material.dart';
+
 import 'app_colors.dart';
 
-/// Jerarquía tipográfica oficial de DevTalles:
-/// - Space Grotesk: Títulos, branding, números y métricas.
-/// - DM Sans: Párrafos, botones, chips y navegación.
-abstract final class AppTypography {
-  // Familias con fallbacks robustos
-  static const String headingFamily = 'Space Grotesk';
-  static const String bodyFamily = 'DM Sans';
-  static const List<String> fontFallbacks = <String>[
-    '-apple-system',
-    'BlinkMacSystemFont',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica Neue',
-    'Arial',
-    'sans-serif',
-  ];
+/// Familias empaquetadas en `assets/fonts/`.
+///
+/// Los nombres coinciden con la clave `family` de `pubspec.yaml`.
+abstract final class AppFonts {
+  /// Títulos, cifras y marca.
+  static const String heading = 'SpaceGrotesk';
 
-  // Headings (Space Grotesk)
-  static const TextStyle h1 = TextStyle(
-    fontFamily: headingFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 28.0,
-    fontWeight: FontWeight.w700,
-    color: AppColors.textMain,
-    letterSpacing: -0.5,
-    height: 1.2,
-  );
+  /// Texto corrido, botones, chips y navegación.
+  static const String body = 'DMSans';
+}
 
-  static const TextStyle h2 = TextStyle(
-    fontFamily: headingFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 22.0,
-    fontWeight: FontWeight.w700,
-    color: AppColors.textMain,
-    letterSpacing: -0.3,
-    height: 1.25,
-  );
-
-  static const TextStyle h3 = TextStyle(
-    fontFamily: headingFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 18.0,
-    fontWeight: FontWeight.w600,
-    color: AppColors.textMain,
-    letterSpacing: -0.2,
-    height: 1.3,
-  );
-
-  static const TextStyle numberHighlight = TextStyle(
-    fontFamily: headingFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w700,
-    color: AppColors.textMain,
-  );
-
-  // Body & UI (DM Sans)
-  static const TextStyle bodyLarge = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 16.0,
-    fontWeight: FontWeight.w400,
-    color: AppColors.textMain,
-    height: 1.5,
-  );
-
-  static const TextStyle bodyMedium = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 14.0,
-    fontWeight: FontWeight.w400,
-    color: AppColors.textMuted,
-    height: 1.4,
-  );
-
-  static const TextStyle bodySmall = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 12.0,
-    fontWeight: FontWeight.w400,
-    color: AppColors.textMuted,
-  );
-
-  // Botones (Píldora: mayúsculas, tracking amplio)
-  static const TextStyle buttonPrimary = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
+/// Estilos que Material 3 no cubre.
+abstract final class AppTextStyles {
+  /// Texto de PillButton en sus variantes primary y secondary.
+  static const TextStyle button = TextStyle(
+    fontFamily: AppFonts.body,
+    fontWeight: FontWeight.w500,
     fontSize: 13.0,
-    fontWeight: FontWeight.w600,
     letterSpacing: 2.0,
-    color: Colors.white,
   );
 
+  /// Texto de PillButton en la variante vivid.
   static const TextStyle buttonVivid = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 13.0,
+    fontFamily: AppFonts.body,
     fontWeight: FontWeight.w700,
+    fontSize: 13.0,
     letterSpacing: 1.5,
-    color: Color(0xFF0F172A),
   );
 
-  // Tags y encabezados de columna
-  static const TextStyle columnHeader = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
+  /// Texto de LevelBadge y CategoryBadge.
+  static const TextStyle chip = TextStyle(
+    fontFamily: AppFonts.body,
+    fontWeight: FontWeight.w500,
     fontSize: 11.0,
-    fontWeight: FontWeight.w600,
+    letterSpacing: 1.5,
+  );
+
+  /// Encabezado de las columnas REQUERIDO / RECOMENDADO / OPCIONAL.
+  static const TextStyle columnHeader = TextStyle(
+    fontFamily: AppFonts.body,
+    fontWeight: FontWeight.w500,
+    fontSize: 11.0,
     letterSpacing: 2.5,
     color: AppColors.textSub,
   );
+}
 
-  static const TextStyle badgeText = TextStyle(
-    fontFamily: bodyFamily,
-    fontFamilyFallback: fontFallbacks,
-    fontSize: 11.0,
-    fontWeight: FontWeight.w700,
-    letterSpacing: 1.0,
+/// TextTheme de Material 3 con las familias de TechBrain aplicadas.
+///
+/// Se conservan los tamaños de Material 3 y solo se cambian familia, peso y
+/// color: `display*`, `headline*` y `title*` en Space Grotesk; `body*` y
+/// `label*` en DM Sans.
+TextTheme buildAppTextTheme() {
+  final TextTheme base =
+      Typography.material2021(platform: TargetPlatform.android).white.apply(
+        bodyColor: AppColors.textMain,
+        displayColor: AppColors.textMain,
+      );
+
+  TextStyle heading(TextStyle? style, FontWeight weight) =>
+      style!.copyWith(fontFamily: AppFonts.heading, fontWeight: weight);
+
+  TextStyle body(TextStyle? style) =>
+      style!.copyWith(fontFamily: AppFonts.body);
+
+  return base.copyWith(
+    displayLarge: heading(base.displayLarge, FontWeight.w700),
+    displayMedium: heading(base.displayMedium, FontWeight.w700),
+    displaySmall: heading(base.displaySmall, FontWeight.w700),
+    headlineLarge: heading(base.headlineLarge, FontWeight.w600),
+    headlineMedium: heading(base.headlineMedium, FontWeight.w600),
+    headlineSmall: heading(base.headlineSmall, FontWeight.w600),
+    titleLarge: heading(base.titleLarge, FontWeight.w600),
+    titleMedium: heading(base.titleMedium, FontWeight.w600),
+    titleSmall: heading(base.titleSmall, FontWeight.w600),
+    bodyLarge: body(base.bodyLarge),
+    bodyMedium: body(base.bodyMedium),
+    bodySmall: body(base.bodySmall),
+    labelLarge: body(base.labelLarge),
+    labelMedium: body(base.labelMedium),
+    labelSmall: body(base.labelSmall),
   );
 }

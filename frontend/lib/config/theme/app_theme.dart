@@ -1,46 +1,36 @@
 import 'package:flutter/material.dart';
+
 import 'app_colors.dart';
 import 'app_typography.dart';
 
-/// Configuración global del tema DevTalles (Dark Mode First).
+/// Tema de TechBrain. Solo hay modo oscuro.
 abstract final class AppTheme {
-  static ThemeData get darkTheme {
-    return ThemeData(
-      useMaterial3: true,
-      brightness: Brightness.dark,
-      scaffoldBackgroundColor: AppColors.bgPrimary,
-      primaryColor: AppColors.accentElectric,
-      colorScheme: const ColorScheme.dark(
-        primary: AppColors.accentElectric,
-        secondary: AppColors.accentVividLime,
-        surface: AppColors.bgBox,
-        error: AppColors.levelRequired,
-        onPrimary: Colors.white,
-        onSecondary: Color(0xFF0F172A),
-        onSurface: AppColors.textMain,
-      ),
-      fontFamily: AppTypography.bodyFamily,
-      fontFamilyFallback: AppTypography.fontFallbacks,
-      appBarTheme: const AppBarTheme(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        scrolledUnderElevation: 0,
-        centerTitle: false,
-        titleTextStyle: AppTypography.h3,
-        iconTheme: IconThemeData(color: AppColors.textMain),
-      ),
-      cardTheme: CardThemeData(
-        color: AppColors.cardBg,
-        elevation: 0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(18.0),
-          side: const BorderSide(color: AppColors.cardBorder, width: 1.0),
-        ),
-      ),
-      dividerTheme: const DividerThemeData(
-        color: AppColors.cardBorder,
-        thickness: 1.0,
-      ),
-    );
-  }
+  static ThemeData get dark => ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.dark,
+
+    // Transparente para que se vea el CosmicBackground que envuelve las rutas.
+    scaffoldBackgroundColor: Colors.transparent,
+
+    textTheme: buildAppTextTheme(),
+    colorScheme: const ColorScheme.dark(
+      primary: AppColors.accentElectric,
+      onPrimary: Colors.white,
+      secondary: AppColors.accentVivid,
+      onSecondary: AppColors.textOnVivid,
+      surface: AppColors.bgBox,
+      onSurface: AppColors.textMain,
+      error: AppColors.errorRed,
+      onError: Colors.white,
+    ),
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.transparent,
+      elevation: 0,
+      scrolledUnderElevation: 0,
+    ),
+    dividerTheme: const DividerThemeData(
+      color: AppColors.cardBorder,
+      thickness: 1.0,
+    ),
+  );
 }

@@ -1,0 +1,1907 @@
+[
+  {
+    "id": "fundamentos",
+    "nombre": "Ruta de aprendizaje Fundamentos",
+    "url": "https://cursos.devtalles.com/pages/programas-fundamentos",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 8,
+    "cursos": [
+      {
+        "slug": "programacion-para-principiantes",
+        "nombre": "Programación para principiantes: Primeros pasos",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "8 horas, 99 lecciones",
+        "requisitos": [
+          "Debes poder realizar instalaciones en el equipo",
+          "Para seguir el curso, pueden hacerlo en Windows, OSX o Linux",
+          "Ganas de aprender a programar"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/slRm7OvQRZySnHeaaw0w_PROGRAMACION%20PARA%20PRINCIPIANTES.jpg",
+        "url": "https://cursos.devtalles.com/courses/programacion-para-principiantes"
+      },
+      {
+        "slug": "visual-studio-code",
+        "nombre": "Visual Studio Code: Mejora tu velocidad para codificar",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BASES",
+        "duracion": "2 horas, 51 lecciones",
+        "requisitos": [
+          "Conocimiento básico de VSCode es recomendado pero no obligatorio"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ozPWxfNjQBKugksdaogB_VSCODE.jpg",
+        "url": "https://cursos.devtalles.com/courses/visual-studio-code"
+      },
+      {
+        "slug": "tailwindcss-para-desarrolladores",
+        "nombre": "TailwindCSS: Para desarrolladores de software",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "4 horas, 51 lecciones",
+        "requisitos": [
+          "Conocimiento básico sobre CSS, si se conoce sobre MediaQueries mucho mejor."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/8w7MKPqvQtaLpLNVTgq6_TAILWIND1.jpg",
+        "url": "https://cursos.devtalles.com/courses/tailwindcss-para-desarrolladores"
+      },
+      {
+        "slug": "git-github-control-versiones-desde-cero",
+        "nombre": "Git + GitHub: Todo un sistema de control de versiones de cero",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "11.5 horas, 132 lecciones",
+        "requisitos": [
+          "No es necesario conocimiento alguno de Git",
+          "No es necesario conocimiento sobre GitHub",
+          "Navegación básica en el powershell o terminal es recomendada pero no necesaria",
+          "Se puede seguir el curso en Windows, OSX o Linux sin problemas"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/vyhm8XioTSeV0KPWLzrI_COVER-DEVTALLES-github2026.jpg",
+        "url": "https://cursos.devtalles.com/courses/git-github-control-versiones-desde-cero"
+      },
+      {
+        "slug": "solid-clean-code",
+        "nombre": "Principios SOLID y Clean Code",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "6.5 horas, 70 lecciones",
+        "requisitos": [
+          "Tener conocimiento básico de programación",
+          "Conocimiento básico de JavaScript y TypeScript",
+          "Tener conceptos de programación orientada a objetos",
+          "Poder realizar instalaciones y descomprimir archivos"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/eOnxKwRKRZ2vCYGEk8Lg_SOLID.jpg",
+        "url": "https://cursos.devtalles.com/courses/solid-clean-code"
+      },
+      {
+        "slug": "patrones-diseno",
+        "nombre": "Patrones de Diseño: Soluciones prácticas y eficientes",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "10 horas, 116 lecciones",
+        "requisitos": [
+          "Conocimiento básico de TypeScript es recomendado",
+          "Conocimiento de Programación orientada a objetos es recomendado",
+          "Poder realizar instalaciones en el equipo es necesario"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/GAaAh0OtQAmUmEOc5qiS_COVER-PATRONES-DE-DISE%C3%91O-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/patrones-diseno"
+      },
+      {
+        "slug": "sql-con-postgres",
+        "nombre": "SQL de cero: Tu guía práctica con PostgreSQL",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "16 horas, 184 lecciones",
+        "requisitos": [
+          "Tener conocimiento de programación estructurada será útil en la parte de PL/pgSQL.",
+          "Conocimiento de Docker será útil, pero no es necesario.",
+          "Poder realizar instalaciones en el equipo es necesario."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/k6V4tlGTXmUQS8CGxGID_SQL.jpg",
+        "url": "https://cursos.devtalles.com/courses/sql-con-postgres"
+      },
+      {
+        "slug": "docker-guia-practica",
+        "nombre": "Docker: Guía práctica de uso para desarrolladores<br>",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "14 horas, 134 lecciones",
+        "requisitos": [
+          "Poder realizar instalaciones como administrador",
+          "Una computadora PC, Mac o Linux con los requisitos mínimos para correr Docker (revisar sitio web para confirmar)",
+          "Saber comandos básicos de consola o terminal es recomendado (no obligatorio)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/MtehrUISVW8hP7CfCWV1_DOCKER.jpg",
+        "url": "https://cursos.devtalles.com/courses/docker-guia-practica"
+      }
+    ]
+  },
+  {
+    "id": "react",
+    "nombre": "Ruta de aprendizaje React",
+    "url": "https://cursos.devtalles.com/pages/programas-react",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 18,
+    "cursos": [
+      {
+        "slug": "javascript-moderno",
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "28.5 horas, 229 lecciones",
+        "requisitos": [
+          "Pueden seguir el curso en Windows, OSX, Linux",
+          "Tener derechos de administrador para instalaciones",
+          "Saber sobre programación básica ayudará mucho"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+        "url": "https://cursos.devtalles.com/courses/javascript-moderno"
+      },
+      {
+        "slug": "react-de-cero",
+        "nombre": "React: de cero a experto",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "46 horas, 452 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript es necesario",
+          "Conocimiento básico de programación es necesario",
+          "Poder realizar instalaciones en el equipo como administrador",
+          "Pueden seguir el curso en OSX (Mac), Windows o Linux",
+          "Estar dispuesto a realizar las tareas y ejercicios adicionales"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/TTTUJiUVTvGC5cy5Z3UW_COVER-DEVTALLES-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-de-cero"
+      },
+      {
+        "slug": "typescript-guia-completa",
+        "nombre": "TypeScript: Tu completa guía y manual de mano",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8.5 horas, 115 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+          "Conocimiento básico de programación estructurada es recomendado",
+          "Ganas de aprender un nuevo lenguaje basado en tipos",
+          "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/typescript-guia-completa"
+      },
+      {
+        "slug": "tanstack-query",
+        "nombre": "TanStack Query: Un poderoso gestor de estado asíncrono",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "6 horas, 83 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de React y TypeScript"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/flpkTdo2TwGhr9wfvr33_COVER.jpg",
+        "url": "https://cursos.devtalles.com/courses/tanstack-query"
+      },
+      {
+        "slug": "zustand-gestor-de-estado-para-react",
+        "nombre": "Zustand: Gestor de estado para React",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "6 horas, 78 lecciones",
+        "requisitos": [
+          "Conocimiento de React con Hooks es necesario",
+          "Saber realizar peticiones HTTP con Fetch API o Axios",
+          "Saber TypeScript es opcional pero recomendado",
+          "No es necesario saber Tailwind, React Router, Dom o Docker"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/OqBxBndxTD6gtxlKMoWV_ZUSTAND.jpg",
+        "url": "https://cursos.devtalles.com/courses/zustand-gestor-de-estado-para-react"
+      },
+      {
+        "slug": "shadcn-ui",
+        "nombre": "Shadcn/ui: Componentes accesibles y personalizables",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "6 horas, 74 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de React y TypeScript:",
+          "Saber crear componentes, usar props y hooks como useState.",
+          "Familiaridad con Tailwind CSS:",
+          "Haber trabajado con clases utilitarias para estilos.",
+          "Entorno de desarrollo configurado (Node.js + npm/yarn):",
+          "Poder instalar paquetes y ejecutar proyectos locales.",
+          "Experiencia básica con formularios y tablas en React:",
+          "Saber manejar inputs, validaciones o manipular listas de datos."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/UnSGHDPtQKKGytbP0iBP_SHADCN.jpg",
+        "url": "https://cursos.devtalles.com/courses/shadcn-ui"
+      },
+      {
+        "slug": "react-router",
+        "nombre": "React Router: Navegación declarativa y framework",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "7.5 horas, 87 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de React:",
+          "Saber usar useState, useEffect, props y componentes funcionales.",
+          "Experiencia previa con JavaScript (al menos las bases):",
+          "Entender conceptos como funciones flecha, async/await y módulos ES6.",
+          "Familiaridad con HTML, CSS y herramientas como Vite o npm:",
+          "Poder iniciar proyectos, instalar paquetes y aplicar estilos básicos"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0gGwQplTkS4tKB7oNc5K_COVER-DEVTALLES-REACT_ROUTER.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-router"
+      },
+      {
+        "slug": "react-pro",
+        "nombre": "React Pro: Lleva tus bases al siguiente nivel",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "24.5 horas, 226 lecciones",
+        "requisitos": [
+          "Tener las bases de React con Hooks",
+          "Saber TypeScript es útil pero no indispensable (introducción incluida)",
+          "Poder realizar instalaciones en el equipo como administrador"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/sHm63uuSkiPxQqbElhTQ_REACT-PRO-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-pro"
+      },
+      {
+        "slug": "sql-con-postgres",
+        "nombre": "SQL de cero: Tu guía práctica con PostgreSQL",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "16 horas, 184 lecciones",
+        "requisitos": [
+          "Tener conocimiento de programación estructurada será útil en la parte de PL/pgSQL.",
+          "Conocimiento de Docker será útil, pero no es necesario.",
+          "Poder realizar instalaciones en el equipo es necesario."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/k6V4tlGTXmUQS8CGxGID_SQL.jpg",
+        "url": "https://cursos.devtalles.com/courses/sql-con-postgres"
+      },
+      {
+        "slug": "openai",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "10 horas, 148 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Haber trabajado con React con Hooks",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fc1kmF7dS2SQojvt7q02_OPENAI-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai"
+      },
+      {
+        "slug": "react-sockets",
+        "nombre": "React+Sockets: Aplicaciones en tiempo real con Bun",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "15 horas, 153 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+          "Conocimientos básicos de React (componentes, props, estado y hooks).",
+          "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+          "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+          "No necesitas experiencia previa con WebSockets ni con Bun."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ajXXN4TCTwuZ6uhDapF1_image.png",
+        "url": "https://cursos.devtalles.com/courses/react-sockets"
+      },
+      {
+        "slug": "nextjs",
+        "nombre": "Next.js: El framework de React para producción",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "39 horas, 423 lecciones",
+        "requisitos": [
+          "Conocimiento básico de React con Hooks es necesario",
+          "NO es necesario saber TypeScript (pero será útil)",
+          "NO es necesario saber Node (pero será útil)",
+          "NO es necesario saber Next para empezar este curso"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/j1fWunR0QJa9diyy2e1t_NEXT-APP-ROUTER2.jpg",
+        "url": "https://cursos.devtalles.com/courses/nextjs"
+      },
+      {
+        "slug": "react-cero-experto",
+        "nombre": "React: De cero a experto<br>( Hooks y MERN )",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "55 horas, 520 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/yXgRDd8CRcyhf8cZdGP2_LEGACY-REACT-HOOKS-Y-MERN.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-cero-experto"
+      },
+      {
+        "slug": "tanstack-query",
+        "nombre": "TanStack Query: Un poderoso gestor de estado asíncrono",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "6 horas, 83 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de React y TypeScript"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/flpkTdo2TwGhr9wfvr33_COVER.jpg",
+        "url": "https://cursos.devtalles.com/courses/tanstack-query"
+      },
+      {
+        "slug": "zustand-gestor-de-estado-para-react",
+        "nombre": "Zustand: Gestor de estado para React",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "6 horas, 78 lecciones",
+        "requisitos": [
+          "Conocimiento de React con Hooks es necesario",
+          "Saber realizar peticiones HTTP con Fetch API o Axios",
+          "Saber TypeScript es opcional pero recomendado",
+          "No es necesario saber Tailwind, React Router, Dom o Docker"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/OqBxBndxTD6gtxlKMoWV_ZUSTAND.jpg",
+        "url": "https://cursos.devtalles.com/courses/zustand-gestor-de-estado-para-react"
+      },
+      {
+        "slug": "react-native-expo",
+        "nombre": "React Native Expo: Aplicaciones nativas para IOS y Android",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "42 horas, 271 lecciones",
+        "requisitos": [
+          "Conocimiento básico de React es necesario",
+          "No es necesario saber TypeScript (pero es recomendado)",
+          "No necesitas saber nada de React Native o React Native CLI",
+          "Es necesario poder realizar instalaciones como administrador",
+          "No es necesario Mac o un equipo especial"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/1NsQU7EaRiG7xLnvaHvc_COVER-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-native-expo"
+      },
+      {
+        "slug": "expo-gemini",
+        "nombre": "Expo + Gemini: Aplicaciones con inteligencia artificial",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "MÓVIL",
+        "duracion": "7 horas, 95 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript o TypeScript.",
+          "Experiencia previa con React Native o React.",
+          "Tener los simuladores un un dispositivo físico para probar la aplicación."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/hVinmMVNQq6v8R7Was0K_COVER-DEVTALLES2.jpg",
+        "url": "https://cursos.devtalles.com/courses/expo-gemini"
+      },
+      {
+        "slug": "react-native",
+        "nombre": "React Native CLI: Aplicaciones nativas para IOS y Android",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "MÓVIL",
+        "duracion": "42 horas, 356 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/wDbe4t7NS5ajImOOreHx_COVER-DEVTALLES-cli-legacy.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-native"
+      }
+    ]
+  },
+  {
+    "id": "vue",
+    "nombre": "Ruta de aprendizaje Vue",
+    "url": "https://cursos.devtalles.com/pages/programas-vue",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 7,
+    "cursos": [
+      {
+        "slug": "javascript-moderno",
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "28.5 horas, 229 lecciones",
+        "requisitos": [
+          "Pueden seguir el curso en Windows, OSX, Linux",
+          "Tener derechos de administrador para instalaciones",
+          "Saber sobre programación básica ayudará mucho"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+        "url": "https://cursos.devtalles.com/courses/javascript-moderno"
+      },
+      {
+        "slug": "vue-cero-a-experto",
+        "nombre": "Vue.js - De Cero a Experto: Composition Api",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "37.5 horas, 340 lecciones",
+        "requisitos": [
+          "Conocimiento de programación básica",
+          "Conocimiento de JavaScript básico",
+          "Poder realizar instalaciones en el equipo",
+          "El curso se puede seguir en Window, Linux o Mac OSx",
+          "Conocimiento de TypeScript es opcional pero recomendado"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fGtdD0wpSv2VEXdrM6vn_VUE-COMPOSITION-API.jpg",
+        "url": "https://cursos.devtalles.com/courses/vue-cero-a-experto"
+      },
+      {
+        "slug": "typescript-guia-completa",
+        "nombre": "TypeScript: Tu completa guía y manual de mano",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8.5 horas, 115 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+          "Conocimiento básico de programación estructurada es recomendado",
+          "Ganas de aprender un nuevo lenguaje basado en tipos",
+          "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/typescript-guia-completa"
+      },
+      {
+        "slug": "vue-js",
+        "nombre": "Vue.js - Tradicional: De cero a experto",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "43 horas, 360 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de HTML, CSS y JavaScript:",
+          "Ideal para quienes ya han trabajado con la web, aunque sea a nivel básico.",
+          "Muchas ganas de aprender Vue.js de manera estructurada:",
+          "El curso empieza desde cero, pero avanza a un nivel profesional.",
+          "Tener Node.js y un editor de código (como VSCode) instalado:",
+          "Necesario para trabajar con Vue CLI y herramientas modernas de desarrollo.",
+          "Conexión a internet para descargar dependencias y probar APIs externas:",
+          "Parte del contenido depende de peticiones HTTP, Firebase, y servicios como Mapbox."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/7Xfyuy5mSxKwKBzXHYEr_COVER-DEVTALLES-legacy-vue-option-api.jpg",
+        "url": "https://cursos.devtalles.com/courses/vue-js"
+      },
+      {
+        "slug": "nuxt",
+        "nombre": "Nuxt: El marco de trabajo web progresivo",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "13.5 horas, 151 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript y/o TypeScript.",
+          "Idealmente haber usado alguna vez Vue.js, aunque el curso incluye un reforzamiento completo.",
+          "Tener instalado Node.js y un editor de código como VSCode.",
+          "No se necesita experiencia previa con Nuxt; el curso cubre conceptos desde cero y avanza hasta nivel profesional."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0QSiNkebRGFH4hPY25zf_NUXT-COVER-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/nuxt"
+      },
+      {
+        "slug": "Vue-intermedio",
+        "nombre": "Vue.js - Intermedio: Lleva tus bases al siguiente nivel",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "13.5 horas, 141 lecciones",
+        "requisitos": [
+          "Conocimiento básico de Vue es recomendado (options api o composition api)",
+          "Conocimiento básico de TypeScript es recomendado"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/Mecj0WPdQyOMPKxtYqG1_vue_ts2.jpg",
+        "url": "https://cursos.devtalles.com/courses/Vue-intermedio"
+      },
+      {
+        "slug": "nodejs-de-cero-a-experto",
+        "nombre": "Node.JS: De cero a experto",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "37.5 horas, 390 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es altamente recomendado",
+          "No es necesario saber TypeScript pero es útil",
+          "Poder realizar instalaciones en tu equipo",
+          "Es necesario tener bases de programación estructurada"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/w47TVfD0T6OFrOPDxYlQ_NODE%20JS%20DE%20CERO%20A%20EXPERTO.jpg",
+        "url": "https://cursos.devtalles.com/courses/nodejs-de-cero-a-experto"
+      }
+    ]
+  },
+  {
+    "id": "angular",
+    "nombre": "Ruta de aprendizaje Angular",
+    "url": "https://cursos.devtalles.com/pages/programas-angular",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 9,
+    "cursos": [
+      {
+        "slug": "javascript-moderno",
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "28.5 horas, 229 lecciones",
+        "requisitos": [
+          "Pueden seguir el curso en Windows, OSX, Linux",
+          "Tener derechos de administrador para instalaciones",
+          "Saber sobre programación básica ayudará mucho"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+        "url": "https://cursos.devtalles.com/courses/javascript-moderno"
+      },
+      {
+        "slug": "angular-moderno",
+        "nombre": "Angular de Cero a Experto: Edición 2025",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "33.5 horas, 347 lecciones",
+        "requisitos": [
+          "Saber JavaScript básico",
+          "Conocimiento básico de programación",
+          "No es necesario saber TypeScript pero ayudaría",
+          "No es necesario conocimiento alguno de Angular u otras versiones"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/LeaTjvBRI6cldshD59jw_angular-de-cero.jpg",
+        "url": "https://cursos.devtalles.com/courses/angular-moderno"
+      },
+      {
+        "slug": "typescript-guia-completa",
+        "nombre": "TypeScript: Tu completa guía y manual de mano",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8.5 horas, 115 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+          "Conocimiento básico de programación estructurada es recomendado",
+          "Ganas de aprender un nuevo lenguaje basado en tipos",
+          "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/typescript-guia-completa"
+      },
+      {
+        "slug": "angular",
+        "nombre": "Angular de Cero a Experto: con Módulos (opcional)",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "45.5 horas, 454 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de programación en JavaScript o TypeScript:",
+          "No necesitas ser experto, pero debes entender funciones, objetos y estructuras básicas.",
+          "Conocimientos iniciales de HTML y CSS:",
+          "Saber estructurar páginas web y aplicar estilos básicos.",
+          "Entorno de desarrollo listo (Node.js, Angular CLI, VSCode):",
+          "Debes poder ejecutar proyectos localmente y manejar la terminal.",
+          "El curso es extenso, por lo que es ideal para personas comprometidas con su aprendizaje."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/a51yLvxNTUiTs5FbiBsx_COVER-DEVTALLES2.jpeg",
+        "url": "https://cursos.devtalles.com/courses/angular"
+      },
+      {
+        "slug": "reactivex-rxjs",
+        "nombre": "ReactiveX - RxJs: De cero hasta los detalles",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "9.5 horas, 107 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/n80W0M1gSpizBJEEgGff_LEGACY-REACTIVE.jpg",
+        "url": "https://cursos.devtalles.com/courses/reactivex-rxjs"
+      },
+      {
+        "slug": "openai-angular-nestjs",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con Angular + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "11 horas, 154 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Conocer sobre la sintaxis de Angular",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/XUcRyW81RJS3xgf1CRNf_OPENAI-ANGULAR.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai-angular-nestjs"
+      },
+      {
+        "slug": "Angular_socket_bun",
+        "nombre": "Angular + Sockets: Aplicaciones en tiempo real con Bun",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "14.5 horas, 148 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript o TypeScript (variables, funciones, async/await).",
+          "Conocimientos básicos de Angular.",
+          "Poder realizar instalaciones en el equipo (editor de código, extensiones y Bun)",
+          "Ganas de practicar: vamos a construir varios proyectos y probar con múltiples navegadores.",
+          "No necesitas experiencia previa con WebSockets ni con Bun."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/abdhTcCTQCmySk3eb8Ma_ANGULAR_WEBSOCKET_BUN_DEVTALLES.png",
+        "url": "https://cursos.devtalles.com/courses/Angular_socket_bun"
+      },
+      {
+        "slug": "angular-pro",
+        "nombre": "Angular PRO: Lleva tus bases al siguiente nivel",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "21.5 horas, 220 lecciones",
+        "requisitos": [
+          "Conocimiento básico de Angular es necesario",
+          "Poder realizar instalaciones como administrador",
+          "Poder subir repositorios a GitHub"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/EWRrDzSVRybXmB6yJMHU_Angular%20pro%20COVER-DEVTALLES-ANGULAR-PRO.jpg",
+        "url": "https://cursos.devtalles.com/courses/angular-pro"
+      },
+      {
+        "slug": "Astro",
+        "nombre": "Astro: El framework para sitios web orientados al contenido",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "25.5 horas, 263 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript es necesario",
+          "Conocimiento básico de maquetación HTML y CSS (recomendado)",
+          "Saber TypeScript no es necesario (pero es de utilidad)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/8b0gaETkTXeL6iB3f1Pn_ASTRO.jpg",
+        "url": "https://cursos.devtalles.com/courses/Astro"
+      }
+    ]
+  },
+  {
+    "id": "node",
+    "nombre": "Ruta de aprendizaje NodeJs",
+    "url": "https://cursos.devtalles.com/pages/programas-node",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 9,
+    "cursos": [
+      {
+        "slug": "javascript-moderno",
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "28.5 horas, 229 lecciones",
+        "requisitos": [
+          "Pueden seguir el curso en Windows, OSX, Linux",
+          "Tener derechos de administrador para instalaciones",
+          "Saber sobre programación básica ayudará mucho"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+        "url": "https://cursos.devtalles.com/courses/javascript-moderno"
+      },
+      {
+        "slug": "nodejs-de-cero-a-experto",
+        "nombre": "Node.JS: De cero a experto",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "37.5 horas, 390 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es altamente recomendado",
+          "No es necesario saber TypeScript pero es útil",
+          "Poder realizar instalaciones en tu equipo",
+          "Es necesario tener bases de programación estructurada"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/w47TVfD0T6OFrOPDxYlQ_NODE%20JS%20DE%20CERO%20A%20EXPERTO.jpg",
+        "url": "https://cursos.devtalles.com/courses/nodejs-de-cero-a-experto"
+      },
+      {
+        "slug": "typescript-guia-completa",
+        "nombre": "TypeScript: Tu completa guía y manual de mano",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8.5 horas, 115 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+          "Conocimiento básico de programación estructurada es recomendado",
+          "Ganas de aprender un nuevo lenguaje basado en tipos",
+          "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/typescript-guia-completa"
+      },
+      {
+        "slug": "node-clean-architecture",
+        "nombre": "Node: Autenticación Rest con Clean Architecture",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "4 horas, 44 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript o TypeScript:",
+          "Entender funciones, clases, módulos y tipado básico.",
+          "Familiaridad con Node.js y Express:",
+          "Haber creado rutas y manejado peticiones HTTP.",
+          "Experiencia básica con bases de datos:",
+          "Conocer conceptos de modelos, esquemas y consultas simples."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/QbFhQhHcRBCapBIpm9nf_NODE-AUTENTICATION-REST.jpg",
+        "url": "https://cursos.devtalles.com/courses/node-clean-architecture"
+      },
+      {
+        "slug": "nest",
+        "nombre": "Nest: Desarrollo backend escalable con Node",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "24.5 horas, 228 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es necesario",
+          "Bases de TypeScript son recomendadas",
+          "Tener una idea general de Node es recomendado",
+          "Tener una idea de programación orientada a objetos es recomendada pero no necesaria"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/T6It7zuNQPWizrBJvbaX_NEST-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/nest"
+      },
+      {
+        "slug": "openai",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "10 horas, 148 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Haber trabajado con React con Hooks",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fc1kmF7dS2SQojvt7q02_OPENAI-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai"
+      },
+      {
+        "slug": "openai-angular-nestjs",
+        "nombre": "OpenAI: Ejercicios y asistentes con Angular + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "11 horas, 154 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Conocer sobre la sintaxis de Angular",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/XUcRyW81RJS3xgf1CRNf_OPENAI-ANGULAR.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai-angular-nestjs"
+      },
+      {
+        "slug": "nest-graphql",
+        "nombre": "nest-graphql",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "18 horas, 164 lecciones",
+        "requisitos": [
+          "Estar familiarizado con Nest (decoradores, clases, módulos)",
+          "No es necesario saber nada sobre GraphQL (esto es cubierto en el curso)",
+          "Conocimiento de JavaScript y TypeScript es recomendado",
+          "Este NO es un curso para aprender Nest puro, es para aprender Nest con GraphQL"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/DYTo4ghhS2c799ZISyNu_NEST-GRAPHQL-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/nest-graphql"
+      },
+      {
+        "slug": "nextjs",
+        "nombre": "Next.js: El framework de React para producción",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "39 horas, 423 lecciones",
+        "requisitos": [
+          "Conocimiento básico de React con Hooks es necesario",
+          "NO es necesario saber TypeScript (pero será útil)",
+          "NO es necesario saber Node (pero será útil)",
+          "NO es necesario saber Next para empezar este curso"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/j1fWunR0QJa9diyy2e1t_NEXT-APP-ROUTER2.jpg",
+        "url": "https://cursos.devtalles.com/courses/nextjs"
+      }
+    ]
+  },
+  {
+    "id": "nest",
+    "nombre": "Ruta de aprendizaje NestJS",
+    "url": "https://cursos.devtalles.com/pages/programas-nest",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 10,
+    "cursos": [
+      {
+        "slug": "javascript-moderno",
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "28.5 horas, 229 lecciones",
+        "requisitos": [
+          "Pueden seguir el curso en Windows, OSX, Linux",
+          "Tener derechos de administrador para instalaciones",
+          "Saber sobre programación básica ayudará mucho"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rfX8tJ4ZRHi6L4WFj2sW_JAVASCRIPT.jpg",
+        "url": "https://cursos.devtalles.com/courses/javascript-moderno"
+      },
+      {
+        "slug": "typescript-guia-completa",
+        "nombre": "TypeScript: Tu completa guía y manual de mano",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8.5 horas, 115 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript: variables, ciclos y funciones",
+          "Conocimiento básico de programación estructurada es recomendado",
+          "Ganas de aprender un nuevo lenguaje basado en tipos",
+          "Posibilidad de instalar programas como administrador en su equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0jbP7pcMSAWjijc04uhG_TYPESCRIPT-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/typescript-guia-completa"
+      },
+      {
+        "slug": "nodejs-de-cero-a-experto",
+        "nombre": "Node.JS: De cero a experto",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "37.5 horas, 390 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es altamente recomendado",
+          "No es necesario saber TypeScript pero es útil",
+          "Poder realizar instalaciones en tu equipo",
+          "Es necesario tener bases de programación estructurada"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/w47TVfD0T6OFrOPDxYlQ_NODE%20JS%20DE%20CERO%20A%20EXPERTO.jpg",
+        "url": "https://cursos.devtalles.com/courses/nodejs-de-cero-a-experto"
+      },
+      {
+        "slug": "nest",
+        "nombre": "Nest: Desarrollo backend escalable con Node",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "24.5 horas, 228 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es necesario",
+          "Bases de TypeScript son recomendadas",
+          "Tener una idea general de Node es recomendado",
+          "Tener una idea de programación orientada a objetos es recomendada pero no necesaria"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/T6It7zuNQPWizrBJvbaX_NEST-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/nest"
+      },
+      {
+        "slug": "NestJS-Testing",
+        "nombre": "NestJS + Testing: Pruebas unitarias y end to end (e2e)",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "12.5 horas, 123 lecciones",
+        "requisitos": [
+          "Conocimiento de NestJS previo es necesario",
+          "No es un curso para aprender NestJS",
+          "Conocer qué es un Restful API sería útil",
+          "No es necesario saber sobre pruebas automáticas o Jest",
+          "Conocimiento de TypeScript sería ideal"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ay0QQ3qaTkiHRwytCLnt_COVER-DEVTALLES-TESTING.jpg",
+        "url": "https://cursos.devtalles.com/courses/NestJS-Testing"
+      },
+      {
+        "slug": "nestjs-reportes",
+        "nombre": "NestJS + Reportes: Genera PDFs desde Node",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "6.5 horas, 83 lecciones",
+        "requisitos": [
+          "Conocimiento básico de Nest es necesario",
+          "Conocimiento básico de JavaScript y TypeScript es recomendado"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/wceGycQdRnSJGdIFdaO3_NEST-JS-REPORTES.jpg",
+        "url": "https://cursos.devtalles.com/courses/nestjs-reportes"
+      },
+      {
+        "slug": "nest-graphql",
+        "nombre": "nest-graphql",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "18 horas, 164 lecciones",
+        "requisitos": [
+          "Estar familiarizado con Nest (decoradores, clases, módulos)",
+          "No es necesario saber nada sobre GraphQL (esto es cubierto en el curso)",
+          "Conocimiento de JavaScript y TypeScript es recomendado",
+          "Este NO es un curso para aprender Nest puro, es para aprender Nest con GraphQL"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/DYTo4ghhS2c799ZISyNu_NEST-GRAPHQL-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/nest-graphql"
+      },
+      {
+        "slug": "openai",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "10 horas, 148 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Haber trabajado con React con Hooks",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fc1kmF7dS2SQojvt7q02_OPENAI-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai"
+      },
+      {
+        "slug": "openai-angular-nestjs",
+        "nombre": "OpenAI: Ejercicios y asistentes con Angular + NestJS",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "11 horas, 154 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Conocer sobre la sintaxis de Angular",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/XUcRyW81RJS3xgf1CRNf_OPENAI-ANGULAR.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai-angular-nestjs"
+      },
+      {
+        "slug": "nestjs-microservicios",
+        "nombre": "NestJS + Microservicios: Aplicaciones escalables y modulares",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "21 horas, 199 lecciones",
+        "requisitos": [
+          "Conocimiento de TypeScript es necesario",
+          "Conocimiento básico de NestJS es requerido",
+          "Es un curso para personas que han creado API Rest anteriormente"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/vOOZ5j1Qta2gvaiOlMqE_MICROSERVICIOS.jpg",
+        "url": "https://cursos.devtalles.com/courses/nestjs-microservicios"
+      }
+    ]
+  },
+  {
+    "id": "dart-movil",
+    "nombre": "Ruta de aprendizaje Dart móvil",
+    "url": "https://cursos.devtalles.com/pages/ruta-dart",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 11,
+    "cursos": [
+      {
+        "slug": "dart-cero-hasta-detalles",
+        "nombre": "Dart: De cero hasta los detalles",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "10 horas, 128 lecciones",
+        "requisitos": [
+          "Conocimiento de programación estructurada es recomendable",
+          "El curso se puede seguir en Windows, Mac OSX o Linux",
+          "Este curso es para aprender Dart, no es para aprender programación."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/zCw5CYnStGlg2IlblHjd_DART-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/dart-cero-hasta-detalles"
+      },
+      {
+        "slug": "flutter-movil-cero-a-experto",
+        "nombre": "Flutter Móvil: De cero a experto",
+        "nivel": "REQUERIDO",
+        "categoria": "MÓVIL",
+        "duracion": "50 horas, 463 lecciones",
+        "requisitos": [
+          "Es necesario tener conceptos de programación estructurada y orientada a objetos",
+          "Si no tienes conocimiento en el requisito anterior, es recomendado mi curso de  programación para principiantes",
+          "Puedes seguir el curso en Windows, Mac o Linux (Instalaciones y configuraciones en Mac y Windows incluídas)",
+          "Revisar los requisitos mínimos de Flutter dependiendo de tu sistema operativo en Flutter-dev"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/61TYzXMSTaKdnKUemoIn_FLUTTER-MOVIL-DE-CERO-A-EXPERTO.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-movil-cero-a-experto"
+      },
+      {
+        "slug": "riverpod-con-anotaciones",
+        "nombre": "Riverpod: Providers con anotaciones",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "2 horas, 22 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de Flutter y Dart:",
+          "Saber construir interfaces, usar widgets y manejar el estado con setState.",
+          "Experiencia inicial con el concepto de providers o manejo de estado:",
+          "Haber trabajado con Provider, Bloc, o alguna solución similar.",
+          "Entorno de desarrollo Flutter funcional:",
+          "Poder correr proyectos localmente y tener acceso a simuladores o dispositivos.",
+          "Conocimientos básicos de programación asíncrona en Dart:",
+          "Uso de Future, async/await, y Stream."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/e2j5kc42TaKb8O9QQDSm_RIVERPOD.jpg",
+        "url": "https://cursos.devtalles.com/courses/riverpod-con-anotaciones"
+      },
+      {
+        "slug": "Flutter-Gemini",
+        "nombre": "Flutter + Gemini: Aplicaciones con inteligencia artificial",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "MÓVIL",
+        "duracion": "8.5 horas, 105 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de Flutter (widgets, navegación, estado).",
+          "Conocimientos básicos de node o APIs es recomendado.",
+          "Tener Flutter instalado y un entorno de desarrollo como VS Code.",
+          "Conocimientos básicos de HTTP y consumo de APIs REST.",
+          "Se recomienda, pero no es obligatorio, experiencia previa trabajando con algún gestor de estado de Flutter."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/dMU9FLDmQETZktVFX7gX_COVER-DEVTALLES3.jpg",
+        "url": "https://cursos.devtalles.com/courses/Flutter-Gemini"
+      },
+      {
+        "slug": "flutter-movil-intermedio",
+        "nombre": "Flutter Móvil: Recursos Nativos - Nivel Intermedio",
+        "nivel": "REQUERIDO",
+        "categoria": "MÓVIL",
+        "duracion": "16 horas, 180 lecciones",
+        "requisitos": [
+          "Conocimiento previo de Flutter es necesario",
+          "Conocimiento previo de Dart es requerido",
+          "Este curso no es ideal para aprender Flutter"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/1KaCF2nnTI2eoV6HYpum_FLUTTER-MOVIL-RECURSOS-NATIVOS.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-movil-intermedio"
+      },
+      {
+        "slug": "flutter-bloc",
+        "nombre": "Mini-curso Flutter BLoC: Exclusivo de DevTalles PRO Mini-curso",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "FRONTEND",
+        "duracion": "3.5 horas, 34 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de Flutter y Dart:",
+          "Saber crear widgets, usar estados, y manejar estructuras comunes.",
+          "Familiaridad con el concepto de manejo de estado:",
+          "Haber usado alguna solución como Provider, Riverpod, o setState de los stateful widgets.",
+          "Instalación funcional de Flutter en tu entorno local:",
+          "Tener acceso al emulador o dispositivo físico para pruebas.",
+          "Conocimientos básicos de programación orientada a objetos:",
+          "Entender clases, constructores y métodos en Dart."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/If0EvY5HQpiOEvnnISAN_FLUTTER-BLOC.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-bloc"
+      },
+      {
+        "slug": "flutter-Intermedio",
+        "nombre": "Flutter Intermedio: Diseños profesionales y animaciones",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "15 horas, 188 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/WFox0um0SWqPahhHvvsg_LEGACY-FLUTTER-INTERMEDIO.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-Intermedio"
+      },
+      {
+        "slug": "flutter-avanzado",
+        "nombre": "Flutter Avanzado: Lleva tu conocimiento al siguiente nivel",
+        "nivel": "REQUERIDO",
+        "categoria": "MÓVIL",
+        "duracion": "34.5 horas, 347 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/txry7kQ0TCViYkwWhMCH_LEGACY-FLUTTER-AVANZADO.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-avanzado"
+      },
+      {
+        "slug": "dart-cero-hasta-detalles",
+        "nombre": "Dart: De cero hasta los detalles",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "10 horas, 128 lecciones",
+        "requisitos": [
+          "Conocimiento de programación estructurada es recomendable",
+          "El curso se puede seguir en Windows, Mac OSX o Linux",
+          "Este curso es para aprender Dart, no es para aprender programación."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/zCw5CYnStGlg2IlblHjd_DART-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/dart-cero-hasta-detalles"
+      },
+      {
+        "slug": "flutter-web",
+        "nombre": "Flutter Web: Aplicaciones y sitios web profesionales",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "20.5 horas, 203 lecciones",
+        "requisitos": [
+          "Conocimiento de Flutter / Dart básico es necesario",
+          "Conocimiento de programación",
+          "Haber usado algún gestor de estados (opcional, pero recomendado)",
+          "Tener privilegios de administrador para realizar instalaciones"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/0rSjGVxiQca8Tezfu4tG_COVER-DEVTALLES-web-legacy.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-web"
+      },
+      {
+        "slug": "flutter-Intermedio",
+        "nombre": "Flutter Intermedio: Diseños profesionales y animaciones",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "15 horas, 188 lecciones",
+        "requisitos": [
+          "No requiere conocimientos previos específicos o no especificado en el portal."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/WFox0um0SWqPahhHvvsg_LEGACY-FLUTTER-INTERMEDIO.jpg",
+        "url": "https://cursos.devtalles.com/courses/flutter-Intermedio"
+      }
+    ]
+  },
+  {
+    "id": "python",
+    "nombre": "Ruta de aprendizaje Python",
+    "url": "https://cursos.devtalles.com/pages/ruta-python",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 5,
+    "cursos": [
+      {
+        "slug": "python",
+        "nombre": "Python: Fundamentos hasta los detalles",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "15.5 horas, 184 lecciones",
+        "requisitos": [
+          "No se necesita experiencia previa en programación.",
+          "Tener una computadora con Windows, macOS o Linux.",
+          "Acceso a internet para instalar Python y un editor de código como VSCode.",
+          "Curiosidad y disposición para resolver problemas prácticos con código."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/gG1fvaYXRNmKMJTaMHYP_PYTHON-COVER%20(1).jpg",
+        "url": "https://cursos.devtalles.com/courses/python"
+      },
+      {
+        "slug": "python-n8n-automatiza-rutinas",
+        "nombre": "Python + n8n: Automatiza rutinas cotidianas",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BASES",
+        "duracion": "9 horas, 90 lecciones",
+        "requisitos": [
+          "Conocimientos de Python a nivel básico o intermedio (requerido)",
+          "Fundamentos de n8n (deseable)",
+          "Conocimientos básicos de FastAPI (opcional)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ZEyBqiQ2S8KjhgvA87t2_PYTHON-N8N.jpg",
+        "url": "https://cursos.devtalles.com/courses/python-n8n-automatiza-rutinas"
+      },
+      {
+        "slug": "fastapi",
+        "nombre": "FastAPI: Crea APIs eficientes con Python",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "36 horas, 336 lecciones",
+        "requisitos": [
+          "Python básico",
+          "SQL Básico",
+          "Control de versiones con Git"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/7yccvWpWRC669uDvMnqd_FASTAPICOVER-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/fastapi"
+      },
+      {
+        "slug": "django",
+        "nombre": "Django: Crea aplicaciones web robustas con Python",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "44 horas, 418 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de Python",
+          "Conocimientos básicos de HTML, CSS y JS",
+          "Conocimientos básicos de SQL (No obligatorio pero deseable)",
+          "Poder realizar instalaciones en el equipo como administrador",
+          "Usar sistema operativo Mac (OSx), Windows o Linux",
+          "Ganas de aprender una tecnología desde cero",
+          "Compromiso para mejorar carrera profesional y hacer los ejercicios, proyectos realizados en el curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/aA89gxXgTQGtRR7YojXB_DJANGO1.jpg",
+        "url": "https://cursos.devtalles.com/courses/django"
+      },
+      {
+        "slug": "python-ia-aplicada",
+        "nombre": "Python: Inteligencia artificial aplicada",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "18.5 horas, 172 lecciones",
+        "requisitos": [
+          "Python Fundamentos (Básico-Intermedio o intermedio)",
+          "Fundamentos de bases de datos.",
+          "Ingeniería de prompts (Deseable, no obligatorio)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/S221KTnsQESSijuA5CPO_COVER-DEVTALLES-python-ia.jpg",
+        "url": "https://cursos.devtalles.com/courses/python-ia-aplicada"
+      }
+    ]
+  },
+  {
+    "id": "java",
+    "nombre": "Ruta de aprendizaje Java",
+    "url": "https://cursos.devtalles.com/pages/ruta-java",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 8,
+    "cursos": [
+      {
+        "slug": "Java",
+        "nombre": "Java: Explora el lenguaje desde cero",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "15 horas, 145 lecciones",
+        "requisitos": [
+          "Solo necesitas una computadora con Windows, macOS o Linux",
+          "Ganas de aprender y de practicar con ejemplos reales",
+          "Acceso a internet para descargar IntelliJ IDEA y el JDK de Java",
+          "Nociones básicas de programación estructurada"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/eGxuDHajSO2qp1HxEbvL_JAVA-COVER3.jpg",
+        "url": "https://cursos.devtalles.com/courses/Java"
+      },
+      {
+        "slug": "java-avanzado",
+        "nombre": "Java avanzado: reactividad, concurrencia y patrones",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "25 horas, 209 lecciones",
+        "requisitos": [
+          "Haber completado un curso inicial de Java o dominar sus fundamentos (POO, colecciones, excepciones)",
+          "Conocimientos básicos de desarrollo con IntelliJ IDEA.",
+          "Diseñado para quienes desean explorar nuevas formas de programar y estructurar sus proyectos",
+          "Acceso a internet para descargar recursos y librerías externas."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/rJCXtKQUQSmgJSQbArul_java-avanzado-devtalles.jpg",
+        "url": "https://cursos.devtalles.com/courses/java-avanzado"
+      },
+      {
+        "slug": "spring-boot",
+        "nombre": "Java: Spring Boot - Guía definitiva",
+        "nivel": "REQUERIDO",
+        "categoria": "BACKEND",
+        "duracion": "35.5 horas, 314 lecciones",
+        "requisitos": [
+          "Idealmente:  conocimientos en Java (nivel inicial y avanzado).",
+          "Mínimo indispensable:  Java inicial y fundamentos de programación funcional.",
+          "De lo contrario, el curso podría resultar muy desafiante.",
+          "¿Aún no dominas Java?",
+          "Te recomendamos seguir nuestra  Ruta de Aprendizaje de Java  antes de avanzar a este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ueDsP3FS6aHlcy3KlSLL_SPRING5.jpg",
+        "url": "https://cursos.devtalles.com/courses/spring-boot"
+      },
+      {
+        "slug": "spring-boot-patrones-arquitectura",
+        "nombre": "Spring Boot 4: Patrones de arquitectura",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "20.5 horas, 180 lecciones",
+        "requisitos": [
+          "Conocimiento en Java y Spring Boot"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/50BIjVSQ6m0KbI6hAzlA_COVER-DEVTALLES2.jpg",
+        "url": "https://cursos.devtalles.com/courses/spring-boot-patrones-arquitectura"
+      },
+      {
+        "slug": "springboot-mvc-hexagonal",
+        "nombre": "Mini-Curso Spring Boot: De MVC a Hexagonal",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "8.5 horas, 75 lecciones",
+        "requisitos": [
+          "Este no es un curso introductorio a Java ni a Spring Boot. Está pensado para desarrolladores que ya cuentan con experiencia previa en desarrollo backend y desean profundizar en arquitectura de software y diseño de proyectos.",
+          "Para aprovechar el curso, es importante que tengas:",
+          "Conocimientos básicos de Java",
+          "Bases sólidas de Programación Orientada a Objetos",
+          "Uso básico de programación funcional (lambdas, streams, Optional)",
+          "Experiencia previa construyendo APIs REST",
+          "Familiaridad con controladores, servicios, DTOs y persistencia",
+          "No es obligatorio que sea con Spring Boot; puede ser con Node.js, NestJS u otro framework backend",
+          "Conocimientos generales de bases de datos",
+          "No es necesario ser experto, pero sí entender qué significa persistir información",
+          "¿Aún no dominas Java?",
+          "Te recomendamos seguir nuestra  Ruta de Aprendizaje de Java  antes de avanzar a este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/onRaVfSdR56WUL2jXpQz_COVER-DEVTALLES-MINI-CURSO-SPRING-BOOT.jpg",
+        "url": "https://cursos.devtalles.com/courses/springboot-mvc-hexagonal"
+      },
+      {
+        "slug": "spring-boot-microservicios",
+        "nombre": "Spring Boot 4: Arquitectura de Microservicios",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "21 horas, 185 lecciones",
+        "requisitos": [
+          "Conocimientos sólidos de Java y POO:  manejo fluido de clases, interfaces, herencia y excepciones.",
+          "Experiencia previa con Spring Boot:  familiaridad con controladores REST, JPA, validaciones y conceptos básicos de Spring Security.",
+          "Docker (no excluyente):  comprensión general de qué es un contenedor, cómo ejecutar una imagen y cómo interpretar un archivo docker-compose.yml.",
+          "SQL y bases de datos relacionales:  conocimiento de tablas, relaciones y consultas básicas."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/eajq3CPwT1ovajpqVu2O_image.png",
+        "url": "https://cursos.devtalles.com/courses/spring-boot-microservicios"
+      },
+      {
+        "slug": "kafka-springboot-event-driven",
+        "nombre": "Kafka y SpringBoot: Arquitectura Event-Driven",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "8 horas, 65 lecciones",
+        "requisitos": [
+          "Disponible al finalizar la construcción de este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/xyGHvSJ3Q4aHtENeJk7H_COVER-DEVTALLES-KAFKA.jpg",
+        "url": "https://cursos.devtalles.com/courses/kafka-springboot-event-driven"
+      },
+      {
+        "slug": "spring-AI",
+        "nombre": "Spring AI: LLMs, Tools, RAG, Agentes y Deploy en AWS",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "18.5 horas, 156 lecciones",
+        "requisitos": [
+          "Haber completado un curso de Java y Java Avanzado o dominar la programación funcional en Java.",
+          "Tener conocimientos previos de Spring Boot."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/is89v3RgS22dqMndJMVZ_COVER-DEVTALLES-SPRING-IA.jpg",
+        "url": "https://cursos.devtalles.com/courses/spring-AI"
+      }
+    ]
+  },
+  {
+    "id": "csharp",
+    "nombre": "Ruta de aprendizaje C#",
+    "url": "https://cursos.devtalles.com/pages/ruta-c",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 4,
+    "cursos": [
+      {
+        "slug": "csharp",
+        "nombre": "C#: Empieza tu camino en el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "11.5 horas, 120 lecciones",
+        "requisitos": [
+          "No se necesita experiencia previa en C#",
+          "Se recomienda una noción básica de programación (variables, condicionales, bucles)",
+          "Tener instalado Visual Studio Code y .NET 8 (el curso guía este proceso)",
+          "Ganas de aprender con ejercicios prácticos y construir proyectos reales"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ZQiNIKAJR4upzwEpMIVt_C-SHARP-COVER%20(1).jpg",
+        "url": "https://cursos.devtalles.com/courses/csharp"
+      },
+      {
+        "slug": "NET-Backend",
+        "nombre": ".NET Backend: .NET Core, SQL Server y seguridad JWT",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "11 horas, 159 lecciones",
+        "requisitos": [
+          "Tener conocimientos básicos de programación (estructuras de control, variables, métodos, clases).",
+          "Haber trabajado previamente con C# o completado un curso introductorio.",
+          "Conocimientos básicos sobre HTTP y JSON.",
+          "Visual Studio Code instalado y configurado con .NET 8.",
+          "Acceso a internet para instalar paquetes NuGet y realizar pruebas con herramientas externas como Postman."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/7c18RVDvTFezQ4VL9JeM_NET-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/NET-Backend"
+      },
+      {
+        "slug": "net-pruebascompletas",
+        "nombre": ".NET: Pruebas completas para minimal API",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "6 horas, 98 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de C# y .NET, no es necesario ser experto.",
+          "Nociones básicas de programación, como variables, condicionales y bucles.",
+          "Tener instalado Visual Studio Code y .NET 8, el curso guía paso a paso todo el proceso de configuración.",
+          "Interés en aprender pruebas automatizadas y buenas prácticas, con disposición para practicar y aplicar los conceptos en ejemplos reales."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/h80J6Pb5SHeRvZM6pdz5_NET-PRUEBAS-MINIMAL-API.jpg",
+        "url": "https://cursos.devtalles.com/courses/net-pruebascompletas"
+      },
+      {
+        "slug": "netfullstack",
+        "nombre": ".NET Fullstack: Arquitectura Limpia al Frontend y Blazor",
+        "nivel": "RECOMENDADO",
+        "categoria": "FULLSTACK",
+        "duracion": "14 horas, 183 lecciones",
+        "requisitos": [
+          "Necesitas dominio de los fundamentos de C#",
+          "Haber completado nuestros cursos introductorios de  C#  y  .NET Backend  te dará la base ideal para avanzar de forma más cómoda y aprovechar al máximo este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/LcwHwtf1Q0WlRGiv9VY3_COVER-DEVTALLES%20(1).jpg",
+        "url": "https://cursos.devtalles.com/courses/netfullstack"
+      }
+    ]
+  },
+  {
+    "id": "ia-automatizaciones",
+    "nombre": "Ruta de aprendizaje IA/Automatizaciones",
+    "url": "https://cursos.devtalles.com/pages/ruta-ia",
+    "niveles_disponibles": [
+      "REQUERIDO",
+      "RECOMENDADO",
+      "OPCIONAL PERO MUY ÚTIL"
+    ],
+    "total_cursos": 20,
+    "cursos": [
+      {
+        "slug": "n8n-mcp",
+        "nombre": "n8n + MCP: Automatización y agentes de IA inteligentes",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "17.5 horas, 230 lecciones",
+        "requisitos": [
+          "No se necesita experiencia previa en automatización o IA, el curso comienza desde lo básico y avanza paso a paso.",
+          "Conocimientos básicos de informática y manejo de aplicaciones en la web son recomendables, pero no obligatorios.",
+          "Contar con un ordenador e internet estable para instalar n8n localmente o trabajar en su versión web."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/V4CDk5iUSKCh2Xw4MfX2_COVER-DEVTALLES-n8n-2.jpg",
+        "url": "https://cursos.devtalles.com/courses/n8n-mcp"
+      },
+      {
+        "slug": "programacion-para-principiantes",
+        "nombre": "Programación para principiantes: Primeros pasos",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "8 horas, 99 lecciones",
+        "requisitos": [
+          "Debes poder realizar instalaciones en el equipo",
+          "Para seguir el curso, pueden hacerlo en Windows, OSX o Linux",
+          "Ganas de aprender a programar"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/slRm7OvQRZySnHeaaw0w_PROGRAMACION%20PARA%20PRINCIPIANTES.jpg",
+        "url": "https://cursos.devtalles.com/courses/programacion-para-principiantes"
+      },
+      {
+        "slug": "Ingenier%C3%ADa-de-prompts",
+        "nombre": "Ingeniería de prompts: Para la vida real",
+        "nivel": "REQUERIDO",
+        "categoria": "BASES",
+        "duracion": "2.5 horas, 42 lecciones",
+        "requisitos": [
+          "No se necesita experiencia previa. Solo necesitas curiosidad y ganas de aprender a trabajar mejor con la IA.",
+          "No se requiere experiencia en programación ni conocimientos técnicos.",
+          "Este curso fue diseñado desde cero para que cualquier persona."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/p5tNOanKQAeu2lWSccuA_COVER-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/Ingenier%C3%ADa-de-prompts"
+      },
+      {
+        "slug": "patrones-diseno-agentico",
+        "nombre": "Patrones de diseño agéntico: Respuestas efectivas a desafíos",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "7 horas, 86 lecciones",
+        "requisitos": [
+          "Disponible al finalizar la construcción de este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/mDz0zDr2Q6k0W6NNK5qY_COVER-DEVTALLES-PATRONES-AGENTICOS.jpg",
+        "url": "https://cursos.devtalles.com/courses/patrones-diseno-agentico"
+      },
+      {
+        "slug": "vibe-coding",
+        "nombre": "Vibe Coding: De forma responsable",
+        "nivel": "REQUERIDO",
+        "categoria": "FRONTEND",
+        "duracion": "4.5 horas, 63 lecciones",
+        "requisitos": [
+          "Opcional - Tener conocimientos básicos de programación y comprensión general de cómo funciona una aplicación web.",
+          "Poder realizar instalaciones en el equipo"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/QerNZaF2SpWnZLFLnxvR_VIBE%20CODING%20COVER%20DEVTALLES.png",
+        "url": "https://cursos.devtalles.com/courses/vibe-coding"
+      },
+      {
+        "slug": "nodejs-de-cero-a-experto",
+        "nombre": "Node.Js: De cero a experto",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "37.5 horas, 390 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es altamente recomendado",
+          "No es necesario saber TypeScript pero es útil",
+          "Poder realizar instalaciones en tu equipo",
+          "Es necesario tener bases de programación estructurada"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/w47TVfD0T6OFrOPDxYlQ_NODE%20JS%20DE%20CERO%20A%20EXPERTO.jpg",
+        "url": "https://cursos.devtalles.com/courses/nodejs-de-cero-a-experto"
+      },
+      {
+        "slug": "docker-guia-practica",
+        "nombre": "Docker: Guía práctica de uso para desarrolladores<br>",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BASES",
+        "duracion": "14 horas, 134 lecciones",
+        "requisitos": [
+          "Poder realizar instalaciones como administrador",
+          "Una computadora PC, Mac o Linux con los requisitos mínimos para correr Docker (revisar sitio web para confirmar)",
+          "Saber comandos básicos de consola o terminal es recomendado (no obligatorio)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/MtehrUISVW8hP7CfCWV1_DOCKER.jpg",
+        "url": "https://cursos.devtalles.com/courses/docker-guia-practica"
+      },
+      {
+        "slug": "claude-code-guia-completa",
+        "nombre": "Claude Code: Guía completa para desarrolladores de software",
+        "nivel": "RECOMENDADO",
+        "categoria": "AGENTES IA",
+        "duracion": "17.5 horas, 187 lecciones",
+        "requisitos": [
+          "Experiencia básica de programación (no hace falta ser experto).",
+          "Una suscripción a Claude Code para seguir las prácticas paso a paso. (Se enseña Ollama para seguir el curso gratis en su mayoría)",
+          "Conocimientos básicos de Git y línea de comandos son recomendables pero no obligatorios."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/hWQRull4RXmytJSqs3e4_COVER-DEVTALLES-CLAUDE-CODE.jpg",
+        "url": "https://cursos.devtalles.com/courses/claude-code-guia-completa"
+      },
+      {
+        "slug": "open-code-guia-completa",
+        "nombre": "OpenCode: Guía completa para desarrolladores de software",
+        "nivel": "REQUERIDO",
+        "categoria": "AGENTES IA",
+        "duracion": "14 horas, 153 lecciones",
+        "requisitos": [
+          "Poder realizar instalaciones en el equipo (Node, Bun, entre otras por ejemplo)",
+          "Cuenta gratuita en GitHub para seguir los ejercicios prácticos con repositorios reales.",
+          "Opcional  - Conocimientos básicos de JavaScript/TypeScript y desarrollo web (no se requiere experiencia previa con IA).",
+          "Opcional  - Manejo básico de la terminal y comandos de Git."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/5VQqSJ32SE6MgrM6fHPv_COVER-DEVTALLES-OPENCODE.jpg",
+        "url": "https://cursos.devtalles.com/courses/open-code-guia-completa"
+      },
+      {
+        "slug": "codex",
+        "nombre": "Codex: agentes, skills, MCP y Spec-Driven Development",
+        "nivel": "REQUERIDO",
+        "categoria": "AGENTES IA",
+        "duracion": "3.5 horas, 41 lecciones",
+        "requisitos": [
+          "Disponible al finalizar la construcción de este curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/8LTIQYbaRdCgulN394T7_COVER-DEVTALLES-CODEX.jpg",
+        "url": "https://cursos.devtalles.com/courses/codex"
+      },
+      {
+        "slug": "ia-para-developers",
+        "nombre": "IA para Developers: Claude API, RAG y Agentes con Node<br>",
+        "nivel": "RECOMENDADO",
+        "categoria": "AGENTES IA",
+        "duracion": "8 horas, 114 lecciones",
+        "requisitos": [
+          "Programación para principiantes - Primeros pasos.",
+          "TypeScript: Tu completa guía y manual de mano.",
+          "Ingeniería de prompts: Para la vida real (Opcional)."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/GqifE6ONSsOHYhVpNPRS_COVER-DEVTALLES.jpg",
+        "url": "https://cursos.devtalles.com/courses/ia-para-developers"
+      },
+      {
+        "slug": "sql-con-postgres",
+        "nombre": "SQL de cero: Tu guía práctica con PostgreSQL",
+        "nivel": "OPCIONAL PERO MUY ÚTIL",
+        "categoria": "BACKEND",
+        "duracion": "16 horas, 184 lecciones",
+        "requisitos": [
+          "Tener conocimiento de programación estructurada será útil en la parte de PL/pgSQL.",
+          "Conocimiento de Docker será útil, pero no es necesario.",
+          "Poder realizar instalaciones en el equipo es necesario."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/k6V4tlGTXmUQS8CGxGID_SQL.jpg",
+        "url": "https://cursos.devtalles.com/courses/sql-con-postgres"
+      },
+      {
+        "slug": "nest",
+        "nombre": "Nest: Desarrollo backend escalable con Node<br>",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "24.5 horas, 228 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript es necesario",
+          "Bases de TypeScript son recomendadas",
+          "Tener una idea general de Node es recomendado",
+          "Tener una idea de programación orientada a objetos es recomendada pero no necesaria"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/T6It7zuNQPWizrBJvbaX_NEST-NEW.jpg",
+        "url": "https://cursos.devtalles.com/courses/nest"
+      },
+      {
+        "slug": "angular-moderno",
+        "nombre": "Angular: De cero a experto",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "33.5 horas, 347 lecciones",
+        "requisitos": [
+          "Saber JavaScript básico",
+          "Conocimiento básico de programación",
+          "No es necesario saber TypeScript pero ayudaría",
+          "No es necesario conocimiento alguno de Angular u otras versiones"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/LeaTjvBRI6cldshD59jw_angular-de-cero.jpg",
+        "url": "https://cursos.devtalles.com/courses/angular-moderno"
+      },
+      {
+        "slug": "react-de-cero",
+        "nombre": "React: de cero a experto",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "46 horas, 452 lecciones",
+        "requisitos": [
+          "Conocimiento básico de JavaScript es necesario",
+          "Conocimiento básico de programación es necesario",
+          "Poder realizar instalaciones en el equipo como administrador",
+          "Pueden seguir el curso en OSX (Mac), Windows o Linux",
+          "Estar dispuesto a realizar las tareas y ejercicios adicionales"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/TTTUJiUVTvGC5cy5Z3UW_COVER-DEVTALLES-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/react-de-cero"
+      },
+      {
+        "slug": "vue-cero-a-experto",
+        "nombre": "Vue.js - de Cero a Experto: Composition Api<br>",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "37.5 horas, 340 lecciones",
+        "requisitos": [
+          "Conocimiento de programación básica",
+          "Conocimiento de JavaScript básico",
+          "Poder realizar instalaciones en el equipo",
+          "El curso se puede seguir en Window, Linux o Mac OSx",
+          "Conocimiento de TypeScript es opcional pero recomendado"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fGtdD0wpSv2VEXdrM6vn_VUE-COMPOSITION-API.jpg",
+        "url": "https://cursos.devtalles.com/courses/vue-cero-a-experto"
+      },
+      {
+        "slug": "openai-angular-nestjs",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con Angular + NestJS",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "11 horas, 154 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Conocer sobre la sintaxis de Angular",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/XUcRyW81RJS3xgf1CRNf_OPENAI-ANGULAR.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai-angular-nestjs"
+      },
+      {
+        "slug": "openai",
+        "nombre": "OpenAI: Ejercicios prácticos y asistentes con React + NestJS",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "10 horas, 148 lecciones",
+        "requisitos": [
+          "Conocimiento de JavaScript",
+          "Saber TypeScript es opcional, pero recomendado",
+          "Conocimiento básico de Node",
+          "Conocimiento de Nest es recomendado pero no obligatorio",
+          "Haber trabajado con React con Hooks",
+          "Nota de actualización - 12 de agosto de 2025:",
+          "Debido a cambios recientes en las políticas de OpenAI, posteriores a la grabación de las clases de este curso, es importante que tengan en cuenta lo siguiente:",
+          "Para  poder trabajar con su API, ahora es necesario que tu cuenta tenga un consumo mínimo equivalente a 5 USD. El crédito gratuito que antes se otorgaba a nuevos usuarios fue discontinuado desde el año 2024.",
+          "Alternativas disponibles:",
+          "Gemini flash:  es gratis y fácil de configurar.",
+          "Modelos locales:  instalados directamente en el equipo, pero solo lo recomendamos para usuarios avanzados.",
+          "Les mantendremos informados en caso de que esta situación cambie nuevamente. Cualquier duda al respecto, les invitamos a dejarla en el panel de consultas para que podamos asistirles con este cambio.",
+          "Atentamente,",
+          "El equipo de DevTalles"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/fc1kmF7dS2SQojvt7q02_OPENAI-REACT.jpg",
+        "url": "https://cursos.devtalles.com/courses/openai"
+      },
+      {
+        "slug": "Flutter-Gemini",
+        "nombre": "Flutter + Gemini: Aplicaciones con inteligencia artificial",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "8.5 horas, 105 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de Flutter (widgets, navegación, estado).",
+          "Conocimientos básicos de node o APIs es recomendado.",
+          "Tener Flutter instalado y un entorno de desarrollo como VS Code.",
+          "Conocimientos básicos de HTTP y consumo de APIs REST.",
+          "Se recomienda, pero no es obligatorio, experiencia previa trabajando con algún gestor de estado de Flutter."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/dMU9FLDmQETZktVFX7gX_COVER-DEVTALLES3.jpg",
+        "url": "https://cursos.devtalles.com/courses/Flutter-Gemini"
+      },
+      {
+        "slug": "expo-gemini",
+        "nombre": "Expo + Gemini: Aplicaciones con inteligencia artificial",
+        "nivel": "RECOMENDADO",
+        "categoria": "FRONTEND",
+        "duracion": "7 horas, 95 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de JavaScript o TypeScript.",
+          "Experiencia previa con React Native o React.",
+          "Tener los simuladores un un dispositivo físico para probar la aplicación."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/hVinmMVNQq6v8R7Was0K_COVER-DEVTALLES2.jpg",
+        "url": "https://cursos.devtalles.com/courses/expo-gemini"
+      }
+    ]
+  },
+  {
+    "id": "php",
+    "nombre": "Ruta de aprendizaje PHP",
+    "url": "https://cursos.devtalles.com/pages/ruta-php",
+    "niveles_disponibles": [
+      "REQUERIDO"
+    ],
+    "total_cursos": 2,
+    "cursos": [
+      {
+        "slug": "PHP-moderno",
+        "nombre": "PHP moderno: Empieza tu camino en el lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "10 horas, 131 lecciones",
+        "requisitos": [
+          "Programación para principiantes primeros pasos (opcional)",
+          "No se requiere experiencia previa en PHP; aprenderás el lenguaje paso a paso desde los fundamentos.",
+          "Conocimientos básicos de programación o lógica de programación serán útiles, pero no obligatorios.",
+          "Tener instalado un editor de código, preferiblemente  Visual Studio Code.",
+          "Ganas de aprender y practicar escribiendo código durante el curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/eQFwBD7MQhivG5bVLTx1_php.png",
+        "url": "https://cursos.devtalles.com/courses/PHP-moderno"
+      },
+      {
+        "slug": "laravel-ai",
+        "nombre": "Laravel 13: AI, REST, JWT, Repository Pattern",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "13.5 horas, 160 lecciones",
+        "requisitos": [
+          "Conocimientos básicos de programación o lógica de programación serán útiles.",
+          "Experiencia previa en PHP; aprenderás el uso de Laravel no acerca del lenguaje PHP.",
+          "Tener instalado un editor de código, preferiblemente Visual Studio Code.",
+          "Ganas de aprender y practicar escribiendo código durante el curso."
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/A9hqhmn1Qm6aYwAJAoL9_COVER-DEVTALLES%20LARAVEL.jpg",
+        "url": "https://cursos.devtalles.com/courses/laravel-ai"
+      }
+    ]
+  },
+  {
+    "id": "go",
+    "nombre": "Ruta de aprendizaje GO",
+    "url": "https://cursos.devtalles.com/pages/ruta-go",
+    "niveles_disponibles": [
+      "REQUERIDO"
+    ],
+    "total_cursos": 2,
+    "cursos": [
+      {
+        "slug": "golang-fundamentos-lenguaje",
+        "nombre": "GoLang: Fundamentos del lenguaje",
+        "nivel": "RECOMENDADO",
+        "categoria": "BASES",
+        "duracion": "23 horas, 221 lecciones",
+        "requisitos": [
+          "Tener conocimientos de programación básica",
+          "Conocer al menos un lenguaje de programación aunque no se domine el lenguaje (opcional pero útil)",
+          "Git y GitHub"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/Jp4CugOyRxOPbI0IERhE_COVER_DEVTALLES_GO.png",
+        "url": "https://cursos.devtalles.com/courses/golang-fundamentos-lenguaje"
+      },
+      {
+        "slug": "golang-backend-profesional",
+        "nombre": "Golang: Backend Profesional",
+        "nivel": "RECOMENDADO",
+        "categoria": "BACKEND",
+        "duracion": "25.5 horas, 256 lecciones",
+        "requisitos": [
+          "Fundamentos de Golang, si aun no tienes esta base, te invitamos a que tomes el curso   Golang: fundamentos del leguaje",
+          "Bases de datos estructuradas",
+          "Conocimiento en SQL",
+          "Git y Github",
+          "PostgreSQL (deseable)"
+        ],
+        "caratula": "https://import.cdn.thinkific.com/643563/ChXFDCgeRKjOyfa2ppDQ_COVER-DEVTALLES-GO-BACKEND.jpg",
+        "url": "https://cursos.devtalles.com/courses/golang-backend-profesional"
+      }
+    ]
+  }
+]
