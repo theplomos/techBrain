@@ -1,6 +1,6 @@
 # SPEC 02 — Correcciones de las Fundaciones
 
-> **Estado:** aproved
+> **Estado:** implemented
 > **Depende de:** SPEC 01
 > **Fecha:** 2026-09-20
 > **Objetivo:** Corregir en `feature/fundaciones` los 6 fallos de layout y accesibilidad que la revisión de código encontró en la Etapa 1, con un test de regresión por fallo.

@@ -382,6 +382,14 @@ abstract final class Breakpoints {
   - Se enfocan con Tab y se activan con Enter o Espacio.
   - Anillo de foco de 2 px en `accentLavender`.
 
+  > **Nota de estado (20 sep 2026).** La implementación de esta etapa dejó estos
+  > dos últimos puntos sin cumplir: el `ExcludeSemantics` borraba la acción de
+  > activación de las pestañas y el anillo salía de `InkWell.focusColor`, que se
+  > pinta por debajo del vidrio de la barra. Los cierra la
+  > [SPEC 02](02-correcciones-fundaciones.md), que añade `onTap` al `Semantics`
+  > exterior y pinta el anillo con `foregroundDecoration` y el token `AppFocus`.
+  > El mismo anillo se extiende a `PillButton` y a `GlassContainer`.
+
 ### Pantallas provisionales
 
 | Pantalla | Archivo | Contenido |
@@ -540,7 +548,7 @@ Se elimina en la Etapa 4.
 - [ ] Un test comprueba que al pulsar "Explorar" en la barra inferior se muestra `ExploreScreen`.
 - [ ] Un test a 360 px no registra excepciones de overflow (`tester.takeException()` es null).
 - [ ] Un test comprueba que cada pestaña de navegación y cada `PillButton` miden al menos 44 × 44 px.
-- [ ] En Chrome, la tecla Tab recorre las 4 pestañas con un anillo de foco visible, y Enter navega a la pestaña enfocada.
+- [ ] En Chrome, la tecla Tab recorre las 4 pestañas con un anillo de foco visible, y Enter navega a la pestaña enfocada. — *No se cumplió en esta etapa; lo cierra la [SPEC 02](02-correcciones-fundaciones.md).*
 
 **Tema y widgets**
 
