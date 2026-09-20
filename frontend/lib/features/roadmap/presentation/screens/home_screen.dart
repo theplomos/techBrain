@@ -17,7 +17,12 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      padding: const EdgeInsets.symmetric(vertical: 24.0),
+      // El hueco de las barras lo deja el Scaffold en MediaQuery.padding:
+      // arriba el alto de AppTopNavBar y abajo el de la barra flotante con su
+      // área segura. Sumarlo evita escribir esos números a mano.
+      padding:
+          MediaQuery.paddingOf(context) +
+          const EdgeInsets.symmetric(vertical: 24.0),
       children: <Widget>[
         const ComingSoonView(title: 'Home', stage: 4),
         const SizedBox(height: 32.0),
@@ -61,8 +66,6 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
-        // Deja sitio para la barra inferior flotante.
-        const SizedBox(height: 96.0),
       ],
     );
   }
