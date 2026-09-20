@@ -1,11 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:techbrain/config/theme/app_colors.dart';
+import 'package:techbrain/config/theme/app_tokens.dart';
 import 'package:techbrain/config/theme/app_typography.dart';
 import 'package:techbrain/shared/widgets/pill_button.dart';
 
 Widget _host(Widget child) => MaterialApp(
   home: Scaffold(body: Center(child: child)),
 );
+
+/// Decoración frontal del botón: es donde vive el anillo de foco.
+BoxDecoration? _ring(WidgetTester tester) {
+  final AnimatedContainer button = tester.widget<AnimatedContainer>(
+    find.descendant(
+      of: find.byType(PillButton),
+      matching: find.byType(AnimatedContainer),
+    ),
+  );
+  return button.foregroundDecoration as BoxDecoration?;
+}
 
 void main() {
   testWidgets('escribe la etiqueta en mayúsculas', (tester) async {
@@ -69,6 +84,36 @@ void main() {
     expect(size.height, greaterThanOrEqualTo(44.0));
   });
 
+  testWidgets('con el foco pinta el anillo de 2 px en accentLavender', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      _host(PillButton(label: 'Guardar', onPressed: () {})),
+    );
+
+    expect(_ring(tester), isNull);
+
+    await tester.sendKeyEvent(LogicalKeyboardKey.tab);
+    await tester.pumpAndSettle();
+
+    final BoxDecoration? ring = _ring(tester);
+    expect(ring, isNotNull);
+    expect((ring!.border! as Border).top.color, AppColors.accentLavender);
+    expect((ring.border! as Border).top.width, AppFocus.ringWidth);
+    expect(ring.borderRadius, BorderRadius.circular(AppRadii.pill));
+  });
+
+  testWidgets('deshabilitado no recibe el anillo de foco', (tester) async {
+    await tester.pumpWidget(
+      _host(const PillButton(label: 'Inactivo', onPressed: null)),
+    );
+
+    await tester.sendKeyEvent(LogicalKeyboardKey.tab);
+    await tester.pumpAndSettle();
+
+    expect(_ring(tester), isNull);
+  });
+
   testWidgets('la variante vivid usa su propio estilo de texto', (
     tester,
   ) async {
@@ -123,6 +168,39 @@ void main() {
     );
 
     expect(find.byIcon(Icons.home_rounded), findsOneWidget);
+  });
+
+  testWidgets('expone SemanticsAction.tap e invocarla llama a onPressed', (
+    tester,
+  ) async {
+    final handle = tester.ensureSemantics();
+    var presses = 0;
+    await tester.pumpWidget(
+      _host(PillButton(label: 'Guardar', onPressed: () => presses++)),
+    );
+
+    final SemanticsNode node = tester.getSemantics(find.byType(PillButton));
+    expect(node.getSemanticsData().hasAction(SemanticsAction.tap), isTrue);
+
+    tester.semantics.performAction(
+      find.semantics.byLabel('GUARDAR'),
+      SemanticsAction.tap,
+    );
+    await tester.pump();
+
+    expect(presses, 1);
+    handle.dispose();
+  });
+
+  testWidgets('deshabilitado no expone SemanticsAction.tap', (tester) async {
+    final handle = tester.ensureSemantics();
+    await tester.pumpWidget(
+      _host(const PillButton(label: 'Inactivo', onPressed: null)),
+    );
+
+    final SemanticsNode node = tester.getSemantics(find.byType(PillButton));
+    expect(node.getSemanticsData().hasAction(SemanticsAction.tap), isFalse);
+    handle.dispose();
   });
 
   testWidgets('se anuncia como botón con su etiqueta', (tester) async {

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:techbrain/app.dart';
 import 'package:techbrain/config/theme/app_colors.dart';
+import 'package:techbrain/config/theme/app_tokens.dart';
 import 'package:techbrain/features/catalog/presentation/screens/explore_screen.dart';
 import 'package:techbrain/features/quiz/presentation/screens/quiz_screen.dart';
 import 'package:techbrain/features/roadmap/presentation/screens/home_screen.dart';
@@ -19,6 +21,28 @@ Future<void> pumpAppAt(WidgetTester tester, Size size) async {
 
   await tester.pumpWidget(const ProviderScope(child: TechBrainApp()));
   await tester.pumpAndSettle();
+}
+
+/// Enfoca la pestaña [label] de la barra [bar] como lo haría el tabulador.
+Future<void> focusTab(WidgetTester tester, Finder bar, String label) async {
+  final BuildContext context = tester.element(
+    find.descendant(of: bar, matching: find.text(label)),
+  );
+  Focus.of(context).requestFocus();
+  await tester.pumpAndSettle();
+}
+
+/// Decoración frontal de la pestaña [label]: es donde vive el anillo de foco.
+BoxDecoration? tabRing(WidgetTester tester, Finder bar, String label) {
+  final Container box = tester.widget<Container>(
+    find
+        .ancestor(
+          of: find.descendant(of: bar, matching: find.text(label)),
+          matching: find.byType(Container),
+        )
+        .first,
+  );
+  return box.foregroundDecoration as BoxDecoration?;
 }
 
 void main() {
@@ -71,6 +95,31 @@ void main() {
     expect(find.byType(HomeScreen), findsNothing);
   });
 
+  testWidgets('la acción semántica de Explorar navega en la barra inferior', (
+    tester,
+  ) async {
+    final handle = tester.ensureSemantics();
+    await pumpAppAt(tester, const Size(390, 844));
+
+    final SemanticsNode node = tester.getSemantics(
+      find.descendant(
+        of: find.byType(AppBottomNavBar),
+        matching: find.text('Explorar'),
+      ),
+    );
+    expect(node.getSemanticsData().hasAction(SemanticsAction.tap), isTrue);
+
+    tester.semantics.performAction(
+      find.semantics.byLabel('Explorar'),
+      SemanticsAction.tap,
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.byType(ExploreScreen), findsOneWidget);
+    expect(find.byType(HomeScreen), findsNothing);
+    handle.dispose();
+  });
+
   testWidgets('cada pestaña cumple el área táctil de 44 x 44 px', (
     tester,
   ) async {
@@ -96,6 +145,22 @@ void main() {
       expect(size.height, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
       expect(size.width, greaterThanOrEqualTo(44.0), reason: 'pestaña $label');
     }
+  });
+
+  testWidgets('la pestaña enfocada de la barra inferior pinta el anillo', (
+    tester,
+  ) async {
+    await pumpAppAt(tester, const Size(390, 844));
+    final Finder bar = find.byType(AppBottomNavBar);
+
+    expect(tabRing(tester, bar, 'Explorar'), isNull);
+
+    await focusTab(tester, bar, 'Explorar');
+
+    final BoxDecoration? ring = tabRing(tester, bar, 'Explorar');
+    expect(ring, isNotNull);
+    expect((ring!.border! as Border).top.color, AppColors.accentLavender);
+    expect((ring.border! as Border).top.width, AppFocus.ringWidth);
   });
 
   testWidgets('a 360 px no hay desbordes', (tester) async {
@@ -142,6 +207,47 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(QuizScreen), findsOneWidget);
+  });
+
+  testWidgets('la acción semántica de Explorar navega en la barra superior', (
+    tester,
+  ) async {
+    final handle = tester.ensureSemantics();
+    await pumpAppAt(tester, const Size(1280, 800));
+
+    final SemanticsNode node = tester.getSemantics(
+      find.descendant(
+        of: find.byType(AppTopNavBar),
+        matching: find.text('Explorar'),
+      ),
+    );
+    expect(node.getSemanticsData().hasAction(SemanticsAction.tap), isTrue);
+
+    tester.semantics.performAction(
+      find.semantics.byLabel('Explorar'),
+      SemanticsAction.tap,
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.byType(ExploreScreen), findsOneWidget);
+    expect(find.byType(HomeScreen), findsNothing);
+    handle.dispose();
+  });
+
+  testWidgets('la pestaña enfocada de la barra superior pinta el anillo', (
+    tester,
+  ) async {
+    await pumpAppAt(tester, const Size(1280, 800));
+    final Finder bar = find.byType(AppTopNavBar);
+
+    expect(tabRing(tester, bar, 'Explorar'), isNull);
+
+    await focusTab(tester, bar, 'Explorar');
+
+    final BoxDecoration? ring = tabRing(tester, bar, 'Explorar');
+    expect(ring, isNotNull);
+    expect((ring!.border! as Border).top.color, AppColors.accentLavender);
+    expect((ring.border! as Border).top.width, AppFocus.ringWidth);
   });
 
   testWidgets(

@@ -115,6 +115,15 @@ class _PillButtonState extends State<PillButton> {
       constraints: const BoxConstraints(minHeight: 44.0, minWidth: 44.0),
       padding: const EdgeInsets.symmetric(horizontal: 28.0, vertical: 13.0),
       decoration: _decoration,
+      foregroundDecoration: _enabled && _focused
+          ? BoxDecoration(
+              borderRadius: BorderRadius.circular(AppRadii.pill),
+              border: Border.all(
+                color: AppFocus.ringColor,
+                width: AppFocus.ringWidth,
+              ),
+            )
+          : null,
       child: content,
     );
 
@@ -129,9 +138,13 @@ class _PillButtonState extends State<PillButton> {
 
     final VoidCallback onPressed = widget.onPressed!;
 
+    // El ExcludeSemantics evita que el InkWell y el GestureDetector dupliquen
+    // nodos, pero también borra su acción de activación: el Semantics exterior
+    // la repone con onTap (RNF-11).
     return Semantics(
       label: label,
       button: true,
+      onTap: onPressed,
       child: ExcludeSemantics(
         child: FocusableActionDetector(
           mouseCursor: SystemMouseCursors.click,
