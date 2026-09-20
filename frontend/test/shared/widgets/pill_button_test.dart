@@ -55,6 +55,20 @@ void main() {
     expect(size.width, greaterThanOrEqualTo(44.0));
   });
 
+  testWidgets('se ajusta a su contenido y no ocupa todo el ancho', (
+    tester,
+  ) async {
+    // El host es un Center sobre la superficie de 800 px de los tests: si el
+    // botón se estirase al ancho acotado mediría los 800 px enteros.
+    await tester.pumpWidget(
+      _host(PillButton(label: 'Primario', onPressed: () {})),
+    );
+
+    final Size size = tester.getSize(find.byType(PillButton));
+    expect(size.width, lessThan(300.0));
+    expect(size.height, greaterThanOrEqualTo(44.0));
+  });
+
   testWidgets('la variante vivid usa su propio estilo de texto', (
     tester,
   ) async {

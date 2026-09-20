@@ -74,6 +74,15 @@ class _GlassContainerState extends State<GlassContainer> {
         ),
         boxShadow: _highlighted ? AppShadows.glowLg : AppShadows.glowSm,
       ),
+      foregroundDecoration: _focused
+          ? BoxDecoration(
+              borderRadius: radius,
+              border: Border.all(
+                color: AppFocus.ringColor,
+                width: AppFocus.ringWidth,
+              ),
+            )
+          : null,
       child: widget.child,
     );
 

@@ -114,7 +114,6 @@ class _PillButtonState extends State<PillButton> {
       ),
       constraints: const BoxConstraints(minHeight: 44.0, minWidth: 44.0),
       padding: const EdgeInsets.symmetric(horizontal: 28.0, vertical: 13.0),
-      alignment: Alignment.center,
       decoration: _decoration,
       child: content,
     );
@@ -157,7 +156,7 @@ class _PillButtonState extends State<PillButton> {
           child: GestureDetector(
             behavior: HitTestBehavior.opaque,
             onTap: onPressed,
-            child: Opacity(opacity: 1.0, child: button),
+            child: button,
           ),
         ),
       ),

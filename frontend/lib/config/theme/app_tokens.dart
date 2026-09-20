@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app_colors.dart';
+
 /// Radios de esquina.
 abstract final class AppRadii {
   /// Tarjetas glass (RNF-03).
@@ -63,6 +65,16 @@ abstract final class AppShadows {
 abstract final class AppMotion {
   static const Duration hover = Duration(milliseconds: 200);
   static const Curve hoverCurve = Cubic(0.16, 1, 0.3, 1);
+}
+
+/// Anillo de foco común a todos los controles enfocables (RNF-11).
+///
+/// Se pinta siempre con `foregroundDecoration`, nunca con `border`: así el
+/// control no cambia de tamaño al enfocarlo y no desplaza el layout. El radio
+/// del anillo es el del control que lo lleva.
+abstract final class AppFocus {
+  static const double ringWidth = 2.0;
+  static const Color ringColor = AppColors.accentLavender;
 }
 
 /// Intensidad de los desenfoques.
