@@ -27,10 +27,17 @@ GoRouter appRouter(Ref ref) {
     initialLocation: AppRoutes.home,
     redirect: (BuildContext context, GoRouterState state) =>
         state.uri.path == '/' ? AppRoutes.home : null,
-    errorBuilder: (BuildContext context, GoRouterState state) => ErrorView(
-      error: const NotFoundFailure(),
-      onRetry: () => context.go(AppRoutes.home),
-      retryLabel: 'Ir a Home',
+    // El Scaffold aporta el Material que falta fuera del shell: sin él, los
+    // textos heredan el estilo de error de MaterialApp (doble subrayado).
+    errorBuilder: (BuildContext context, GoRouterState state) => Scaffold(
+      backgroundColor: Colors.transparent,
+      body: SafeArea(
+        child: ErrorView(
+          error: const NotFoundFailure(),
+          onRetry: () => context.go(AppRoutes.home),
+          retryLabel: 'Ir a Home',
+        ),
+      ),
     ),
     routes: <RouteBase>[
       GoRoute(

@@ -61,6 +61,23 @@ void main() {
     expect(find.text('IR A HOME'), findsOneWidget);
   });
 
+  testWidgets(
+    'el botón de la ruta desconocida no hereda el subrayado de error',
+    (tester) async {
+      await pumpRouter(tester, '/no-existe');
+
+      // Sin un Material por encima, el texto hereda el estilo de error de
+      // MaterialApp: rojo con doble subrayado amarillo.
+      final RichText label = tester.widget<RichText>(
+        find.descendant(
+          of: find.text('IR A HOME'),
+          matching: find.byType(RichText),
+        ),
+      );
+      expect(label.text.style?.decoration, isNot(TextDecoration.underline));
+    },
+  );
+
   testWidgets('el botón de la ruta desconocida vuelve a Home', (tester) async {
     await pumpRouter(tester, '/no-existe');
 
