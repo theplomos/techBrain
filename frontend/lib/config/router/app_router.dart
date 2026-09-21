@@ -5,6 +5,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../../features/catalog/presentation/screens/explore_screen.dart';
 import '../../features/quiz/presentation/screens/quiz_screen.dart';
 import '../../features/roadmap/presentation/screens/home_screen.dart';
+import '../../features/roadmap/presentation/screens/route_detail_screen.dart';
 import '../../features/settings/presentation/screens/settings_screen.dart';
 import '../../shared/errors/failure.dart';
 import '../../shared/layout/app_shell.dart';
@@ -32,6 +33,14 @@ GoRouter appRouter(Ref ref) {
       retryLabel: 'Ir a Home',
     ),
     routes: <RouteBase>[
+      GoRoute(
+        parentNavigatorKey: _rootNavigatorKey,
+        path: AppRoutes.routeDetail,
+        builder: (BuildContext context, GoRouterState state) {
+          final String id = state.pathParameters['id'] ?? '';
+          return RouteDetailScreen(routeId: id);
+        },
+      ),
       StatefulShellRoute.indexedStack(
         builder: (
           BuildContext context,
