@@ -57,6 +57,21 @@ void main() {
     expect(find.byType(MetricCard), findsNWidgets(3));
   });
 
+  testWidgets('las métricas cuentan cada curso completado una sola vez', (
+    tester,
+  ) async {
+    await pumpHome(tester, const Size(1280, 2400));
+
+    Finder metricValue(String value) => find.descendant(
+      of: find.byType(MetricCard),
+      matching: find.text(value),
+    );
+
+    expect(metricValue('76'), findsOneWidget); // Horas totales.
+    expect(metricValue('4'), findsOneWidget); // Cursos completados.
+    expect(metricValue('3'), findsOneWidget); // Rutas guardadas.
+  });
+
   testWidgets('muestra las rutas guardadas con SavedRouteTile', (tester) async {
     await pumpHome(tester, const Size(1280, 2400));
 

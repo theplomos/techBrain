@@ -30,14 +30,12 @@ class HomeScreen extends StatelessWidget {
     final MockUser user = MockData.user;
     final MockRoute? activeRoute = MockData.routeById(MockData.activeRouteId);
 
-    final int completedCourses = MockData.routes
-        .expand((r) => r.courses)
-        .where((c) => c.isCompleted)
-        .length;
-    final double totalHours = MockData.routes
-        .expand((r) => r.courses)
-        .where((c) => c.isCompleted)
-        .fold<double>(0.0, (acc, c) => acc + c.hours);
+    final List<MockCourse> completed = uniqueCompletedCourses(MockData.routes);
+    final int completedCourses = completed.length;
+    final double totalHours = completed.fold<double>(
+      0.0,
+      (double acc, MockCourse c) => acc + c.hours,
+    );
     final int savedRoutesCount = MockData.routes.length;
 
     return ListView(
@@ -85,7 +83,7 @@ class HomeScreen extends StatelessWidget {
                   builder: (BuildContext context, BoxConstraints constraints) {
                     final bool isRow = constraints.maxWidth >= 600.0;
                     final Widget cardHours = MetricCard(
-                      value: '${totalHours.toInt()}',
+                      value: '${totalHours.round()}',
                       label: 'Horas totales',
                       icon: Icons.schedule,
                     );

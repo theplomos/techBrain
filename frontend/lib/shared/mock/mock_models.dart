@@ -77,3 +77,16 @@ class MockQuizQuestion {
   final String prompt;
   final List<String> options;
 }
+
+/// Cursos completados en [routes], sin repetir slug.
+///
+/// Un mismo curso puede estar en varias rutas: se cuenta una sola vez y se
+/// conserva su primera aparición. El slug se compara tal cual, sin normalizar.
+List<MockCourse> uniqueCompletedCourses(Iterable<MockRoute> routes) {
+  final Set<String> seen = <String>{};
+  return <MockCourse>[
+    for (final MockRoute route in routes)
+      for (final MockCourse course in route.courses)
+        if (course.isCompleted && seen.add(course.slug)) course,
+  ];
+}

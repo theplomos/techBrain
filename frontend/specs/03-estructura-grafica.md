@@ -210,8 +210,8 @@ static String route(String id) => '/routes/$id';
    - `PillButton` `primary` "Continuar ruta" que hace `context.push(AppRoutes.route(route.id))`.
    - Es `primary` y no `vivid` porque el muestrario ya contiene el `vivid` de la pantalla.
 3. `SectionHeader('Mis métricas')` y 3 `MetricCard`:
-   - Horas totales: suma de horas de los cursos completados de las 3 rutas, formateada sin decimales.
-   - Cursos completados: número de cursos completados en las 3 rutas.
+   - Horas totales: suma de horas de los cursos completados distintos (por slug) de las 3 rutas, redondeada sin decimales.
+   - Cursos completados: número de cursos completados distintos (por slug) en las 3 rutas. Un curso que está en varias rutas cuenta una vez.
    - Rutas guardadas: `MockData.routes.length`.
    - En fila de 3 a partir de 600 px de ancho del contenido y en columna por debajo.
 4. `SectionHeader('Mis rutas guardadas')` y un `SavedRouteTile` por ruta:
