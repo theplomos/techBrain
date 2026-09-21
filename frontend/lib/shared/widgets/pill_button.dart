@@ -100,7 +100,12 @@ class _PillButtonState extends State<PillButton> {
           Icon(widget.icon, size: 16.0, color: style.color),
           const SizedBox(width: 8.0),
         ],
-        Text(label, style: style),
+        Flexible(
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(label, style: style, maxLines: 1),
+          ),
+        ),
       ],
     );
 

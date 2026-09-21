@@ -31,14 +31,21 @@ class CourseCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              CategoryBadge(category: course.category),
-              if (showLevel) ...<Widget>[
+              Expanded(
+                child: Wrap(
+                  spacing: 8.0,
+                  runSpacing: 8.0,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: <Widget>[
+                    CategoryBadge(category: course.category),
+                    if (showLevel) LevelBadge(level: course.level),
+                  ],
+                ),
+              ),
+              if (course.isCompleted) ...<Widget>[
                 const SizedBox(width: 8.0),
-                LevelBadge(level: course.level),
-              ],
-              const Spacer(),
-              if (course.isCompleted)
                 Semantics(
                   label: 'Completado',
                   child: const Icon(
@@ -47,6 +54,7 @@ class CourseCard extends StatelessWidget {
                     color: AppColors.accentVivid,
                   ),
                 ),
+              ],
             ],
           ),
           const SizedBox(height: 12.0),
