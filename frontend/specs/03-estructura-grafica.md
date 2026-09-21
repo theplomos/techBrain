@@ -1,6 +1,6 @@
 # SPEC 03 — Estructura gráfica de la app
 
-> **Estado:** approved
+> **Estado:** Implementado
 > **Depende de:** SPEC 01, SPEC 02
 > **Fecha:** 2026-09-21
 > **Objetivo:** Sustituir las pantallas provisionales por la maqueta navegable de Home, Explorar, Cuestionarios, Configuración y el detalle de ruta, alimentada con datos mock, sin lógica de negocio.

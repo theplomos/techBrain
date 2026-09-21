@@ -6,6 +6,8 @@
 > **Objetivo:** Crear la base Flutter de TechBrain (tema DevTalles, shell responsive de 4 pestañas, widgets base, CI y primer despliegue web) sin ninguna funcionalidad de negocio.
 
 > **Nota de estado (17 sep 2026).** Esta spec se escribió antes del demo de la rama `01-frontend` y describe el proyecto en la raíz del repositorio. La app vive en `frontend/` y ahí se queda de momento: es la estructura del demo, no la definitiva. Al retomar la spec hay que reinterpretar sus rutas con el prefijo `frontend/` y revisar dos puntos que el demo ya resolvió de otra forma: el despliegue en Vercel (`vercel.json` y `vercel-build.sh` en la raíz) y la declaración de los JSON de `docs/references/` como assets, que desde `frontend/` no queda dentro del paquete. La deuda que deja el demo está listada en el `CLAUDE.md` de la raíz.
+>
+> **Nota de estado (21 sep 2026).** Las pantallas provisionales (`ComingSoonView`) de las 4 pestañas y el detalle de ruta han sido completamente sustituidas por la maqueta responsiva de la SPEC 03 (`specs/03-estructura-grafica.md`), alimentada con `MockData` tipado.
 
 ## Por qué existe esta spec
 
