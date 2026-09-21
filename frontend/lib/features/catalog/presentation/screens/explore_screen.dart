@@ -58,9 +58,6 @@ class _ExploreScreenState extends State<ExploreScreen> {
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = Theme.of(context);
-    final double screenWidth = MediaQuery.sizeOf(context).width;
-    final bool isDesktop = screenWidth >= Breakpoints.desktop;
-    final double horizontalPadding = isDesktop ? 32.0 : 16.0;
 
     final List<MockCourse> filteredCourses = _getFilteredCourses();
     final bool hasActiveFilters =
@@ -69,7 +66,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
     return ListView(
       padding:
           MediaQuery.paddingOf(context) +
-          EdgeInsets.symmetric(vertical: 24.0, horizontal: horizontalPadding),
+          const EdgeInsets.symmetric(vertical: 24.0),
       children: <Widget>[
         Center(
           child: ConstrainedBox(
