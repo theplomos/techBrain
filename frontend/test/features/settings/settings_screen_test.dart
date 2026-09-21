@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:techbrain/config/theme/app_colors.dart';
 import 'package:techbrain/features/settings/presentation/screens/settings_screen.dart';
 import 'package:techbrain/shared/mock/mock_data.dart';
 import 'package:techbrain/shared/widgets/pill_button.dart';
@@ -61,6 +62,18 @@ void main() {
         expect(find.textContaining('h/semana'), findsOneWidget);
       },
     );
+
+    testWidgets('muestra el icono de Discord en su color de marca', (
+      tester,
+    ) async {
+      await pumpScreenAt(tester, const SettingsScreen(), const Size(1280, 800));
+
+      final Finder discordIcon = find.byIcon(Icons.discord);
+      expect(discordIcon, findsOneWidget);
+      expect(find.byIcon(Icons.forum), findsNothing);
+      expect(tester.widget<Icon>(discordIcon).color, AppColors.brandDiscord);
+      expect(find.text('Conectado con Discord'), findsOneWidget);
+    });
 
     testWidgets(
       'botón Cerrar sesión está deshabilitado con variante secondary',

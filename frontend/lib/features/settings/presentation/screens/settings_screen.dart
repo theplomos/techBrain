@@ -225,7 +225,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             mainAxisSize: MainAxisSize.min,
                             children: <Widget>[
                               const Icon(
-                                Icons.forum,
+                                Icons.discord,
                                 color: AppColors.brandDiscord,
                                 size: 24.0,
                               ),
