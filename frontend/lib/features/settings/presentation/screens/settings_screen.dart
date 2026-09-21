@@ -6,6 +6,7 @@ import '../../../../config/theme/app_typography.dart';
 import '../../../../shared/layout/breakpoints.dart';
 import '../../../../shared/mock/mock_data.dart';
 import '../../../../shared/mock/mock_models.dart';
+import '../../../../shared/utils/initials.dart';
 import '../../../../shared/widgets/glass_container.dart';
 import '../../../../shared/widgets/pill_button.dart';
 import '../../../../shared/widgets/section_header.dart';
@@ -25,13 +26,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   void initState() {
     super.initState();
     _weeklyHours = MockData.user.weeklyHours;
-  }
-
-  String _getInitials(String name) {
-    final List<String> parts = name.trim().split(RegExp(r'\s+'));
-    if (parts.isEmpty) return '';
-    if (parts.length == 1) return parts[0].substring(0, 1).toUpperCase();
-    return '${parts[0][0]}${parts[parts.length - 1][0]}'.toUpperCase();
   }
 
   @override
@@ -88,7 +82,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ),
                         alignment: Alignment.center,
                         child: Text(
-                          _getInitials(user.name),
+                          initialsOf(user.name),
                           style: const TextStyle(
                             fontFamily: AppFonts.heading,
                             fontWeight: FontWeight.w700,
