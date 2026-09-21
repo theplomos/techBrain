@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:techbrain/app.dart';
 import 'package:techbrain/features/roadmap/presentation/screens/home_screen.dart';
 import 'package:techbrain/shared/domain/course_category.dart';
 import 'package:techbrain/shared/layout/app_bottom_nav_bar.dart';
@@ -12,32 +10,10 @@ import 'package:techbrain/shared/widgets/glass_container.dart';
 import 'package:techbrain/shared/widgets/level_badge.dart';
 import 'package:techbrain/shared/widgets/pill_button.dart';
 
-Future<void> pumpHome(WidgetTester tester, Size size) async {
-  tester.view.physicalSize = size;
-  tester.view.devicePixelRatio = 1.0;
-  addTearDown(tester.view.reset);
+import '../helpers/pump_at_size.dart';
 
-  await tester.pumpWidget(
-    const MaterialApp(home: Scaffold(body: HomeScreen())),
-  );
-  await tester.pumpAndSettle();
-}
-
-/// Monta la app completa con su router, que es lo que inyecta en
-/// MediaQuery.padding el hueco real de cada barra.
-Future<void> pumpAppAt(
-  WidgetTester tester,
-  Size size, {
-  FakeViewPadding padding = FakeViewPadding.zero,
-}) async {
-  tester.view.physicalSize = size;
-  tester.view.devicePixelRatio = 1.0;
-  tester.view.padding = padding;
-  addTearDown(tester.view.reset);
-
-  await tester.pumpWidget(const ProviderScope(child: TechBrainApp()));
-  await tester.pumpAndSettle();
-}
+Future<void> pumpHome(WidgetTester tester, Size size) =>
+    pumpScreenAt(tester, const HomeScreen(), size);
 
 void main() {
   testWidgets('muestra las 4 variantes de PillButton', (tester) async {
