@@ -1,52 +1,49 @@
 import 'package:flutter/material.dart';
+
 import '../../config/theme/app_colors.dart';
 import '../../config/theme/app_typography.dart';
-import 'app_glass_card.dart';
+import 'glass_container.dart';
 
-/// Ficha compacta de métricas para el Dashboard.
-/// Single Responsibility: Renderizar un valor métrico destacado con icono y etiqueta.
+/// Tarjeta de métrica con cifra destacada en Space Grotesk 700 y etiqueta descriptiva.
 class MetricCard extends StatelessWidget {
   const MetricCard({
     super.key,
-    required this.icon,
     required this.value,
     required this.label,
-    this.highlightColor = AppColors.accentLavender,
+    this.icon,
   });
 
-  final IconData icon;
   final String value;
   final String label;
-  final Color highlightColor;
+  final IconData? icon;
 
   @override
   Widget build(BuildContext context) {
-    return AppGlassCard(
-      padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 12.0),
+    final ThemeData theme = Theme.of(context);
+    return GlassContainer(
+      padding: const EdgeInsets.all(20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Row(
-            children: <Widget>[
-              Icon(icon, size: 18.0, color: highlightColor),
-              const SizedBox(width: 8.0),
-              Expanded(
-                child: Text(
-                  label.toUpperCase(),
-                  style: AppTypography.columnHeader.copyWith(fontSize: 10.0),
-                  overflow: TextOverflow.ellipsis,
-                  maxLines: 1,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 8.0),
+          if (icon != null) ...<Widget>[
+            Icon(icon, size: 20.0, color: AppColors.accentLavender),
+            const SizedBox(height: 8.0),
+          ],
           Text(
             value,
-            style: AppTypography.numberHighlight.copyWith(
+            style: const TextStyle(
+              fontFamily: AppFonts.heading,
+              fontWeight: FontWeight.w700,
+              fontSize: 28.0,
               color: AppColors.textMain,
-              fontSize: 20.0,
+            ),
+          ),
+          const SizedBox(height: 4.0),
+          Text(
+            label,
+            style: theme.textTheme.bodySmall?.copyWith(
+              color: AppColors.textMuted,
             ),
           ),
         ],

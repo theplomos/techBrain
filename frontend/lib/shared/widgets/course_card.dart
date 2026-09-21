@@ -1,116 +1,97 @@
 import 'package:flutter/material.dart';
+
 import '../../config/theme/app_colors.dart';
-import '../../config/theme/app_typography.dart';
-import '../models/course.dart';
-import 'app_glass_card.dart';
+import '../mock/mock_models.dart';
 import 'category_badge.dart';
+import 'glass_container.dart';
 import 'level_badge.dart';
 
-/// Tarjeta de Curso DevTalles.
-/// Single Responsibility: Renderizar la información de un curso en la interfaz.
+/// Tarjeta de curso con categoría, nivel opcional, título, duración y lecciones.
 class CourseCard extends StatelessWidget {
-  const CourseCard({
-    super.key,
-    required this.course,
-    this.onTap,
-  });
+  const CourseCard({super.key, required this.course, this.showLevel = true});
 
-  final Course course;
-  final VoidCallback? onTap;
+  final MockCourse course;
+  final bool showLevel;
+
+  String get _formattedHours {
+    if (course.hours % 1 == 0) {
+      return '${course.hours.toInt()} h';
+    }
+    return '${course.hours} h';
+  }
 
   @override
   Widget build(BuildContext context) {
-    return AppGlassCard(
-      onTap: onTap,
+    final ThemeData theme = Theme.of(context);
+
+    return GlassContainer(
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          // Fila superior con insignias
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              CategoryBadge(category: course.category),
-              LevelBadge(level: course.level),
-            ],
-          ),
-          const SizedBox(height: 12.0),
-
-          // Título del curso
-          Text(
-            course.name,
-            style: AppTypography.h3.copyWith(fontSize: 16.0),
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-          ),
-          const SizedBox(height: 8.0),
-
-          // Descripción breve
-          Text(
-            course.description,
-            style: AppTypography.bodyMedium,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-          ),
-          const SizedBox(height: 14.0),
-
-          // Fila inferior: horas, lecciones y estado
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Expanded(
-                child: Row(
+                child: Wrap(
+                  spacing: 8.0,
+                  runSpacing: 8.0,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: <Widget>[
-                    const Icon(
-                      Icons.access_time_rounded,
-                      size: 14.0,
-                      color: AppColors.textMuted,
-                    ),
-                    const SizedBox(width: 4.0),
-                    Expanded(
-                      child: Text(
-                        '${course.hours}h • ${course.lessons} lecc.',
-                        style: AppTypography.bodySmall,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
+                    CategoryBadge(category: course.category),
+                    if (showLevel) LevelBadge(level: course.level),
                   ],
                 ),
               ),
               if (course.isCompleted) ...<Widget>[
                 const SizedBox(width: 8.0),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 8.0,
-                    vertical: 2.0,
-                  ),
-                  decoration: BoxDecoration(
-                    color: AppColors.accentVividLime.withAlpha(40),
-                    borderRadius: BorderRadius.circular(50.0),
-                    border: Border.all(
-                      color: AppColors.accentVividLime,
-                      width: 1.0,
-                    ),
-                  ),
-                  child: Row(
-                    children: <Widget>[
-                      const Icon(
-                        Icons.check_circle_rounded,
-                        size: 12.0,
-                        color: AppColors.accentVividLime,
-                      ),
-                      const SizedBox(width: 4.0),
-                      Text(
-                        'COMPLETO',
-                        style: AppTypography.badgeText.copyWith(
-                          color: AppColors.accentVividLime,
-                          fontSize: 9.0,
-                        ),
-                      ),
-                    ],
+                Semantics(
+                  label: 'Completado',
+                  child: const Icon(
+                    Icons.check_circle,
+                    size: 20.0,
+                    color: AppColors.accentVivid,
                   ),
                 ),
               ],
+            ],
+          ),
+          const SizedBox(height: 12.0),
+          Text(
+            course.name,
+            style: theme.textTheme.titleMedium,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+          ),
+          const SizedBox(height: 12.0),
+          Row(
+            children: <Widget>[
+              const Icon(
+                Icons.schedule,
+                size: 16.0,
+                color: AppColors.textMuted,
+              ),
+              const SizedBox(width: 4.0),
+              Text(
+                _formattedHours,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: AppColors.textMuted,
+                ),
+              ),
+              const SizedBox(width: 16.0),
+              const Icon(
+                Icons.play_lesson_outlined,
+                size: 16.0,
+                color: AppColors.textMuted,
+              ),
+              const SizedBox(width: 4.0),
+              Text(
+                '${course.lessons} lecciones',
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: AppColors.textMuted,
+                ),
+              ),
             ],
           ),
         ],

@@ -6,6 +6,8 @@
 > **Objetivo:** Crear la base Flutter de TechBrain (tema DevTalles, shell responsive de 4 pestañas, widgets base, CI y primer despliegue web) sin ninguna funcionalidad de negocio.
 
 > **Nota de estado (17 sep 2026).** Esta spec se escribió antes del demo de la rama `01-frontend` y describe el proyecto en la raíz del repositorio. La app vive en `frontend/` y ahí se queda de momento: es la estructura del demo, no la definitiva. Al retomar la spec hay que reinterpretar sus rutas con el prefijo `frontend/` y revisar dos puntos que el demo ya resolvió de otra forma: el despliegue en Vercel (`vercel.json` y `vercel-build.sh` en la raíz) y la declaración de los JSON de `docs/references/` como assets, que desde `frontend/` no queda dentro del paquete. La deuda que deja el demo está listada en el `CLAUDE.md` de la raíz.
+>
+> **Nota de estado (21 sep 2026).** Las pantallas provisionales (`ComingSoonView`) de las 4 pestañas y el detalle de ruta han sido completamente sustituidas por la maqueta responsiva de la SPEC 03 (`specs/03-estructura-grafica.md`), alimentada con `MockData` tipado.
 
 ## Por qué existe esta spec
 
@@ -382,6 +384,14 @@ abstract final class Breakpoints {
   - Se enfocan con Tab y se activan con Enter o Espacio.
   - Anillo de foco de 2 px en `accentLavender`.
 
+  > **Nota de estado (20 sep 2026).** La implementación de esta etapa dejó estos
+  > dos últimos puntos sin cumplir: el `ExcludeSemantics` borraba la acción de
+  > activación de las pestañas y el anillo salía de `InkWell.focusColor`, que se
+  > pinta por debajo del vidrio de la barra. Los cierra la
+  > [SPEC 02](02-correcciones-fundaciones.md), que añade `onTap` al `Semantics`
+  > exterior y pinta el anillo con `foregroundDecoration` y el token `AppFocus`.
+  > El mismo anillo se extiende a `PillButton` y a `GlassContainer`.
+
 ### Pantallas provisionales
 
 | Pantalla | Archivo | Contenido |
@@ -540,7 +550,7 @@ Se elimina en la Etapa 4.
 - [ ] Un test comprueba que al pulsar "Explorar" en la barra inferior se muestra `ExploreScreen`.
 - [ ] Un test a 360 px no registra excepciones de overflow (`tester.takeException()` es null).
 - [ ] Un test comprueba que cada pestaña de navegación y cada `PillButton` miden al menos 44 × 44 px.
-- [ ] En Chrome, la tecla Tab recorre las 4 pestañas con un anillo de foco visible, y Enter navega a la pestaña enfocada.
+- [ ] En Chrome, la tecla Tab recorre las 4 pestañas con un anillo de foco visible, y Enter navega a la pestaña enfocada. — *No se cumplió en esta etapa; lo cierra la [SPEC 02](02-correcciones-fundaciones.md).*
 
 **Tema y widgets**
 

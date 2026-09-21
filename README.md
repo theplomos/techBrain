@@ -18,7 +18,7 @@ Utilizando el catálogo oficial de más de 90 cursos de [DevTalles](https://devt
 
 ## 📁 Estructura del Repositorio
 
-El proyecto cuenta con una sólida base de documentación técnica, diseño y datos:
+El proyecto cuenta con una sólida base de documentación técnica, diseño, dataset y código:
 
 ```text
 techBrain/
@@ -26,25 +26,19 @@ techBrain/
 ├── LICENSE                                    # Licencia MIT oficial
 ├── .gitignore                                 # Exclusiones de Git
 ├── vercel.json · vercel-build.sh              # Compilación y despliegue de la web en Vercel
-├── scripts/deploy-demo.sh                     # Despliegue manual del demo
 ├── docker-compose.yml · env/                  # Entorno de desarrollo del backend
 ├── backend/                                   # API NestJS con Prisma y autenticación con Discord
 ├── frontend/                                  # Aplicación Flutter (paquete `techbrain`)
-│   ├── lib/                                   # config/ (router y tema) · features/ · shared/
-│   ├── test/                                  # Pruebas de widgets, modelos y navegación
-│   ├── web/                                   # index.html, manifest y vercel.json de la SPA
-│   └── specs/                                 # Especificación de cada etapa del desarrollo
+│   ├── assets/                                # Datasets locales JSON y fuentes empaquetadas
+│   ├── docs/superpowers/                      # Planes y artefactos de desarrollo
+│   ├── lib/                                   # config/ · features/ · shared/
+│   ├── specs/                                 # Especificaciones técnicas por etapa
+│   ├── test/                                  # Pruebas unitarias, de widgets y responsive
+│   ├── tool/                                  # Herramientas y scripts de sincronización
+│   └── web/                                   # index.html, manifest.json y vercel.json de la SPA
 └── docs/
     ├── Presentacion_Diseno_CodeQuest2026_TechBrain.pdf # Presentación visual del diseño (PDF)
     ├── ideas/                                 # Prototipos y pantallas móviles en Stitch
-    │   ├── prototipo_stitch_devtalles.md      # Especificación técnica del proyecto en Stitch
-    │   ├── stitch_screens/                    # Capturas HD de las pantallas diseñadas
-    │   │   ├── 1_login.png                    # Inicio de sesión con Discord OAuth2
-    │   │   ├── 2_registro.png                 # Registro de usuario
-    │   │   ├── 3_home.png                     # Dashboard con Navbar, Stats y Progreso
-    │   │   ├── 4_cuestionario.png             # Cuestionario de evaluación tradicional
-    │   │   └── 5_cuestionario_ia.png          # Cuestionario conversacional con IA
-    │   └── stitch_edit_screen_2.json          # Registro de iteración de diseño
     ├── requerimiento_general_frontend.md      # Requerimiento del frontend: alcance, etapas y arquitectura
     ├── references/                            # Dataset de cursos e identidad de marca
     │   ├── cursos_devtalles.json              # Dataset JSON de 91 cursos de DevTalles
@@ -66,7 +60,7 @@ El diseño visual está alineado 1:1 con la identidad de marca de DevTalles:
 - **Púrpura Primario:** `#3a14c4` / `#4d1cd6`
 - **Lavanda Suave:** `#c0b9fc`
 - **Acento Neón (Volt):** `#c8dd09` (indicadores de progreso y call-to-actions destacados)
-- **Tipografía:** *Space Grotesk* (encabezados) y *DM Sans* (texto de lectura).
+- **Tipografía:** *Space Grotesk* (encabezados) y *DM Sans* (texto de lectura), empaquetadas localmente en assets.
 
 ---
 
@@ -78,11 +72,11 @@ El proyecto interactivo se encuentra modelado en **Google Stitch** con soporte d
 
 ---
 
----
+## 🛠️ Ejecución y Desarrollo del Frontend
 
-## 🛠️ Ejecución Local
+Toda la documentación detallada de instalación, variables de entorno, comandos de calidad y arquitectura de la app se encuentra en el [README del Frontend](frontend/README.md).
 
-Para ejecutar el frontend en tu entorno local:
+Para ejecutar rápidamente en local:
 
 ```bash
 cd frontend
@@ -90,44 +84,30 @@ flutter pub get
 flutter run -d chrome --web-port 8080
 ```
 
-Comprobaciones de calidad, desde `frontend/`:
+Calidad y pruebas automáticas:
 
 ```bash
+cd frontend
 flutter analyze
 flutter test
-flutter test test/shared/widgets_test.dart   # Un solo archivo de pruebas
 ```
-
-> Lo desplegado hoy es un **demo visual** con datos de ejemplo. Las funcionalidades del concurso se incorporan por etapas, siguiendo `docs/requerimiento_general_frontend.md` y las specs de `frontend/specs/`.
 
 ---
 
-## 🌐 Despliegue en Vercel (Demo)
+## 🌐 Despliegue en Producción (Vercel)
 
-El proyecto está 100% configurado para desplegarse en Vercel mediante tres métodos:
+El proyecto está configurado para desplegarse como Single Page Application en Vercel con reglas de reescritura que soportan enrutamiento profundo sin errores 404:
 
-### Método 1: Despliegue Rápido con CLI (Recomendado para demos inmediatas)
-Ejecuta el script automatizado desde la raíz del repositorio:
 ```bash
-./scripts/deploy-demo.sh
-```
-O manualmente:
-```bash
-cd frontend && flutter build web --release
-cd build/web && npx vercel --prod
+cd frontend
+flutter build web --release
+npx vercel@latest deploy build/web --prod
 ```
 
-### Método 2: Despliegue continuo desde GitHub (Automático)
-El repositorio incluye el workflow de GitHub Actions en `.github/workflows/deploy-vercel.yml`. Cada `push` a la rama `main` compilará la versión web y la publicará automáticamente en Vercel (requiere configurar los secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID` y `VERCEL_PROJECT_ID`).
-
-### Método 3: Compilación directa en Vercel (Vercel Build)
-Al importar el repositorio en el panel de Vercel, el archivo `vercel.json` invoca automáticamente `vercel-build.sh`, el cual descarga el SDK de Flutter en el contenedor y compila los archivos estáticos en `frontend/build/web`.
-
-> **Nota:** El archivo `vercel.json` incluye las reglas de reescritura (*rewrites*) necesarias para que el enrutamiento con `go_router` (`/home`, `/explore`, `/quiz`, `/settings`) no arroje error 404 al recargar el navegador.
+- **URL de producción:** (se actualizará en el primer despliegue)
 
 ---
 
 ## 👥 Equipo TechBrain (#13)
 
 - Desarrollado con dedicación para el reto **DevTalles CodeQuest 2026**.
-

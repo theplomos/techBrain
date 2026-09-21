@@ -51,3 +51,4 @@ app.*.map.json
 .env
 .vercel
 devtools_options.yaml
+.flutter-plugins

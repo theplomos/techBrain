@@ -9,3 +9,5 @@ analyzer:
     - windows/**
     - macos/**
     - linux/**
+    # El código que genera riverpod_generator no se analiza ni se formatea.
+    - "**/*.g.dart"

@@ -5,11 +5,13 @@ on:
     branches: [develop, main]
     paths:
       - 'frontend/**'
+      - 'docs/references/*.json'
       - '.github/workflows/ci.yml'
   push:
     branches: [develop, main]
     paths:
       - 'frontend/**'
+      - 'docs/references/*.json'
       - '.github/workflows/ci.yml'
 
 permissions:
@@ -40,6 +42,34 @@ jobs:
 
       - name: Dependencias
         run: flutter pub get
+
+      - name: Formato
+        run: |
+          files=$(git ls-files '*.dart' | grep -v '\.g\.dart$' || true)
+          if [ -n "$files" ]; then
+            dart format --output=none --set-exit-if-changed $files
+          fi
+
+      - name: Regenerar el código de Riverpod
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: El código generado está al día
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Hay archivos generados sin commitear:"
+            git status --porcelain
+            echo "Ejecuta: dart run build_runner build --delete-conflicting-outputs"
+            exit 1
+          fi
+
+      - name: El dataset copiado está al día
+        run: |
+          ./tool/sync_datasets.sh
+          if [ -n "$(git status --porcelain assets/data)" ]; then
+            echo "assets/data/ no coincide con docs/references/."
+            echo "Ejecuta: ./tool/sync_datasets.sh y commitea la copia."
+            exit 1
+          fi
 
       - name: Análisis estático
         run: flutter analyze

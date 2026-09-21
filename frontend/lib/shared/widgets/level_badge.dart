@@ -1,70 +1,65 @@
 import 'package:flutter/material.dart';
-import '../../config/theme/app_colors.dart';
-import '../../config/theme/app_typography.dart';
-import '../models/course.dart';
 
-/// Insignia de prioridad de ruta con símbolo geométrico accesible (WCAG 2.2).
-/// Single Responsibility: Renderizar la prioridad del curso (`⬢`, `★`, `●`).
+import '../../config/theme/app_colors.dart';
+import '../../config/theme/app_tokens.dart';
+import '../../config/theme/app_typography.dart';
+import '../domain/course_level.dart';
+
+/// Insignia del nivel de un curso dentro de una ruta.
 class LevelBadge extends StatelessWidget {
   const LevelBadge({super.key, required this.level});
 
   final CourseLevel level;
 
+  ({Color background, Color border, Color icon, IconData symbol}) get _style =>
+      switch (level) {
+        CourseLevel.required => (
+          background: AppColors.levelRequiredBg,
+          border: AppColors.levelRequiredBorder,
+          icon: AppColors.levelRequiredFg,
+          symbol: Icons.hexagon,
+        ),
+        CourseLevel.recommended => (
+          background: AppColors.levelRecommendedBg,
+          border: AppColors.levelRecommendedBorder,
+          icon: AppColors.levelRecommendedFg,
+          symbol: Icons.star,
+        ),
+        CourseLevel.optional => (
+          background: AppColors.levelOptionalBg,
+          border: AppColors.levelOptionalBorder,
+          icon: AppColors.levelOptionalFg,
+          symbol: Icons.circle,
+        ),
+      };
+
   @override
   Widget build(BuildContext context) {
-    final (bgColor, borderColor, textColor) = _resolveColors();
+    final style = _style;
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 4.0),
-      decoration: BoxDecoration(
-        color: bgColor,
-        borderRadius: BorderRadius.circular(50.0),
-        border: Border.all(color: borderColor, width: 1.0),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          Text(
-            level.symbol,
-            style: TextStyle(
-              color: textColor,
-              fontSize: 11.0,
-              fontWeight: FontWeight.w700,
-            ),
+    return Semantics(
+      label: 'Nivel: ${level.label}',
+      child: ExcludeSemantics(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 6.0),
+          decoration: BoxDecoration(
+            color: style.background,
+            borderRadius: BorderRadius.circular(AppRadii.pill),
+            border: Border.all(color: style.border),
           ),
-          const SizedBox(width: 4.0),
-          Text(
-            level.label,
-            style: AppTypography.badgeText.copyWith(
-              color: textColor,
-              fontSize: 10.0,
-            ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Icon(style.symbol, size: 14.0, color: style.icon),
+              const SizedBox(width: 6.0),
+              Text(
+                level.label.toUpperCase(),
+                style: AppTextStyles.chip.copyWith(color: AppColors.textMain),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
-  }
-
-  (Color, Color, Color) _resolveColors() {
-    switch (level) {
-      case CourseLevel.required:
-        return (
-          AppColors.levelRequiredBg,
-          AppColors.levelRequired.withAlpha(100),
-          AppColors.levelRequired,
-        );
-      case CourseLevel.recommended:
-        return (
-          AppColors.levelRecommendedBg,
-          AppColors.levelRecommended.withAlpha(100),
-          AppColors.levelRecommended,
-        );
-      case CourseLevel.optional:
-        return (
-          AppColors.levelOptionalBg,
-          AppColors.levelOptional.withAlpha(100),
-          AppColors.levelOptional,
-        );
-    }
   }
 }
