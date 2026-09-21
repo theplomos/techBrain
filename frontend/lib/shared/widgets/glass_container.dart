@@ -22,6 +22,8 @@ class GlassContainer extends StatefulWidget {
     this.padding,
     this.onTap,
     this.semanticLabel,
+    this.borderColor,
+    this.borderWidth,
   });
 
   final Widget child;
@@ -38,6 +40,12 @@ class GlassContainer extends StatefulWidget {
   final VoidCallback? onTap;
 
   final String? semanticLabel;
+
+  /// Color del borde personalizado. Si es null, usa el borde por defecto o hover.
+  final Color? borderColor;
+
+  /// Ancho del borde personalizado. Por defecto 1.0 px.
+  final double? borderWidth;
 
   @override
   State<GlassContainer> createState() => _GlassContainerState();
@@ -68,9 +76,10 @@ class _GlassContainerState extends State<GlassContainer> {
         color: widget.color,
         borderRadius: radius,
         border: Border.all(
-          color: _highlighted
-              ? AppColors.cardBorderHover
-              : AppColors.cardBorder,
+          color:
+              widget.borderColor ??
+              (_highlighted ? AppColors.cardBorderHover : AppColors.cardBorder),
+          width: widget.borderWidth ?? 1.0,
         ),
         boxShadow: _highlighted ? AppShadows.glowLg : AppShadows.glowSm,
       ),
